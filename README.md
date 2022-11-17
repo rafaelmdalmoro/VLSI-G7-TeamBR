@@ -8,8 +8,8 @@ Final Project and Lab Exercises from VLSI Design
 The exercise files are available [here](https://github.com/rafaelmdalmoro/VLSI-G7-TeamBR/tree/main/Lab02)
 
 ## Project 3
-1. Extend the VHDL code of
-2. Design a 1-digit counter on your FPGA board. Use the 7-segment display to display the outputs and push buttons to realize your inputs (Clock,Reset, Enable, UpDown)
+1. Extend the VHDL code of Lab2 Ex 2 to realize a 2 digitCounter.
+2. Based on Exercise 1 a stopwatch should be designed on the Nexys FPGA board using the available 7 segment displays
 
 The exercise files are available [here](https://github.com/rafaelmdalmoro/VLSI-G7-TeamBR/tree/main/Lab03)
 
