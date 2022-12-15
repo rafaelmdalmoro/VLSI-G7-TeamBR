@@ -1,0 +1,224 @@
+
+*** Running vivado
+    with args -log design_1_Mux8x7Seg_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_Mux8x7Seg_0_0.tcl
+
+
+
+****** Vivado v2022.2 (64-bit)
+  **** SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+  **** IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+source design_1_Mux8x7Seg_0_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 381.113 ; gain = 42.609
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/vikto/Experiments'.
+WARNING: [IP_Flow 19-3656] If you move the project, the path for repository 'c:/Users/vikto/Experiments' may become invalid. A better location for the repository would be in a path adjacent to the project. (Current project location is 'c:/Users/vikto/Experiments/BCDAdder/BCDAdder.runs/design_1_Mux8x7Seg_0_0_synth_1'.)
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2022.2/data/ip'.
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_Mux8x7Seg_0_0
+Command: synth_design -top design_1_Mux8x7Seg_0_0 -part xc7a100tcsg324-1 -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 15248
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [C:/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 830.582 ; gain = 410.469
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'design_1_Mux8x7Seg_0_0' [c:/Users/vikto/Experiments/BCDAdder/BCDAdder.gen/sources_1/bd/design_1/ip/design_1_Mux8x7Seg_0_0/synth/design_1_Mux8x7Seg_0_0.vhd:74]
+INFO: [Synth 8-3491] module 'mux_8x7seg' declared at 'c:/Users/vikto/Experiments/BCDAdder/BCDAdder.gen/sources_1/bd/design_1/ipshared/5dcd/mux_8x7seg.vhd:4' bound to instance 'U0' of component 'mux_8x7seg' [c:/Users/vikto/Experiments/BCDAdder/BCDAdder.gen/sources_1/bd/design_1/ip/design_1_Mux8x7Seg_0_0/synth/design_1_Mux8x7Seg_0_0.vhd:109]
+INFO: [Synth 8-638] synthesizing module 'mux_8x7seg' [c:/Users/vikto/Experiments/BCDAdder/BCDAdder.gen/sources_1/bd/design_1/ipshared/5dcd/mux_8x7seg.vhd:20]
+	Parameter limit bound to: 100000 - type: integer 
+INFO: [Synth 8-3491] module 'clk_divider' declared at 'c:/Users/vikto/Experiments/BCDAdder/BCDAdder.gen/sources_1/bd/design_1/ipshared/5dcd/clk_divider.vhd:5' bound to instance 'CLK256Hz' of component 'clk_divider' [c:/Users/vikto/Experiments/BCDAdder/BCDAdder.gen/sources_1/bd/design_1/ipshared/5dcd/mux_8x7seg.vhd:40]
+INFO: [Synth 8-638] synthesizing module 'clk_divider' [c:/Users/vikto/Experiments/BCDAdder/BCDAdder.gen/sources_1/bd/design_1/ipshared/5dcd/clk_divider.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'clk_divider' (0#1) [c:/Users/vikto/Experiments/BCDAdder/BCDAdder.gen/sources_1/bd/design_1/ipshared/5dcd/clk_divider.vhd:12]
+INFO: [Synth 8-3491] module 'decoder_4bit_to_7seg' declared at 'c:/Users/vikto/Experiments/BCDAdder/BCDAdder.gen/sources_1/bd/design_1/ipshared/5dcd/decoder_4bit_to_7seg.vhd:5' bound to instance 'DECODER' of component 'decoder_4bit_to_7seg' [c:/Users/vikto/Experiments/BCDAdder/BCDAdder.gen/sources_1/bd/design_1/ipshared/5dcd/mux_8x7seg.vhd:49]
+INFO: [Synth 8-638] synthesizing module 'decoder_4bit_to_7seg' [c:/Users/vikto/Experiments/BCDAdder/BCDAdder.gen/sources_1/bd/design_1/ipshared/5dcd/decoder_4bit_to_7seg.vhd:10]
+INFO: [Synth 8-226] default block is never used [c:/Users/vikto/Experiments/BCDAdder/BCDAdder.gen/sources_1/bd/design_1/ipshared/5dcd/decoder_4bit_to_7seg.vhd:17]
+INFO: [Synth 8-256] done synthesizing module 'decoder_4bit_to_7seg' (0#1) [c:/Users/vikto/Experiments/BCDAdder/BCDAdder.gen/sources_1/bd/design_1/ipshared/5dcd/decoder_4bit_to_7seg.vhd:10]
+INFO: [Synth 8-256] done synthesizing module 'mux_8x7seg' (0#1) [c:/Users/vikto/Experiments/BCDAdder/BCDAdder.gen/sources_1/bd/design_1/ipshared/5dcd/mux_8x7seg.vhd:20]
+INFO: [Synth 8-256] done synthesizing module 'design_1_Mux8x7Seg_0_0' (0#1) [c:/Users/vikto/Experiments/BCDAdder/BCDAdder.gen/sources_1/bd/design_1/ip/design_1_Mux8x7Seg_0_0/synth/design_1_Mux8x7Seg_0_0.vhd:74]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 920.742 ; gain = 500.629
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 920.742 ; gain = 500.629
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 920.742 ; gain = 500.629
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 920.742 ; gain = 500.629
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   17 Bit       Adders := 1     
+	   2 Input    4 Bit       Adders := 1     
++---Registers : 
+	               17 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                4 Bit    Registers := 2     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input   17 Bit        Muxes := 1     
+	   2 Input    4 Bit        Muxes := 1     
+	   9 Input    1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1123.004 ; gain = 702.891
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 1123.004 ; gain = 702.891
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1123.004 ; gain = 702.891
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1123.004 ; gain = 702.891
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1123.004 ; gain = 702.891
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1123.004 ; gain = 702.891
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1123.004 ; gain = 702.891
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1123.004 ; gain = 702.891
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1123.004 ; gain = 702.891
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |CARRY4 |     4|
+|2     |LUT1   |     3|
+|3     |LUT2   |     2|
+|4     |LUT3   |     8|
+|5     |LUT4   |    11|
+|6     |LUT5   |    22|
+|7     |LUT6   |     9|
+|8     |MUXF7  |     4|
+|9     |FDCE   |    20|
+|10    |FDPE   |     2|
+|11    |FDRE   |     5|
+|12    |FDSE   |     7|
++------+-------+------+
+
+Report Instance Areas: 
++------+-------------+---------------------+------+
+|      |Instance     |Module               |Cells |
++------+-------------+---------------------+------+
+|1     |top          |                     |    97|
+|2     |  U0         |mux_8x7seg           |    97|
+|3     |    CLK256Hz |clk_divider          |    44|
+|4     |    DECODER  |decoder_4bit_to_7seg |     7|
++------+-------------+---------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1123.004 ; gain = 702.891
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1123.004 ; gain = 702.891
+Synthesis Optimization Complete : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1123.004 ; gain = 702.891
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1132.758 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 8 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1231.793 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete, checksum: 6d22a34
+INFO: [Common 17-83] Releasing license: Synthesis
+30 Infos, 2 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:29 ; elapsed = 00:00:31 . Memory (MB): peak = 1231.793 ; gain = 818.320
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/vikto/Experiments/BCDAdder/BCDAdder.runs/design_1_Mux8x7Seg_0_0_synth_1/design_1_Mux8x7Seg_0_0.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1572.273 ; gain = 340.480
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP design_1_Mux8x7Seg_0_0, cache-ID = e609feb1d5c81433
+INFO: [Coretcl 2-1174] Renamed 3 cell refs.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/vikto/Experiments/BCDAdder/BCDAdder.runs/design_1_Mux8x7Seg_0_0_synth_1/design_1_Mux8x7Seg_0_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file design_1_Mux8x7Seg_0_0_utilization_synth.rpt -pb design_1_Mux8x7Seg_0_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu Nov 24 15:09:46 2022...

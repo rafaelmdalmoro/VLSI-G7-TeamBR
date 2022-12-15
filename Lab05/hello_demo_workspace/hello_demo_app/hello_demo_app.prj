@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="hello_demo_app" location="C:/Users/vikto/Experiments/VitisWorkspace/hello_demo_app" platform="C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/export/hello_demo/hello_demo.xpfm" platformUID="xilinx:nexys-a7-100t::0.0(custom)" systemProject="hello_demo_app_system" sysConfig="hello_demo" runtime="C/C++" cpu="standalone_domain" cpuInstance="microblaze_0" os="standalone" mssSignature="f9c59c7a98c1cc552a71e67e4e0c472b">
+  <configuration name="Debug" id="xilinx.gnu.mb.exe.debug.1333571108">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.mb.exe.release.1359777723" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="hello_world"/>
+</sdkproject:SdkProject>

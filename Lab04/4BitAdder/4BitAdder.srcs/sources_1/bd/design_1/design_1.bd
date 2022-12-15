@@ -1,0 +1,194 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0xEBC50870EBC5087",
+      "device": "xc7a100tcsg324-1",
+      "gen_directory": "../../../../4BitAdder.gen/sources_1/bd/design_1",
+      "name": "design_1",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2022.2",
+      "validated": "true"
+    },
+    "design_tree": {
+      "FullAdder_0": "",
+      "FullAdder_1": "",
+      "FullAdder_2": "",
+      "FullAdder_3": ""
+    },
+    "ports": {
+      "A_0": {
+        "direction": "I"
+      },
+      "A_1": {
+        "direction": "I"
+      },
+      "A_2": {
+        "direction": "I"
+      },
+      "A_3": {
+        "direction": "I"
+      },
+      "B_0": {
+        "direction": "I"
+      },
+      "B_1": {
+        "direction": "I"
+      },
+      "B_2": {
+        "direction": "I"
+      },
+      "B_3": {
+        "direction": "I"
+      },
+      "Cin": {
+        "direction": "I"
+      },
+      "S_0": {
+        "direction": "O"
+      },
+      "S_1": {
+        "direction": "O"
+      },
+      "S_2": {
+        "direction": "O"
+      },
+      "S_3": {
+        "direction": "O"
+      },
+      "Cout": {
+        "direction": "O"
+      }
+    },
+    "components": {
+      "FullAdder_0": {
+        "vlnv": "xilinx.com:user:FullAdder:1.0",
+        "xci_name": "design_1_FullAdder_0_0",
+        "xci_path": "ip\\design_1_FullAdder_0_0\\design_1_FullAdder_0_0.xci",
+        "inst_hier_path": "FullAdder_0"
+      },
+      "FullAdder_1": {
+        "vlnv": "xilinx.com:user:FullAdder:1.0",
+        "xci_name": "design_1_FullAdder_1_0",
+        "xci_path": "ip\\design_1_FullAdder_1_0\\design_1_FullAdder_1_0.xci",
+        "inst_hier_path": "FullAdder_1"
+      },
+      "FullAdder_2": {
+        "vlnv": "xilinx.com:user:FullAdder:1.0",
+        "xci_name": "design_1_FullAdder_2_0",
+        "xci_path": "ip\\design_1_FullAdder_2_0\\design_1_FullAdder_2_0.xci",
+        "inst_hier_path": "FullAdder_2"
+      },
+      "FullAdder_3": {
+        "vlnv": "xilinx.com:user:FullAdder:1.0",
+        "xci_name": "design_1_FullAdder_3_0",
+        "xci_path": "ip\\design_1_FullAdder_3_0\\design_1_FullAdder_3_0.xci",
+        "inst_hier_path": "FullAdder_3"
+      }
+    },
+    "nets": {
+      "A_0_1": {
+        "ports": [
+          "A_0",
+          "FullAdder_0/A"
+        ]
+      },
+      "A_1_1": {
+        "ports": [
+          "A_1",
+          "FullAdder_1/A"
+        ]
+      },
+      "A_2_1": {
+        "ports": [
+          "A_2",
+          "FullAdder_2/A"
+        ]
+      },
+      "A_3_1": {
+        "ports": [
+          "A_3",
+          "FullAdder_3/A"
+        ]
+      },
+      "B_0_1": {
+        "ports": [
+          "B_0",
+          "FullAdder_0/B"
+        ]
+      },
+      "B_1_1": {
+        "ports": [
+          "B_1",
+          "FullAdder_1/B"
+        ]
+      },
+      "B_2_1": {
+        "ports": [
+          "B_2",
+          "FullAdder_2/B"
+        ]
+      },
+      "B_3_1": {
+        "ports": [
+          "B_3",
+          "FullAdder_3/B"
+        ]
+      },
+      "Cin_0_1": {
+        "ports": [
+          "Cin",
+          "FullAdder_0/Cin"
+        ]
+      },
+      "FullAdder_0_Cout": {
+        "ports": [
+          "FullAdder_0/Cout",
+          "FullAdder_1/Cin"
+        ]
+      },
+      "FullAdder_0_S": {
+        "ports": [
+          "FullAdder_0/S",
+          "S_0"
+        ]
+      },
+      "FullAdder_1_Cout": {
+        "ports": [
+          "FullAdder_1/Cout",
+          "FullAdder_2/Cin"
+        ]
+      },
+      "FullAdder_1_S": {
+        "ports": [
+          "FullAdder_1/S",
+          "S_1"
+        ]
+      },
+      "FullAdder_2_Cout": {
+        "ports": [
+          "FullAdder_2/Cout",
+          "FullAdder_3/Cin"
+        ]
+      },
+      "FullAdder_2_S": {
+        "ports": [
+          "FullAdder_2/S",
+          "S_2"
+        ]
+      },
+      "FullAdder_3_Cout": {
+        "ports": [
+          "FullAdder_3/Cout",
+          "Cout"
+        ]
+      },
+      "FullAdder_3_S": {
+        "ports": [
+          "FullAdder_3/S",
+          "S_3"
+        ]
+      }
+    }
+  }
+}
