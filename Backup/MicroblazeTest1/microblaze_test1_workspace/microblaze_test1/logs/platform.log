@@ -1,0 +1,1499 @@
+TRACE::2022-12-22.13:12:03::SCWPlatform::Trying to open the hw design at C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:03::SCWPlatform::DSA given C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:03::SCWPlatform::DSA absoulate path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:03::SCWPlatform::DSA directory C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw
+TRACE::2022-12-22.13:12:04::SCWPlatform:: Platform Path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:04::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2022-12-22.13:12:04::SCWPlatform::Do not have an existing db opened. 
+TRACE::2022-12-22.13:12:04::SCWPlatform::Opened new HwDB with name design_1_wrapper_0
+TRACE::2022-12-22.13:12:04::SCWWriter::formatted JSON is {
+	"platformName":	"microblaze_test1",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"microblaze_test1",
+	"platHandOff":	"C:/Users/vikto/Experiments/MicroblazeTest1/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	""
+}
+TRACE::2022-12-22.13:12:04::SCWWriter::formatted JSON is {
+	"platformName":	"microblaze_test1",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"microblaze_test1",
+	"platHandOff":	"C:/Users/vikto/Experiments/MicroblazeTest1/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"microblaze_test1",
+	"systems":	[{
+			"systemName":	"microblaze_test1",
+			"systemDesc":	"microblaze_test1",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"microblaze_test1"
+		}]
+}
+TRACE::2022-12-22.13:12:04::SCWPlatform::Boot application domains not present, creating them
+TRACE::2022-12-22.13:12:04::SCWPlatform::Pure FPGA device, no boot application will be created.
+TRACE::2022-12-22.13:12:04::SCWWriter::formatted JSON is {
+	"platformName":	"microblaze_test1",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"microblaze_test1",
+	"platHandOff":	"C:/Users/vikto/Experiments/MicroblazeTest1/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"microblaze_test1",
+	"systems":	[{
+			"systemName":	"microblaze_test1",
+			"systemDesc":	"microblaze_test1",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"microblaze_test1"
+		}]
+}
+TRACE::2022-12-22.13:12:04::SCWPlatform::Trying to open the hw design at C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:04::SCWPlatform::DSA given C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:04::SCWPlatform::DSA absoulate path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:04::SCWPlatform::DSA directory C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw
+TRACE::2022-12-22.13:12:04::SCWPlatform:: Platform Path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:04::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2022-12-22.13:12:04::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-12-22.13:12:04::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-12-22.13:12:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-12-22.13:12:04::SCWPlatform::Trying to open the hw design at C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:04::SCWPlatform::DSA given C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:04::SCWPlatform::DSA absoulate path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:04::SCWPlatform::DSA directory C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw
+TRACE::2022-12-22.13:12:04::SCWPlatform:: Platform Path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:04::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2022-12-22.13:12:04::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-12-22.13:12:04::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-12-22.13:12:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-12-22.13:12:04::SCWPlatform::Trying to open the hw design at C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:04::SCWPlatform::DSA given C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:04::SCWPlatform::DSA absoulate path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:04::SCWPlatform::DSA directory C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw
+TRACE::2022-12-22.13:12:04::SCWPlatform:: Platform Path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:04::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2022-12-22.13:12:04::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-12-22.13:12:04::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-12-22.13:12:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-12-22.13:12:04::SCWDomain::checking for install qemu data   : 
+TRACE::2022-12-22.13:12:04::SCWPlatform::Trying to open the hw design at C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:04::SCWPlatform::DSA given C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:04::SCWPlatform::DSA absoulate path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:04::SCWPlatform::DSA directory C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw
+TRACE::2022-12-22.13:12:04::SCWPlatform:: Platform Path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:04::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2022-12-22.13:12:04::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-12-22.13:12:04::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-12-22.13:12:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-12-22.13:12:04::SCWPlatform::Trying to open the hw design at C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:04::SCWPlatform::DSA given C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:04::SCWPlatform::DSA absoulate path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:04::SCWPlatform::DSA directory C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw
+TRACE::2022-12-22.13:12:04::SCWPlatform:: Platform Path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:04::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2022-12-22.13:12:04::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-12-22.13:12:04::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-12-22.13:12:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-12-22.13:12:04::SCWPlatform::Trying to open the hw design at C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:04::SCWPlatform::DSA given C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:04::SCWPlatform::DSA absoulate path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:04::SCWPlatform::DSA directory C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw
+TRACE::2022-12-22.13:12:04::SCWPlatform:: Platform Path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:04::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2022-12-22.13:12:04::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-12-22.13:12:04::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-12-22.13:12:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-12-22.13:12:04::SCWMssOS::Checking the sw design at  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-22.13:12:04::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2022-12-22.13:12:04::SCWMssOS::No sw design opened at  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-22.13:12:04::SCWMssOS::mss does not exists at C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-22.13:12:04::SCWMssOS::Creating sw design at  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-22.13:12:04::SCWMssOS::Adding the swdes entry, created swdb C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss with des name C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-22.13:12:04::SCWMssOS::updating the scw layer changes to swdes at   C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-22.13:12:04::SCWMssOS::Writing mss at C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-22.13:12:04::SCWMssOS::Completed writing the mss file at C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp
+TRACE::2022-12-22.13:12:04::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2022-12-22.13:12:04::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2022-12-22.13:12:04::SCWMssOS::Completed writing the mss file at C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp
+TRACE::2022-12-22.13:12:04::SCWMssOS::Forcing BSP Sources regeneration.
+TRACE::2022-12-22.13:12:10::SCWMssOS::Saving the mss changes C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-22.13:12:10::SCWMssOS::Adding the swdes entry, mss present, able to open swdb C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss with des name system
+TRACE::2022-12-22.13:12:10::SCWMssOS::Writing the mss file completed C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-22.13:12:10::SCWMssOS::Commit changes completed.
+TRACE::2022-12-22.13:12:10::SCWPlatform::Trying to open the hw design at C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:10::SCWPlatform::DSA given C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:10::SCWPlatform::DSA absoulate path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:10::SCWPlatform::DSA directory C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw
+TRACE::2022-12-22.13:12:10::SCWPlatform:: Platform Path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:10::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2022-12-22.13:12:10::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-12-22.13:12:10::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-12-22.13:12:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-12-22.13:12:10::SCWMssOS::Checking the sw design at  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-22.13:12:10::SCWMssOS::DEBUG:  swdes dump  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-12-22.13:12:10::SCWMssOS::Sw design exists and opened at  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-22.13:12:10::SCWPlatform::Trying to open the hw design at C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:10::SCWPlatform::DSA given C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:10::SCWPlatform::DSA absoulate path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:10::SCWPlatform::DSA directory C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw
+TRACE::2022-12-22.13:12:10::SCWPlatform:: Platform Path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:10::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2022-12-22.13:12:10::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-12-22.13:12:10::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-12-22.13:12:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-12-22.13:12:10::SCWMssOS::Checking the sw design at  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-22.13:12:10::SCWMssOS::DEBUG:  swdes dump  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-12-22.13:12:10::SCWMssOS::Sw design exists and opened at  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-22.13:12:10::SCWPlatform::Trying to open the hw design at C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:10::SCWPlatform::DSA given C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:10::SCWPlatform::DSA absoulate path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:10::SCWPlatform::DSA directory C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw
+TRACE::2022-12-22.13:12:10::SCWPlatform:: Platform Path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:10::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2022-12-22.13:12:10::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-12-22.13:12:10::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-12-22.13:12:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-12-22.13:12:10::SCWMssOS::Checking the sw design at  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-22.13:12:10::SCWMssOS::DEBUG:  swdes dump  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-12-22.13:12:10::SCWMssOS::Sw design exists and opened at  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-22.13:12:10::SCWWriter::formatted JSON is {
+	"platformName":	"microblaze_test1",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"microblaze_test1",
+	"platHandOff":	"C:/Users/vikto/Experiments/MicroblazeTest1/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"microblaze_test1",
+	"systems":	[{
+			"systemName":	"microblaze_test1",
+			"systemDesc":	"microblaze_test1",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"microblaze_test1",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"8b79922325082e849fc3f924290ffcf4",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2022-12-22.13:12:10::SCWPlatform::Started generating the artifacts platform microblaze_test1
+TRACE::2022-12-22.13:12:10::SCWPlatform::Sanity checking of platform is completed
+LOG::2022-12-22.13:12:10::SCWPlatform::Started generating the artifacts for system configuration microblaze_test1
+LOG::2022-12-22.13:12:10::SCWSystem::Checking the domain standalone_domain
+LOG::2022-12-22.13:12:10::SCWSystem::Not a boot domain 
+LOG::2022-12-22.13:12:10::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2022-12-22.13:12:10::SCWDomain::Generating domain artifcats
+TRACE::2022-12-22.13:12:10::SCWMssOS::Generating standalone artifcats
+TRACE::2022-12-22.13:12:10::SCWMssOS:: Copying the user libraries. 
+TRACE::2022-12-22.13:12:10::SCWPlatform::Trying to open the hw design at C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:10::SCWPlatform::DSA given C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:10::SCWPlatform::DSA absoulate path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:10::SCWPlatform::DSA directory C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw
+TRACE::2022-12-22.13:12:10::SCWPlatform:: Platform Path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:10::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2022-12-22.13:12:10::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-12-22.13:12:10::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-12-22.13:12:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-12-22.13:12:10::SCWMssOS::Checking the sw design at  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-22.13:12:10::SCWMssOS::DEBUG:  swdes dump  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-12-22.13:12:10::SCWMssOS::Sw design exists and opened at  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-22.13:12:10::SCWMssOS::Completed writing the mss file at C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp
+TRACE::2022-12-22.13:12:10::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-22.13:12:10::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2022-12-22.13:12:10::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2022-12-22.13:12:10::SCWDomain::Skipping the build for domain :  standalone_domain
+TRACE::2022-12-22.13:12:10::SCWMssOS::skipping the bsp build ... 
+TRACE::2022-12-22.13:12:10::SCWMssOS::Copying to export directory.
+TRACE::2022-12-22.13:12:11::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2022-12-22.13:12:11::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2022-12-22.13:12:11::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2022-12-22.13:12:11::SCWSystem::Completed Processing the sysconfig microblaze_test1
+LOG::2022-12-22.13:12:11::SCWPlatform::Completed generating the artifacts for system configuration microblaze_test1
+TRACE::2022-12-22.13:12:11::SCWPlatform::Started preparing the platform 
+TRACE::2022-12-22.13:12:11::SCWSystem::Writing the bif file for system config microblaze_test1
+TRACE::2022-12-22.13:12:11::SCWSystem::dir created 
+TRACE::2022-12-22.13:12:11::SCWSystem::Writing the bif 
+TRACE::2022-12-22.13:12:11::SCWPlatform::Started writing the spfm file 
+TRACE::2022-12-22.13:12:11::SCWPlatform::Started writing the xpfm file 
+TRACE::2022-12-22.13:12:11::SCWPlatform::Completed generating the platform
+TRACE::2022-12-22.13:12:11::SCWMssOS::Saving the mss changes C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-22.13:12:11::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-12-22.13:12:11::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-12-22.13:12:11::SCWMssOS::Commit changes completed.
+TRACE::2022-12-22.13:12:11::SCWPlatform::Trying to open the hw design at C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:11::SCWPlatform::DSA given C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:11::SCWPlatform::DSA absoulate path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:11::SCWPlatform::DSA directory C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw
+TRACE::2022-12-22.13:12:11::SCWPlatform:: Platform Path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:11::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2022-12-22.13:12:11::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-12-22.13:12:11::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-12-22.13:12:11::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-12-22.13:12:11::SCWMssOS::Checking the sw design at  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-22.13:12:11::SCWMssOS::DEBUG:  swdes dump  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-12-22.13:12:11::SCWMssOS::Sw design exists and opened at  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-22.13:12:11::SCWPlatform::Trying to open the hw design at C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:11::SCWPlatform::DSA given C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:11::SCWPlatform::DSA absoulate path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:11::SCWPlatform::DSA directory C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw
+TRACE::2022-12-22.13:12:11::SCWPlatform:: Platform Path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:11::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2022-12-22.13:12:11::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-12-22.13:12:11::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-12-22.13:12:11::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-12-22.13:12:11::SCWMssOS::Checking the sw design at  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-22.13:12:11::SCWMssOS::DEBUG:  swdes dump  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-12-22.13:12:11::SCWMssOS::Sw design exists and opened at  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-22.13:12:11::SCWPlatform::Trying to open the hw design at C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:11::SCWPlatform::DSA given C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:11::SCWPlatform::DSA absoulate path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:11::SCWPlatform::DSA directory C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw
+TRACE::2022-12-22.13:12:11::SCWPlatform:: Platform Path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:11::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2022-12-22.13:12:11::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-12-22.13:12:11::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-12-22.13:12:11::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-12-22.13:12:11::SCWMssOS::Checking the sw design at  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-22.13:12:11::SCWMssOS::DEBUG:  swdes dump  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-12-22.13:12:11::SCWMssOS::Sw design exists and opened at  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-22.13:12:11::SCWWriter::formatted JSON is {
+	"platformName":	"microblaze_test1",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"microblaze_test1",
+	"platHandOff":	"C:/Users/vikto/Experiments/MicroblazeTest1/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"microblaze_test1",
+	"systems":	[{
+			"systemName":	"microblaze_test1",
+			"systemDesc":	"microblaze_test1",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"microblaze_test1",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"8b79922325082e849fc3f924290ffcf4",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2022-12-22.13:12:11::SCWPlatform::updated the xpfm file.
+TRACE::2022-12-22.13:12:11::SCWPlatform::Trying to open the hw design at C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:11::SCWPlatform::DSA given C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:11::SCWPlatform::DSA absoulate path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:11::SCWPlatform::DSA directory C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw
+TRACE::2022-12-22.13:12:11::SCWPlatform:: Platform Path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:11::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2022-12-22.13:12:11::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-12-22.13:12:11::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-12-22.13:12:11::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-12-22.13:12:11::SCWMssOS::Checking the sw design at  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-22.13:12:11::SCWMssOS::DEBUG:  swdes dump  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-12-22.13:12:11::SCWMssOS::Sw design exists and opened at  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-22.13:12:11::SCWMssOS::Saving the mss changes C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-22.13:12:11::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-12-22.13:12:11::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-12-22.13:12:11::SCWMssOS::Commit changes completed.
+TRACE::2022-12-22.13:12:11::SCWPlatform::Trying to open the hw design at C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:11::SCWPlatform::DSA given C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:11::SCWPlatform::DSA absoulate path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:11::SCWPlatform::DSA directory C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw
+TRACE::2022-12-22.13:12:11::SCWPlatform:: Platform Path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:11::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2022-12-22.13:12:11::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-12-22.13:12:11::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-12-22.13:12:11::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-12-22.13:12:11::SCWMssOS::Checking the sw design at  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-22.13:12:11::SCWMssOS::DEBUG:  swdes dump  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-12-22.13:12:11::SCWMssOS::Sw design exists and opened at  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-22.13:12:11::SCWPlatform::Trying to open the hw design at C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:11::SCWPlatform::DSA given C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:11::SCWPlatform::DSA absoulate path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:11::SCWPlatform::DSA directory C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw
+TRACE::2022-12-22.13:12:11::SCWPlatform:: Platform Path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:11::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2022-12-22.13:12:11::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-12-22.13:12:11::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-12-22.13:12:11::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-12-22.13:12:11::SCWMssOS::Checking the sw design at  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-22.13:12:11::SCWMssOS::DEBUG:  swdes dump  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-12-22.13:12:11::SCWMssOS::Sw design exists and opened at  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-22.13:12:11::SCWPlatform::Trying to open the hw design at C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:11::SCWPlatform::DSA given C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:11::SCWPlatform::DSA absoulate path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:11::SCWPlatform::DSA directory C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw
+TRACE::2022-12-22.13:12:11::SCWPlatform:: Platform Path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:11::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2022-12-22.13:12:11::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-12-22.13:12:11::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-12-22.13:12:11::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-12-22.13:12:11::SCWMssOS::Checking the sw design at  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-22.13:12:11::SCWMssOS::DEBUG:  swdes dump  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-12-22.13:12:11::SCWMssOS::Sw design exists and opened at  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-22.13:12:11::SCWWriter::formatted JSON is {
+	"platformName":	"microblaze_test1",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"microblaze_test1",
+	"platHandOff":	"C:/Users/vikto/Experiments/MicroblazeTest1/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"microblaze_test1",
+	"systems":	[{
+			"systemName":	"microblaze_test1",
+			"systemDesc":	"microblaze_test1",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"microblaze_test1",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"8b79922325082e849fc3f924290ffcf4",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2022-12-22.13:12:11::SCWPlatform::Trying to open the hw design at C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:11::SCWPlatform::DSA given C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:11::SCWPlatform::DSA absoulate path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:11::SCWPlatform::DSA directory C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw
+TRACE::2022-12-22.13:12:11::SCWPlatform:: Platform Path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:11::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2022-12-22.13:12:11::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-12-22.13:12:11::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-12-22.13:12:11::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-12-22.13:12:11::SCWMssOS::Checking the sw design at  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-22.13:12:11::SCWMssOS::DEBUG:  swdes dump  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-12-22.13:12:11::SCWMssOS::Sw design exists and opened at  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-22.13:12:11::SCWPlatform::Trying to open the hw design at C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:11::SCWPlatform::DSA given C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:11::SCWPlatform::DSA absoulate path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:11::SCWPlatform::DSA directory C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw
+TRACE::2022-12-22.13:12:11::SCWPlatform:: Platform Path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:11::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2022-12-22.13:12:11::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-12-22.13:12:11::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-12-22.13:12:11::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-12-22.13:12:11::SCWMssOS::Checking the sw design at  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-22.13:12:11::SCWMssOS::DEBUG:  swdes dump  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-12-22.13:12:11::SCWMssOS::Sw design exists and opened at  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-22.13:12:11::SCWPlatform::Trying to open the hw design at C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:11::SCWPlatform::DSA given C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:11::SCWPlatform::DSA absoulate path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:11::SCWPlatform::DSA directory C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw
+TRACE::2022-12-22.13:12:11::SCWPlatform:: Platform Path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:11::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2022-12-22.13:12:11::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-12-22.13:12:11::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-12-22.13:12:11::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-12-22.13:12:11::SCWMssOS::Checking the sw design at  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-22.13:12:11::SCWMssOS::DEBUG:  swdes dump  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-12-22.13:12:11::SCWMssOS::Sw design exists and opened at  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-22.13:12:11::SCWMssOS::Saving the mss changes C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-22.13:12:11::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-12-22.13:12:11::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-12-22.13:12:11::SCWMssOS::Commit changes completed.
+TRACE::2022-12-22.13:12:11::SCWPlatform::Trying to open the hw design at C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:11::SCWPlatform::DSA given C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:11::SCWPlatform::DSA absoulate path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:11::SCWPlatform::DSA directory C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw
+TRACE::2022-12-22.13:12:11::SCWPlatform:: Platform Path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:11::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2022-12-22.13:12:11::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-12-22.13:12:11::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-12-22.13:12:11::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-12-22.13:12:11::SCWMssOS::Checking the sw design at  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-22.13:12:11::SCWMssOS::DEBUG:  swdes dump  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-12-22.13:12:11::SCWMssOS::Sw design exists and opened at  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-22.13:12:11::SCWPlatform::Trying to open the hw design at C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:11::SCWPlatform::DSA given C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:11::SCWPlatform::DSA absoulate path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:11::SCWPlatform::DSA directory C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw
+TRACE::2022-12-22.13:12:11::SCWPlatform:: Platform Path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:11::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2022-12-22.13:12:11::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-12-22.13:12:11::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-12-22.13:12:11::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-12-22.13:12:11::SCWMssOS::Checking the sw design at  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-22.13:12:11::SCWMssOS::DEBUG:  swdes dump  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-12-22.13:12:11::SCWMssOS::Sw design exists and opened at  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-22.13:12:11::SCWPlatform::Trying to open the hw design at C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:11::SCWPlatform::DSA given C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:11::SCWPlatform::DSA absoulate path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:11::SCWPlatform::DSA directory C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw
+TRACE::2022-12-22.13:12:11::SCWPlatform:: Platform Path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:11::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2022-12-22.13:12:11::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-12-22.13:12:11::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-12-22.13:12:11::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-12-22.13:12:11::SCWMssOS::Checking the sw design at  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-22.13:12:11::SCWMssOS::DEBUG:  swdes dump  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-12-22.13:12:11::SCWMssOS::Sw design exists and opened at  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-22.13:12:11::SCWWriter::formatted JSON is {
+	"platformName":	"microblaze_test1",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"microblaze_test1",
+	"platHandOff":	"C:/Users/vikto/Experiments/MicroblazeTest1/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"microblaze_test1",
+	"systems":	[{
+			"systemName":	"microblaze_test1",
+			"systemDesc":	"microblaze_test1",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"microblaze_test1",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"8b79922325082e849fc3f924290ffcf4",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2022-12-22.13:12:11::SCWMssOS::Saving the mss changes C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-22.13:12:11::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-12-22.13:12:11::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-12-22.13:12:11::SCWMssOS::Commit changes completed.
+TRACE::2022-12-22.13:12:11::SCWPlatform::Trying to open the hw design at C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:11::SCWPlatform::DSA given C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:11::SCWPlatform::DSA absoulate path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:11::SCWPlatform::DSA directory C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw
+TRACE::2022-12-22.13:12:11::SCWPlatform:: Platform Path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:11::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2022-12-22.13:12:11::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-12-22.13:12:11::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-12-22.13:12:11::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-12-22.13:12:11::SCWMssOS::Checking the sw design at  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-22.13:12:11::SCWMssOS::DEBUG:  swdes dump  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-12-22.13:12:11::SCWMssOS::Sw design exists and opened at  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-22.13:12:11::SCWPlatform::Trying to open the hw design at C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:11::SCWPlatform::DSA given C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:11::SCWPlatform::DSA absoulate path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:11::SCWPlatform::DSA directory C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw
+TRACE::2022-12-22.13:12:11::SCWPlatform:: Platform Path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:11::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2022-12-22.13:12:11::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-12-22.13:12:11::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-12-22.13:12:11::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-12-22.13:12:11::SCWMssOS::Checking the sw design at  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-22.13:12:11::SCWMssOS::DEBUG:  swdes dump  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-12-22.13:12:11::SCWMssOS::Sw design exists and opened at  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-22.13:12:11::SCWPlatform::Trying to open the hw design at C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:11::SCWPlatform::DSA given C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:11::SCWPlatform::DSA absoulate path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:11::SCWPlatform::DSA directory C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw
+TRACE::2022-12-22.13:12:11::SCWPlatform:: Platform Path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:11::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2022-12-22.13:12:11::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-12-22.13:12:11::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-12-22.13:12:11::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-12-22.13:12:11::SCWMssOS::Checking the sw design at  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-22.13:12:11::SCWMssOS::DEBUG:  swdes dump  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-12-22.13:12:11::SCWMssOS::Sw design exists and opened at  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-22.13:12:11::SCWWriter::formatted JSON is {
+	"platformName":	"microblaze_test1",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"microblaze_test1",
+	"platHandOff":	"C:/Users/vikto/Experiments/MicroblazeTest1/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"microblaze_test1",
+	"systems":	[{
+			"systemName":	"microblaze_test1",
+			"systemDesc":	"microblaze_test1",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"microblaze_test1",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"8b79922325082e849fc3f924290ffcf4",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2022-12-22.13:12:12::SCWPlatform::Clearing the existing platform
+TRACE::2022-12-22.13:12:12::SCWSystem::Clearing the existing sysconfig
+TRACE::2022-12-22.13:12:12::SCWMssOS::Removing the swdes entry for  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-22.13:12:12::SCWSystem::Clearing the domains completed.
+TRACE::2022-12-22.13:12:12::SCWPlatform::Clearing the opened hw db.
+TRACE::2022-12-22.13:12:12::SCWPlatform::DSA given C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:12::SCWPlatform::DSA absoulate path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:12::SCWPlatform:: Platform location is C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw
+TRACE::2022-12-22.13:12:12::SCWPlatform:: Platform Path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:12::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2022-12-22.13:12:12::SCWPlatform::Removing the HwDB with name C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:12::SCWPlatform::Trying to open the hw design at C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:12::SCWPlatform::DSA given C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:12::SCWPlatform::DSA absoulate path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:12::SCWPlatform::DSA directory C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw
+TRACE::2022-12-22.13:12:12::SCWPlatform:: Platform Path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:12::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2022-12-22.13:12:12::SCWPlatform::Do not have an existing db opened. 
+TRACE::2022-12-22.13:12:13::SCWPlatform::Opened new HwDB with name design_1_wrapper_1
+TRACE::2022-12-22.13:12:13::SCWReader::Active system found as  microblaze_test1
+TRACE::2022-12-22.13:12:13::SCWReader::Handling sysconfig microblaze_test1
+TRACE::2022-12-22.13:12:13::SCWDomain::checking for install qemu data   : 
+TRACE::2022-12-22.13:12:13::SCWPlatform::Trying to open the hw design at C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:13::SCWPlatform::DSA given C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:13::SCWPlatform::DSA absoulate path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:13::SCWPlatform::DSA directory C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw
+TRACE::2022-12-22.13:12:13::SCWPlatform:: Platform Path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:13::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2022-12-22.13:12:13::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2022-12-22.13:12:13::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2022-12-22.13:12:13::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-12-22.13:12:13::SCWPlatform::Trying to open the hw design at C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:13::SCWPlatform::DSA given C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:13::SCWPlatform::DSA absoulate path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:13::SCWPlatform::DSA directory C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw
+TRACE::2022-12-22.13:12:13::SCWPlatform:: Platform Path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:13::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2022-12-22.13:12:13::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2022-12-22.13:12:13::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2022-12-22.13:12:13::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-12-22.13:12:13::SCWPlatform::Trying to open the hw design at C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:13::SCWPlatform::DSA given C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:13::SCWPlatform::DSA absoulate path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:13::SCWPlatform::DSA directory C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw
+TRACE::2022-12-22.13:12:13::SCWPlatform:: Platform Path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:13::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2022-12-22.13:12:13::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2022-12-22.13:12:13::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2022-12-22.13:12:13::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-12-22.13:12:13::SCWPlatform::Trying to open the hw design at C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:13::SCWPlatform::DSA given C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:13::SCWPlatform::DSA absoulate path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:13::SCWPlatform::DSA directory C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw
+TRACE::2022-12-22.13:12:13::SCWPlatform:: Platform Path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:13::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2022-12-22.13:12:13::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2022-12-22.13:12:13::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2022-12-22.13:12:13::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-12-22.13:12:13::SCWMssOS::Checking the sw design at  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-22.13:12:13::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2022-12-22.13:12:13::SCWMssOS::No sw design opened at  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-22.13:12:13::SCWMssOS::mss exists loading the mss file  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-22.13:12:13::SCWMssOS::Opened the sw design from mss  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-22.13:12:13::SCWMssOS::Adding the swdes entry C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss with des name system
+TRACE::2022-12-22.13:12:13::SCWMssOS::updating the scw layer about changes
+TRACE::2022-12-22.13:12:13::SCWMssOS::Opened the sw design.  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-22.13:12:13::SCWMssOS::Saving the mss changes C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-22.13:12:13::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-12-22.13:12:13::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-12-22.13:12:13::SCWMssOS::Commit changes completed.
+TRACE::2022-12-22.13:12:13::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2022-12-22.13:12:13::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2022-12-22.13:12:13::SCWPlatform::Trying to open the hw design at C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:13::SCWPlatform::DSA given C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:13::SCWPlatform::DSA absoulate path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:13::SCWPlatform::DSA directory C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw
+TRACE::2022-12-22.13:12:13::SCWPlatform:: Platform Path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:12:13::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2022-12-22.13:12:13::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2022-12-22.13:12:13::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2022-12-22.13:12:13::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-12-22.13:12:13::SCWMssOS::Checking the sw design at  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-22.13:12:13::SCWMssOS::DEBUG:  swdes dump  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-12-22.13:12:13::SCWMssOS::Sw design exists and opened at  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-22.13:12:13::SCWReader::No isolation master present  
+LOG::2022-12-22.13:20:59::SCWPlatform::Started generating the artifacts platform microblaze_test1
+TRACE::2022-12-22.13:20:59::SCWPlatform::Sanity checking of platform is completed
+LOG::2022-12-22.13:20:59::SCWPlatform::Started generating the artifacts for system configuration microblaze_test1
+LOG::2022-12-22.13:20:59::SCWSystem::Checking the domain standalone_domain
+LOG::2022-12-22.13:20:59::SCWSystem::Not a boot domain 
+LOG::2022-12-22.13:20:59::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2022-12-22.13:20:59::SCWDomain::Generating domain artifcats
+TRACE::2022-12-22.13:20:59::SCWMssOS::Generating standalone artifcats
+TRACE::2022-12-22.13:20:59::SCWMssOS:: Copying the user libraries. 
+TRACE::2022-12-22.13:20:59::SCWPlatform::Trying to open the hw design at C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:20:59::SCWPlatform::DSA given C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:20:59::SCWPlatform::DSA absoulate path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:20:59::SCWPlatform::DSA directory C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw
+TRACE::2022-12-22.13:20:59::SCWPlatform:: Platform Path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:20:59::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2022-12-22.13:20:59::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2022-12-22.13:20:59::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2022-12-22.13:20:59::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-12-22.13:20:59::SCWMssOS::Checking the sw design at  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-22.13:20:59::SCWMssOS::DEBUG:  swdes dump  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-12-22.13:20:59::SCWMssOS::Sw design exists and opened at  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-22.13:20:59::SCWMssOS::Completed writing the mss file at C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp
+TRACE::2022-12-22.13:20:59::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-22.13:20:59::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2022-12-22.13:20:59::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2022-12-22.13:20:59::SCWDomain::Building the domain as part of full build :  standalone_domain
+TRACE::2022-12-22.13:20:59::SCWMssOS::doing bsp build ... 
+TRACE::2022-12-22.13:20:59::SCWMssOS::System Command Ran  C: & cd  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp & make 
+TRACE::2022-12-22.13:21:00::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2022-12-22.13:21:00::SCWMssOS::'Finished building libraries sequentially.'
+
+TRACE::2022-12-22.13:21:00::SCWMssOS::make -j 2 --no-print-directory par_libs
+
+TRACE::2022-12-22.13:21:00::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_8/src"
+
+TRACE::2022-12-22.13:21:00::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_8/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2022-12-22.13:21:00::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2022-12-22.13:21:00::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-12-22.13:21:00::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_16/src"
+
+TRACE::2022-12-22.13:21:00::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_16/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2022-12-22.13:21:00::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2022-12-22.13:21:00::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-12-22.13:21:00::SCWMssOS::"Running Make include in microblaze_0/libsrc/gpio_v4_9/src"
+
+TRACE::2022-12-22.13:21:00::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2022-12-22.13:21:00::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2022-12-22.13:21:00::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-12-22.13:21:00::SCWMssOS::"Running Make include in microblaze_0/libsrc/intc_v3_15/src"
+
+TRACE::2022-12-22.13:21:00::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_15/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2022-12-22.13:21:00::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2022-12-22.13:21:00::SCWMssOS:: -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-12-22.13:21:00::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v8_0/src"
+
+TRACE::2022-12-22.13:21:00::SCWMssOS::make -C microblaze_0/libsrc/standalone_v8_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2022-12-22.13:21:00::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections 
+TRACE::2022-12-22.13:21:00::SCWMssOS::-Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-12-22.13:21:00::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_7/src"
+
+TRACE::2022-12-22.13:21:00::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2022-12-22.13:21:00::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2022-12-22.13:21:00::SCWMssOS::all -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-12-22.13:21:01::SCWMssOS::"Running Make libs in microblaze_0/libsrc/bram_v4_8/src"
+
+TRACE::2022-12-22.13:21:01::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_8/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2022-12-22.13:21:01::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2022-12-22.13:21:01::SCWMssOS::xtra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-12-22.13:21:01::SCWMssOS::"Running Make libs in microblaze_0/libsrc/cpu_v2_16/src"
+
+TRACE::2022-12-22.13:21:01::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_16/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2022-12-22.13:21:01::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2022-12-22.13:21:01::SCWMssOS::xtra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-12-22.13:21:01::SCWMssOS::"Running Make libs in microblaze_0/libsrc/gpio_v4_9/src"
+
+TRACE::2022-12-22.13:21:01::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_9/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2022-12-22.13:21:01::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2022-12-22.13:21:01::SCWMssOS::xtra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-12-22.13:21:02::SCWMssOS::"Running Make libs in microblaze_0/libsrc/intc_v3_15/src"
+
+TRACE::2022-12-22.13:21:02::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_15/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_
+TRACE::2022-12-22.13:21:02::SCWMssOS::FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -W
+TRACE::2022-12-22.13:21:02::SCWMssOS::extra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-12-22.13:21:03::SCWMssOS::"Running Make libs in microblaze_0/libsrc/standalone_v8_0/src"
+
+TRACE::2022-12-22.13:21:03::SCWMssOS::make -C microblaze_0/libsrc/standalone_v8_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2022-12-22.13:21:03::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wa
+TRACE::2022-12-22.13:21:03::SCWMssOS::ll -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-12-22.13:21:04::SCWMssOS::"Running Make libs in microblaze_0/libsrc/uartlite_v3_7/src"
+
+TRACE::2022-12-22.13:21:04::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2022-12-22.13:21:04::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2022-12-22.13:21:04::SCWMssOS:: -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-12-22.13:21:08::SCWMssOS::"DEBUG NON_LTO_OBJECTS is ../../../lib/microblaze_interrupt_handler.o"
+
+TRACE::2022-12-22.13:21:08::SCWMssOS::'Finished building libraries parallelly.'
+
+TRACE::2022-12-22.13:21:08::SCWMssOS::make --no-print-directory archive
+
+TRACE::2022-12-22.13:21:08::SCWMssOS::mb-ar -r  microblaze_0/lib/libxil.a microblaze_0/lib/_exit.o microblaze_0/lib/errno.o microblaze_0/lib/fcntl.o microblaze_0/lib
+TRACE::2022-12-22.13:21:08::SCWMssOS::/hw_exception_handler.o microblaze_0/lib/inbyte.o microblaze_0/lib/microblaze_disable_dcache.o microblaze_0/lib/microblaze_disa
+TRACE::2022-12-22.13:21:08::SCWMssOS::ble_exceptions.o microblaze_0/lib/microblaze_disable_icache.o microblaze_0/lib/microblaze_disable_interrupts.o microblaze_0/lib
+TRACE::2022-12-22.13:21:08::SCWMssOS::/microblaze_enable_dcache.o microblaze_0/lib/microblaze_enable_exceptions.o microblaze_0/lib/microblaze_enable_icache.o microbl
+TRACE::2022-12-22.13:21:08::SCWMssOS::aze_0/lib/microblaze_enable_interrupts.o microblaze_0/lib/microblaze_exception_handler.o microblaze_0/lib/microblaze_flush_cach
+TRACE::2022-12-22.13:21:08::SCWMssOS::e_ext.o microblaze_0/lib/microblaze_flush_cache_ext_range.o microblaze_0/lib/microblaze_flush_dcache.o microblaze_0/lib/microbl
+TRACE::2022-12-22.13:21:08::SCWMssOS::aze_flush_dcache_range.o microblaze_0/lib/microblaze_init_dcache_range.o microblaze_0/lib/microblaze_init_icache_range.o microb
+TRACE::2022-12-22.13:21:08::SCWMssOS::laze_0/lib/microblaze_interrupt_handler.o microblaze_0/lib/microblaze_interrupts_g.o microblaze_0/lib/microblaze_invalidate_cac
+TRACE::2022-12-22.13:21:08::SCWMssOS::he_ext.o microblaze_0/lib/microblaze_invalidate_cache_ext_range.o microblaze_0/lib/microblaze_invalidate_dcache.o microblaze_0/
+TRACE::2022-12-22.13:21:08::SCWMssOS::lib/microblaze_invalidate_dcache_range.o microblaze_0/lib/microblaze_invalidate_icache.o microblaze_0/lib/microblaze_invalidate
+TRACE::2022-12-22.13:21:08::SCWMssOS::_icache_range.o microblaze_0/lib/microblaze_scrub.o microblaze_0/lib/microblaze_selftest.o microblaze_0/lib/microblaze_sleep.o 
+TRACE::2022-12-22.13:21:08::SCWMssOS::microblaze_0/lib/microblaze_update_dcache.o microblaze_0/lib/microblaze_update_icache.o microblaze_0/lib/outbyte.o microblaze_0
+TRACE::2022-12-22.13:21:08::SCWMssOS::/lib/print.o microblaze_0/lib/pvr.o microblaze_0/lib/xbram.o microblaze_0/lib/xbram_g.o microblaze_0/lib/xbram_intr.o microblaz
+TRACE::2022-12-22.13:21:08::SCWMssOS::e_0/lib/xbram_selftest.o microblaze_0/lib/xbram_sinit.o microblaze_0/lib/xgpio.o microblaze_0/lib/xgpio_extra.o microblaze_0/li
+TRACE::2022-12-22.13:21:08::SCWMssOS::b/xgpio_g.o microblaze_0/lib/xgpio_intr.o microblaze_0/lib/xgpio_selftest.o microblaze_0/lib/xgpio_sinit.o microblaze_0/lib/xil
+TRACE::2022-12-22.13:21:08::SCWMssOS::_assert.o microblaze_0/lib/xil_cache.o microblaze_0/lib/xil_clocking.o microblaze_0/lib/xil_exception.o microblaze_0/lib/xil_me
+TRACE::2022-12-22.13:21:08::SCWMssOS::m.o microblaze_0/lib/xil_misc_psreset_api.o microblaze_0/lib/xil_printf.o microblaze_0/lib/xil_sleepcommon.o microblaze_0/lib/x
+TRACE::2022-12-22.13:21:08::SCWMssOS::il_testcache.o microblaze_0/lib/xil_testio.o microblaze_0/lib/xil_testmem.o microblaze_0/lib/xil_util.o microblaze_0/lib/xintc.
+TRACE::2022-12-22.13:21:08::SCWMssOS::o microblaze_0/lib/xintc_g.o microblaze_0/lib/xintc_intr.o microblaze_0/lib/xintc_l.o microblaze_0/lib/xintc_options.o microbla
+TRACE::2022-12-22.13:21:08::SCWMssOS::ze_0/lib/xintc_selftest.o microblaze_0/lib/xinterrupt_wrap.o microblaze_0/lib/xio.o microblaze_0/lib/xplatform_info.o microblaz
+TRACE::2022-12-22.13:21:08::SCWMssOS::e_0/lib/xuartlite.o microblaze_0/lib/xuartlite_g.o microblaze_0/lib/xuartlite_intr.o microblaze_0/lib/xuartlite_l.o microblaze_
+TRACE::2022-12-22.13:21:08::SCWMssOS::0/lib/xuartlite_selftest.o microblaze_0/lib/xuartlite_sinit.o microblaze_0/lib/xuartlite_stats.o
+
+TRACE::2022-12-22.13:21:08::SCWMssOS::'Finished building libraries'
+
+TRACE::2022-12-22.13:21:09::SCWMssOS::Copying to export directory.
+TRACE::2022-12-22.13:21:10::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2022-12-22.13:21:10::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2022-12-22.13:21:10::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2022-12-22.13:21:10::SCWSystem::Completed Processing the sysconfig microblaze_test1
+LOG::2022-12-22.13:21:10::SCWPlatform::Completed generating the artifacts for system configuration microblaze_test1
+TRACE::2022-12-22.13:21:10::SCWPlatform::Started preparing the platform 
+TRACE::2022-12-22.13:21:10::SCWSystem::Writing the bif file for system config microblaze_test1
+TRACE::2022-12-22.13:21:10::SCWSystem::dir created 
+TRACE::2022-12-22.13:21:10::SCWSystem::Writing the bif 
+TRACE::2022-12-22.13:21:10::SCWPlatform::Started writing the spfm file 
+TRACE::2022-12-22.13:21:10::SCWPlatform::Started writing the xpfm file 
+TRACE::2022-12-22.13:21:10::SCWPlatform::Completed generating the platform
+TRACE::2022-12-22.13:21:10::SCWMssOS::Saving the mss changes C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-22.13:21:10::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-12-22.13:21:10::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-12-22.13:21:10::SCWMssOS::Commit changes completed.
+TRACE::2022-12-22.13:21:10::SCWPlatform::Trying to open the hw design at C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:21:10::SCWPlatform::DSA given C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:21:10::SCWPlatform::DSA absoulate path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:21:10::SCWPlatform::DSA directory C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw
+TRACE::2022-12-22.13:21:10::SCWPlatform:: Platform Path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:21:10::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2022-12-22.13:21:10::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2022-12-22.13:21:10::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2022-12-22.13:21:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-12-22.13:21:10::SCWMssOS::Checking the sw design at  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-22.13:21:10::SCWMssOS::DEBUG:  swdes dump  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-12-22.13:21:10::SCWMssOS::Sw design exists and opened at  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-22.13:21:10::SCWWriter::formatted JSON is {
+	"platformName":	"microblaze_test1",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"microblaze_test1",
+	"platHandOff":	"C:/Users/vikto/Experiments/MicroblazeTest1/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"microblaze_test1",
+	"systems":	[{
+			"systemName":	"microblaze_test1",
+			"systemDesc":	"microblaze_test1",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"microblaze_test1",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"8b79922325082e849fc3f924290ffcf4",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2022-12-22.13:21:10::SCWPlatform::updated the xpfm file.
+TRACE::2022-12-22.13:21:10::SCWPlatform::Trying to open the hw design at C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:21:10::SCWPlatform::DSA given C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:21:10::SCWPlatform::DSA absoulate path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:21:10::SCWPlatform::DSA directory C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw
+TRACE::2022-12-22.13:21:10::SCWPlatform:: Platform Path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.13:21:10::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2022-12-22.13:21:10::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2022-12-22.13:21:10::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2022-12-22.13:21:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-12-22.13:21:10::SCWMssOS::Checking the sw design at  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-22.13:21:10::SCWMssOS::DEBUG:  swdes dump  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-12-22.13:21:10::SCWMssOS::Sw design exists and opened at  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-22.14:20:37::SCWPlatform::DSA given C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/tempdsa/design_1_wrapper.xsa
+TRACE::2022-12-22.14:20:37::SCWPlatform::DSA absoulate path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/tempdsa/design_1_wrapper.xsa
+TRACE::2022-12-22.14:20:37::SCWPlatform:: Platform location is C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/tempdsa
+TRACE::2022-12-22.14:20:37::SCWPlatform:: Platform Path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/tempdsa/design_1_wrapper.xsa
+TRACE::2022-12-22.14:20:37::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2022-12-22.14:20:38::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-12-22.14:20:38::SCWMssOS::Doing hw sync for the mss in domain: standalone_domain
+TRACE::2022-12-22.14:20:38::SCWPlatform::Trying to open the hw design at C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.14:20:38::SCWPlatform::DSA given C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.14:20:38::SCWPlatform::DSA absoulate path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.14:20:38::SCWPlatform::DSA directory C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw
+TRACE::2022-12-22.14:20:38::SCWPlatform:: Platform Path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.14:20:38::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2022-12-22.14:20:38::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2022-12-22.14:20:38::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2022-12-22.14:20:38::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-12-22.14:20:38::SCWPlatform::Trying to open the hw design at C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.14:20:38::SCWPlatform::DSA given C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.14:20:38::SCWPlatform::DSA absoulate path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.14:20:38::SCWPlatform::DSA directory C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw
+TRACE::2022-12-22.14:20:38::SCWPlatform:: Platform Path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.14:20:38::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2022-12-22.14:20:38::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2022-12-22.14:20:38::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2022-12-22.14:20:38::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-12-22.14:20:38::SCWMssOS::Checking the sw design at  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-22.14:20:38::SCWMssOS::DEBUG:  swdes dump  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-12-22.14:20:38::SCWMssOS::Sw design exists and opened at  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-22.14:20:38::SCWPlatform::Trying to open the hw design at C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/tempdsa/design_1_wrapper.xsa
+TRACE::2022-12-22.14:20:38::SCWPlatform::DSA given C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/tempdsa/design_1_wrapper.xsa
+TRACE::2022-12-22.14:20:38::SCWPlatform::DSA absoulate path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/tempdsa/design_1_wrapper.xsa
+TRACE::2022-12-22.14:20:38::SCWPlatform::DSA directory C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/tempdsa
+TRACE::2022-12-22.14:20:38::SCWPlatform:: Platform Path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/tempdsa/design_1_wrapper.xsa
+TRACE::2022-12-22.14:20:38::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2022-12-22.14:20:38::SCWPlatform::update - Opened existing hwdb design_1_wrapper_4
+TRACE::2022-12-22.14:20:38::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-12-22.14:20:38::SCWMssOS::Saving the mss changes C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-22.14:20:38::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-12-22.14:20:38::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-12-22.14:20:38::SCWMssOS::Commit changes completed.
+TRACE::2022-12-22.14:20:38::SCWMssOS::Completed hw sync for the mss in domain: standalone_domain
+TRACE::2022-12-22.14:20:38::SCWMssOS::Removing the swdes entry for  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-22.14:20:38::SCWPlatform::Trying to open the hw design at C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.14:20:38::SCWPlatform::DSA given C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.14:20:38::SCWPlatform::DSA absoulate path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.14:20:38::SCWPlatform::DSA directory C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw
+TRACE::2022-12-22.14:20:38::SCWPlatform:: Platform Path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.14:20:38::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2022-12-22.14:20:38::SCWPlatform::Do not have an existing db opened. 
+TRACE::2022-12-22.14:20:38::SCWPlatform::Opened new HwDB with name design_1_wrapper_5
+TRACE::2022-12-22.14:20:38::SCWMssOS::Saving the mss changes C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-22.14:20:38::SCWMssOS::Adding the swdes entry, mss present, able to open swdb C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss with des name system
+TRACE::2022-12-22.14:20:38::SCWMssOS::Writing the mss file completed C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-22.14:20:38::SCWMssOS::Commit changes completed.
+TRACE::2022-12-22.14:20:38::SCWPlatform::Trying to open the hw design at C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.14:20:38::SCWPlatform::DSA given C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.14:20:38::SCWPlatform::DSA absoulate path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.14:20:38::SCWPlatform::DSA directory C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw
+TRACE::2022-12-22.14:20:38::SCWPlatform:: Platform Path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.14:20:38::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2022-12-22.14:20:38::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_5
+TRACE::2022-12-22.14:20:38::SCWPlatform::Opened existing hwdb design_1_wrapper_5
+TRACE::2022-12-22.14:20:38::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-12-22.14:20:38::SCWMssOS::Checking the sw design at  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-22.14:20:38::SCWMssOS::DEBUG:  swdes dump  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-12-22.14:20:38::SCWMssOS::Sw design exists and opened at  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-22.14:20:38::SCWWriter::formatted JSON is {
+	"platformName":	"microblaze_test1",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"microblaze_test1",
+	"platHandOff":	"C:/Users/vikto/Experiments/MicroblazeTest1/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"microblaze_test1",
+	"systems":	[{
+			"systemName":	"microblaze_test1",
+			"systemDesc":	"microblaze_test1",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"microblaze_test1",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"e75312f944dbba25fe57b72048f81f0e1",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2022-12-22.14:20:39::SCWPlatform::Clearing the existing platform
+TRACE::2022-12-22.14:20:39::SCWSystem::Clearing the existing sysconfig
+TRACE::2022-12-22.14:20:39::SCWMssOS::Removing the swdes entry for  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-22.14:20:39::SCWSystem::Clearing the domains completed.
+TRACE::2022-12-22.14:20:39::SCWPlatform::Clearing the opened hw db.
+TRACE::2022-12-22.14:20:39::SCWPlatform::DSA given C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.14:20:39::SCWPlatform::DSA absoulate path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.14:20:39::SCWPlatform:: Platform location is C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw
+TRACE::2022-12-22.14:20:39::SCWPlatform:: Platform Path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.14:20:39::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2022-12-22.14:20:39::SCWPlatform::Removing the HwDB with name C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.14:20:39::SCWPlatform::Trying to open the hw design at C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.14:20:39::SCWPlatform::DSA given C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.14:20:39::SCWPlatform::DSA absoulate path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.14:20:39::SCWPlatform::DSA directory C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw
+TRACE::2022-12-22.14:20:39::SCWPlatform:: Platform Path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.14:20:39::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2022-12-22.14:20:39::SCWPlatform::Do not have an existing db opened. 
+TRACE::2022-12-22.14:20:40::SCWPlatform::Opened new HwDB with name design_1_wrapper_6
+TRACE::2022-12-22.14:20:40::SCWReader::Active system found as  microblaze_test1
+TRACE::2022-12-22.14:20:40::SCWReader::Handling sysconfig microblaze_test1
+TRACE::2022-12-22.14:20:40::SCWDomain::checking for install qemu data   : 
+TRACE::2022-12-22.14:20:40::SCWPlatform::Trying to open the hw design at C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.14:20:40::SCWPlatform::DSA given C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.14:20:40::SCWPlatform::DSA absoulate path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.14:20:40::SCWPlatform::DSA directory C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw
+TRACE::2022-12-22.14:20:40::SCWPlatform:: Platform Path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.14:20:40::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2022-12-22.14:20:40::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_6
+TRACE::2022-12-22.14:20:40::SCWPlatform::Opened existing hwdb design_1_wrapper_6
+TRACE::2022-12-22.14:20:40::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-12-22.14:20:40::SCWPlatform::Trying to open the hw design at C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.14:20:40::SCWPlatform::DSA given C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.14:20:40::SCWPlatform::DSA absoulate path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.14:20:40::SCWPlatform::DSA directory C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw
+TRACE::2022-12-22.14:20:40::SCWPlatform:: Platform Path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.14:20:40::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2022-12-22.14:20:40::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_6
+TRACE::2022-12-22.14:20:40::SCWPlatform::Opened existing hwdb design_1_wrapper_6
+TRACE::2022-12-22.14:20:40::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-12-22.14:20:40::SCWPlatform::Trying to open the hw design at C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.14:20:40::SCWPlatform::DSA given C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.14:20:40::SCWPlatform::DSA absoulate path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.14:20:40::SCWPlatform::DSA directory C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw
+TRACE::2022-12-22.14:20:40::SCWPlatform:: Platform Path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.14:20:40::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2022-12-22.14:20:40::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_6
+TRACE::2022-12-22.14:20:40::SCWPlatform::Opened existing hwdb design_1_wrapper_6
+TRACE::2022-12-22.14:20:40::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-12-22.14:20:40::SCWPlatform::Trying to open the hw design at C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.14:20:40::SCWPlatform::DSA given C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.14:20:40::SCWPlatform::DSA absoulate path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.14:20:40::SCWPlatform::DSA directory C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw
+TRACE::2022-12-22.14:20:40::SCWPlatform:: Platform Path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.14:20:40::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2022-12-22.14:20:40::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_6
+TRACE::2022-12-22.14:20:40::SCWPlatform::Opened existing hwdb design_1_wrapper_6
+TRACE::2022-12-22.14:20:40::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-12-22.14:20:40::SCWMssOS::Checking the sw design at  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-22.14:20:40::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2022-12-22.14:20:40::SCWMssOS::No sw design opened at  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-22.14:20:40::SCWMssOS::mss exists loading the mss file  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-22.14:20:40::SCWMssOS::Opened the sw design from mss  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-22.14:20:40::SCWMssOS::Adding the swdes entry C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss with des name system
+TRACE::2022-12-22.14:20:40::SCWMssOS::updating the scw layer about changes
+TRACE::2022-12-22.14:20:40::SCWMssOS::Opened the sw design.  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-22.14:20:40::SCWMssOS::Saving the mss changes C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-22.14:20:40::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-12-22.14:20:40::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-12-22.14:20:40::SCWMssOS::Commit changes completed.
+TRACE::2022-12-22.14:20:40::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2022-12-22.14:20:40::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2022-12-22.14:20:40::SCWPlatform::Trying to open the hw design at C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.14:20:40::SCWPlatform::DSA given C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.14:20:40::SCWPlatform::DSA absoulate path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.14:20:40::SCWPlatform::DSA directory C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw
+TRACE::2022-12-22.14:20:40::SCWPlatform:: Platform Path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.14:20:40::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2022-12-22.14:20:40::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_6
+TRACE::2022-12-22.14:20:40::SCWPlatform::Opened existing hwdb design_1_wrapper_6
+TRACE::2022-12-22.14:20:40::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-12-22.14:20:40::SCWMssOS::Checking the sw design at  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-22.14:20:40::SCWMssOS::DEBUG:  swdes dump  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-12-22.14:20:40::SCWMssOS::Sw design exists and opened at  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-22.14:20:40::SCWReader::No isolation master present  
+LOG::2022-12-22.14:27:02::SCWPlatform::Started generating the artifacts platform microblaze_test1
+TRACE::2022-12-22.14:27:02::SCWPlatform::Sanity checking of platform is completed
+LOG::2022-12-22.14:27:02::SCWPlatform::Started generating the artifacts for system configuration microblaze_test1
+LOG::2022-12-22.14:27:02::SCWSystem::Checking the domain standalone_domain
+LOG::2022-12-22.14:27:02::SCWSystem::Not a boot domain 
+LOG::2022-12-22.14:27:02::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2022-12-22.14:27:02::SCWDomain::Generating domain artifcats
+TRACE::2022-12-22.14:27:02::SCWMssOS::Generating standalone artifcats
+TRACE::2022-12-22.14:27:02::SCWMssOS:: Copying the user libraries. 
+TRACE::2022-12-22.14:27:02::SCWPlatform::Trying to open the hw design at C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.14:27:02::SCWPlatform::DSA given C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.14:27:02::SCWPlatform::DSA absoulate path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.14:27:02::SCWPlatform::DSA directory C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw
+TRACE::2022-12-22.14:27:02::SCWPlatform:: Platform Path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.14:27:02::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2022-12-22.14:27:02::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_6
+TRACE::2022-12-22.14:27:02::SCWPlatform::Could not get the HWDB from existing dbname
+TRACE::2022-12-22.14:27:02::SCWPlatform::Do not have an existing db opened. Attempting to open the hwDb. 
+TRACE::2022-12-22.14:27:02::SCWPlatform::Opened new HwDB with name design_1_wrapper_7
+TRACE::2022-12-22.14:27:02::SCWMssOS::Checking the sw design at  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-22.14:27:02::SCWMssOS::DEBUG:  swdes dump  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-12-22.14:27:02::SCWMssOS::Sw design exists and opened at  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-22.14:27:02::SCWMssOS::Completed writing the mss file at C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp
+TRACE::2022-12-22.14:27:02::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-22.14:27:02::SCWMssOS::bsp generated is stale removing and regenerating. 
+TRACE::2022-12-22.14:27:05::SCWMssOS::doing bsp build ... 
+TRACE::2022-12-22.14:27:05::SCWMssOS::System Command Ran  C: & cd  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp & make 
+TRACE::2022-12-22.14:27:06::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2022-12-22.14:27:06::SCWMssOS::'Finished building libraries sequentially.'
+
+TRACE::2022-12-22.14:27:06::SCWMssOS::make -j 2 --no-print-directory par_libs
+
+TRACE::2022-12-22.14:27:06::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_8/src"
+
+TRACE::2022-12-22.14:27:06::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_8/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2022-12-22.14:27:06::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2022-12-22.14:27:06::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-12-22.14:27:06::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_16/src"
+
+TRACE::2022-12-22.14:27:06::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_16/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2022-12-22.14:27:06::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2022-12-22.14:27:06::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-12-22.14:27:06::SCWMssOS::"Running Make include in microblaze_0/libsrc/gpio_v4_9/src"
+
+TRACE::2022-12-22.14:27:06::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2022-12-22.14:27:06::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2022-12-22.14:27:06::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-12-22.14:27:06::SCWMssOS::"Running Make include in microblaze_0/libsrc/intc_v3_15/src"
+
+TRACE::2022-12-22.14:27:06::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_15/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2022-12-22.14:27:06::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2022-12-22.14:27:06::SCWMssOS:: -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-12-22.14:27:06::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v8_0/src"
+
+TRACE::2022-12-22.14:27:06::SCWMssOS::make -C microblaze_0/libsrc/standalone_v8_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2022-12-22.14:27:06::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections 
+TRACE::2022-12-22.14:27:06::SCWMssOS::-Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-12-22.14:27:06::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_7/src"
+
+TRACE::2022-12-22.14:27:06::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2022-12-22.14:27:06::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2022-12-22.14:27:06::SCWMssOS::all -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-12-22.14:27:07::SCWMssOS::"Running Make libs in microblaze_0/libsrc/bram_v4_8/src"
+
+TRACE::2022-12-22.14:27:07::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_8/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2022-12-22.14:27:07::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2022-12-22.14:27:07::SCWMssOS::xtra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-12-22.14:27:07::SCWMssOS::"Running Make libs in microblaze_0/libsrc/cpu_v2_16/src"
+
+TRACE::2022-12-22.14:27:07::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_16/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2022-12-22.14:27:07::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2022-12-22.14:27:07::SCWMssOS::xtra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-12-22.14:27:08::SCWMssOS::"Running Make libs in microblaze_0/libsrc/gpio_v4_9/src"
+
+TRACE::2022-12-22.14:27:08::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_9/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2022-12-22.14:27:08::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2022-12-22.14:27:08::SCWMssOS::xtra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-12-22.14:27:09::SCWMssOS::"Running Make libs in microblaze_0/libsrc/intc_v3_15/src"
+
+TRACE::2022-12-22.14:27:09::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_15/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_
+TRACE::2022-12-22.14:27:09::SCWMssOS::FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -W
+TRACE::2022-12-22.14:27:09::SCWMssOS::extra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-12-22.14:27:09::SCWMssOS::"Running Make libs in microblaze_0/libsrc/standalone_v8_0/src"
+
+TRACE::2022-12-22.14:27:09::SCWMssOS::make -C microblaze_0/libsrc/standalone_v8_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2022-12-22.14:27:09::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wa
+TRACE::2022-12-22.14:27:09::SCWMssOS::ll -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-12-22.14:27:10::SCWMssOS::"Running Make libs in microblaze_0/libsrc/uartlite_v3_7/src"
+
+TRACE::2022-12-22.14:27:10::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2022-12-22.14:27:10::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2022-12-22.14:27:10::SCWMssOS:: -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-12-22.14:27:14::SCWMssOS::"DEBUG NON_LTO_OBJECTS is ../../../lib/microblaze_interrupt_handler.o"
+
+TRACE::2022-12-22.14:27:15::SCWMssOS::'Finished building libraries parallelly.'
+
+TRACE::2022-12-22.14:27:15::SCWMssOS::make --no-print-directory archive
+
+TRACE::2022-12-22.14:27:15::SCWMssOS::mb-ar -r  microblaze_0/lib/libxil.a microblaze_0/lib/_exit.o microblaze_0/lib/errno.o microblaze_0/lib/fcntl.o microblaze_0/lib
+TRACE::2022-12-22.14:27:15::SCWMssOS::/hw_exception_handler.o microblaze_0/lib/inbyte.o microblaze_0/lib/microblaze_disable_dcache.o microblaze_0/lib/microblaze_disa
+TRACE::2022-12-22.14:27:15::SCWMssOS::ble_exceptions.o microblaze_0/lib/microblaze_disable_icache.o microblaze_0/lib/microblaze_disable_interrupts.o microblaze_0/lib
+TRACE::2022-12-22.14:27:15::SCWMssOS::/microblaze_enable_dcache.o microblaze_0/lib/microblaze_enable_exceptions.o microblaze_0/lib/microblaze_enable_icache.o microbl
+TRACE::2022-12-22.14:27:15::SCWMssOS::aze_0/lib/microblaze_enable_interrupts.o microblaze_0/lib/microblaze_exception_handler.o microblaze_0/lib/microblaze_flush_cach
+TRACE::2022-12-22.14:27:15::SCWMssOS::e_ext.o microblaze_0/lib/microblaze_flush_cache_ext_range.o microblaze_0/lib/microblaze_flush_dcache.o microblaze_0/lib/microbl
+TRACE::2022-12-22.14:27:15::SCWMssOS::aze_flush_dcache_range.o microblaze_0/lib/microblaze_init_dcache_range.o microblaze_0/lib/microblaze_init_icache_range.o microb
+TRACE::2022-12-22.14:27:15::SCWMssOS::laze_0/lib/microblaze_interrupt_handler.o microblaze_0/lib/microblaze_interrupts_g.o microblaze_0/lib/microblaze_invalidate_cac
+TRACE::2022-12-22.14:27:15::SCWMssOS::he_ext.o microblaze_0/lib/microblaze_invalidate_cache_ext_range.o microblaze_0/lib/microblaze_invalidate_dcache.o microblaze_0/
+TRACE::2022-12-22.14:27:15::SCWMssOS::lib/microblaze_invalidate_dcache_range.o microblaze_0/lib/microblaze_invalidate_icache.o microblaze_0/lib/microblaze_invalidate
+TRACE::2022-12-22.14:27:15::SCWMssOS::_icache_range.o microblaze_0/lib/microblaze_scrub.o microblaze_0/lib/microblaze_selftest.o microblaze_0/lib/microblaze_sleep.o 
+TRACE::2022-12-22.14:27:15::SCWMssOS::microblaze_0/lib/microblaze_update_dcache.o microblaze_0/lib/microblaze_update_icache.o microblaze_0/lib/outbyte.o microblaze_0
+TRACE::2022-12-22.14:27:15::SCWMssOS::/lib/print.o microblaze_0/lib/pvr.o microblaze_0/lib/xbram.o microblaze_0/lib/xbram_g.o microblaze_0/lib/xbram_intr.o microblaz
+TRACE::2022-12-22.14:27:15::SCWMssOS::e_0/lib/xbram_selftest.o microblaze_0/lib/xbram_sinit.o microblaze_0/lib/xgpio.o microblaze_0/lib/xgpio_extra.o microblaze_0/li
+TRACE::2022-12-22.14:27:15::SCWMssOS::b/xgpio_g.o microblaze_0/lib/xgpio_intr.o microblaze_0/lib/xgpio_selftest.o microblaze_0/lib/xgpio_sinit.o microblaze_0/lib/xil
+TRACE::2022-12-22.14:27:15::SCWMssOS::_assert.o microblaze_0/lib/xil_cache.o microblaze_0/lib/xil_clocking.o microblaze_0/lib/xil_exception.o microblaze_0/lib/xil_me
+TRACE::2022-12-22.14:27:15::SCWMssOS::m.o microblaze_0/lib/xil_misc_psreset_api.o microblaze_0/lib/xil_printf.o microblaze_0/lib/xil_sleepcommon.o microblaze_0/lib/x
+TRACE::2022-12-22.14:27:15::SCWMssOS::il_testcache.o microblaze_0/lib/xil_testio.o microblaze_0/lib/xil_testmem.o microblaze_0/lib/xil_util.o microblaze_0/lib/xintc.
+TRACE::2022-12-22.14:27:15::SCWMssOS::o microblaze_0/lib/xintc_g.o microblaze_0/lib/xintc_intr.o microblaze_0/lib/xintc_l.o microblaze_0/lib/xintc_options.o microbla
+TRACE::2022-12-22.14:27:15::SCWMssOS::ze_0/lib/xintc_selftest.o microblaze_0/lib/xinterrupt_wrap.o microblaze_0/lib/xio.o microblaze_0/lib/xplatform_info.o microblaz
+TRACE::2022-12-22.14:27:15::SCWMssOS::e_0/lib/xuartlite.o microblaze_0/lib/xuartlite_g.o microblaze_0/lib/xuartlite_intr.o microblaze_0/lib/xuartlite_l.o microblaze_
+TRACE::2022-12-22.14:27:15::SCWMssOS::0/lib/xuartlite_selftest.o microblaze_0/lib/xuartlite_sinit.o microblaze_0/lib/xuartlite_stats.o
+
+TRACE::2022-12-22.14:27:15::SCWMssOS::'Finished building libraries'
+
+TRACE::2022-12-22.14:27:16::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2022-12-22.14:27:16::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2022-12-22.14:27:16::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2022-12-22.14:27:16::SCWSystem::Completed Processing the sysconfig microblaze_test1
+LOG::2022-12-22.14:27:16::SCWPlatform::Completed generating the artifacts for system configuration microblaze_test1
+TRACE::2022-12-22.14:27:16::SCWPlatform::Started preparing the platform 
+TRACE::2022-12-22.14:27:16::SCWSystem::Writing the bif file for system config microblaze_test1
+TRACE::2022-12-22.14:27:16::SCWSystem::dir created 
+TRACE::2022-12-22.14:27:16::SCWSystem::Writing the bif 
+TRACE::2022-12-22.14:27:16::SCWPlatform::Started writing the spfm file 
+TRACE::2022-12-22.14:27:16::SCWPlatform::Started writing the xpfm file 
+TRACE::2022-12-22.14:27:16::SCWPlatform::Completed generating the platform
+TRACE::2022-12-22.14:27:16::SCWMssOS::Saving the mss changes C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-22.14:27:16::SCWMssOS::Adding the swdes entry, mss present, able to open swdb C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss with des name system
+TRACE::2022-12-22.14:27:16::SCWMssOS::Writing the mss file completed C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-22.14:27:16::SCWMssOS::Commit changes completed.
+TRACE::2022-12-22.14:27:16::SCWPlatform::Trying to open the hw design at C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.14:27:16::SCWPlatform::DSA given C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.14:27:16::SCWPlatform::DSA absoulate path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.14:27:16::SCWPlatform::DSA directory C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw
+TRACE::2022-12-22.14:27:16::SCWPlatform:: Platform Path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.14:27:16::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2022-12-22.14:27:16::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_7
+TRACE::2022-12-22.14:27:16::SCWPlatform::Opened existing hwdb design_1_wrapper_7
+TRACE::2022-12-22.14:27:16::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-12-22.14:27:16::SCWMssOS::Checking the sw design at  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-22.14:27:16::SCWMssOS::DEBUG:  swdes dump  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-12-22.14:27:16::SCWMssOS::Sw design exists and opened at  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-22.14:27:16::SCWWriter::formatted JSON is {
+	"platformName":	"microblaze_test1",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"microblaze_test1",
+	"platHandOff":	"C:/Users/vikto/Experiments/MicroblazeTest1/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"microblaze_test1",
+	"systems":	[{
+			"systemName":	"microblaze_test1",
+			"systemDesc":	"microblaze_test1",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"microblaze_test1",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"e75312f944dbba25fe57b72048f81f0e",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2022-12-22.14:27:16::SCWPlatform::updated the xpfm file.
+TRACE::2022-12-22.14:27:16::SCWPlatform::Trying to open the hw design at C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.14:27:16::SCWPlatform::DSA given C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.14:27:16::SCWPlatform::DSA absoulate path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.14:27:16::SCWPlatform::DSA directory C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw
+TRACE::2022-12-22.14:27:16::SCWPlatform:: Platform Path C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/hw/design_1_wrapper.xsa
+TRACE::2022-12-22.14:27:16::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2022-12-22.14:27:16::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_7
+TRACE::2022-12-22.14:27:16::SCWPlatform::Opened existing hwdb design_1_wrapper_7
+TRACE::2022-12-22.14:27:16::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-12-22.14:27:16::SCWMssOS::Checking the sw design at  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-22.14:27:16::SCWMssOS::DEBUG:  swdes dump  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-12-22.14:27:16::SCWMssOS::Sw design exists and opened at  C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test1_workspace/microblaze_test1/microblaze_0/standalone_domain/bsp/system.mss
