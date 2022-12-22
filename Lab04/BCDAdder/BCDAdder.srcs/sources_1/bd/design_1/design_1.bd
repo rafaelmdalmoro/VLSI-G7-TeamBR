@@ -1,0 +1,283 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x6E7FAF1FD55630A9",
+      "device": "xc7a100tcsg324-1",
+      "gen_directory": "../../../../BCDAdder.gen/sources_1/bd/design_1",
+      "name": "design_1",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2022.2",
+      "validated": "true"
+    },
+    "design_tree": {
+      "FourBitAdder_0": "",
+      "Mux8x7Seg_0": "",
+      "DoubleDabbler12Bit_0": "",
+      "xlconcat_0": ""
+    },
+    "ports": {
+      "CLK": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "ASSOCIATED_RESET": {
+            "value": "RESET",
+            "value_src": "default"
+          },
+          "CLK_DOMAIN": {
+            "value": "design_1_CLK",
+            "value_src": "default"
+          },
+          "FREQ_HZ": {
+            "value": "100000000",
+            "value_src": "default"
+          },
+          "FREQ_TOLERANCE_HZ": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.0",
+            "value_src": "default"
+          }
+        }
+      },
+      "RESET": {
+        "type": "rst",
+        "direction": "I",
+        "parameters": {
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "POLARITY": {
+            "value": "ACTIVE_LOW",
+            "value_src": "default"
+          }
+        }
+      },
+      "A_0": {
+        "direction": "I"
+      },
+      "A_1": {
+        "direction": "I"
+      },
+      "A_2": {
+        "direction": "I"
+      },
+      "A_3": {
+        "direction": "I"
+      },
+      "B_0": {
+        "direction": "I"
+      },
+      "B_1": {
+        "direction": "I"
+      },
+      "B_2": {
+        "direction": "I"
+      },
+      "B_3": {
+        "direction": "I"
+      },
+      "Cin": {
+        "direction": "I"
+      },
+      "SEG": {
+        "direction": "O",
+        "left": "6",
+        "right": "0"
+      },
+      "AN": {
+        "direction": "O",
+        "left": "7",
+        "right": "0"
+      },
+      "DP": {
+        "direction": "O"
+      }
+    },
+    "components": {
+      "FourBitAdder_0": {
+        "vlnv": "xilinx.com:user:FourBitAdder:1.0",
+        "xci_name": "design_1_FourBitAdder_0_0",
+        "xci_path": "ip\\design_1_FourBitAdder_0_0\\design_1_FourBitAdder_0_0.xci",
+        "inst_hier_path": "FourBitAdder_0"
+      },
+      "Mux8x7Seg_0": {
+        "vlnv": "xilinx.com:user:Mux8x7Seg:1.0",
+        "xci_name": "design_1_Mux8x7Seg_0_0",
+        "xci_path": "ip\\design_1_Mux8x7Seg_0_0\\design_1_Mux8x7Seg_0_0.xci",
+        "inst_hier_path": "Mux8x7Seg_0"
+      },
+      "DoubleDabbler12Bit_0": {
+        "vlnv": "xilinx.com:user:DoubleDabbler12Bit:1.0",
+        "xci_name": "design_1_DoubleDabbler12Bit_0_0",
+        "xci_path": "ip\\design_1_DoubleDabbler12Bit_0_0\\design_1_DoubleDabbler12Bit_0_0.xci",
+        "inst_hier_path": "DoubleDabbler12Bit_0"
+      },
+      "xlconcat_0": {
+        "vlnv": "xilinx.com:ip:xlconcat:2.1",
+        "xci_name": "design_1_xlconcat_0_0",
+        "xci_path": "ip\\design_1_xlconcat_0_0\\design_1_xlconcat_0_0.xci",
+        "inst_hier_path": "xlconcat_0",
+        "parameters": {
+          "NUM_PORTS": {
+            "value": "5"
+          }
+        }
+      }
+    },
+    "nets": {
+      "A_0_0_1": {
+        "ports": [
+          "A_0",
+          "FourBitAdder_0/A_0"
+        ]
+      },
+      "A_1_0_1": {
+        "ports": [
+          "A_1",
+          "FourBitAdder_0/A_1"
+        ]
+      },
+      "A_2_0_1": {
+        "ports": [
+          "A_2",
+          "FourBitAdder_0/A_2"
+        ]
+      },
+      "A_3_0_1": {
+        "ports": [
+          "A_3",
+          "FourBitAdder_0/A_3"
+        ]
+      },
+      "B_0_0_1": {
+        "ports": [
+          "B_0",
+          "FourBitAdder_0/B_0"
+        ]
+      },
+      "B_1_0_1": {
+        "ports": [
+          "B_1",
+          "FourBitAdder_0/B_1"
+        ]
+      },
+      "B_2_0_1": {
+        "ports": [
+          "B_2",
+          "FourBitAdder_0/B_2"
+        ]
+      },
+      "B_3_0_1": {
+        "ports": [
+          "B_3",
+          "FourBitAdder_0/B_3"
+        ]
+      },
+      "CLK_0_1": {
+        "ports": [
+          "CLK",
+          "Mux8x7Seg_0/CLK"
+        ]
+      },
+      "Cin_0_1": {
+        "ports": [
+          "Cin",
+          "FourBitAdder_0/Cin"
+        ]
+      },
+      "DoubleDabbler12Bit_0_bcd_hun": {
+        "ports": [
+          "DoubleDabbler12Bit_0/bcd_hun",
+          "Mux8x7Seg_0/d2"
+        ]
+      },
+      "DoubleDabbler12Bit_0_bcd_ten": {
+        "ports": [
+          "DoubleDabbler12Bit_0/bcd_ten",
+          "Mux8x7Seg_0/d1"
+        ]
+      },
+      "DoubleDabbler12Bit_0_bcd_tho": {
+        "ports": [
+          "DoubleDabbler12Bit_0/bcd_tho",
+          "Mux8x7Seg_0/d3"
+        ]
+      },
+      "DoubleDabbler12Bit_0_bcd_uni": {
+        "ports": [
+          "DoubleDabbler12Bit_0/bcd_uni",
+          "Mux8x7Seg_0/d0"
+        ]
+      },
+      "FourBitAdder_0_Cout": {
+        "ports": [
+          "FourBitAdder_0/Cout",
+          "xlconcat_0/In4"
+        ]
+      },
+      "FourBitAdder_0_S_0": {
+        "ports": [
+          "FourBitAdder_0/S_0",
+          "xlconcat_0/In0"
+        ]
+      },
+      "FourBitAdder_0_S_1": {
+        "ports": [
+          "FourBitAdder_0/S_1",
+          "xlconcat_0/In1"
+        ]
+      },
+      "FourBitAdder_0_S_2": {
+        "ports": [
+          "FourBitAdder_0/S_2",
+          "xlconcat_0/In2"
+        ]
+      },
+      "FourBitAdder_0_S_3": {
+        "ports": [
+          "FourBitAdder_0/S_3",
+          "xlconcat_0/In3"
+        ]
+      },
+      "Mux8x7Seg_0_AN": {
+        "ports": [
+          "Mux8x7Seg_0/AN",
+          "AN"
+        ]
+      },
+      "Mux8x7Seg_0_DP": {
+        "ports": [
+          "Mux8x7Seg_0/DP",
+          "DP"
+        ]
+      },
+      "Mux8x7Seg_0_SEG": {
+        "ports": [
+          "Mux8x7Seg_0/SEG",
+          "SEG"
+        ]
+      },
+      "RESET_0_1": {
+        "ports": [
+          "RESET",
+          "Mux8x7Seg_0/RESET"
+        ]
+      },
+      "xlconcat_0_dout": {
+        "ports": [
+          "xlconcat_0/dout",
+          "DoubleDabbler12Bit_0/hex_in"
+        ]
+      }
+    }
+  }
+}

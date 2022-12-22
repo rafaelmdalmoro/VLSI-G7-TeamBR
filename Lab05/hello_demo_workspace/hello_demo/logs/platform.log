@@ -1,0 +1,1040 @@
+TRACE::2022-12-01.16:35:32::SCWPlatform::Trying to open the hw design at C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:32::SCWPlatform::DSA given C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:32::SCWPlatform::DSA absoulate path C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:32::SCWPlatform::DSA directory C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw
+TRACE::2022-12-01.16:35:32::SCWPlatform:: Platform Path C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:32::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2022-12-01.16:35:32::SCWPlatform::Do not have an existing db opened. 
+TRACE::2022-12-01.16:35:33::SCWPlatform::Opened new HwDB with name design_1_wrapper_0
+TRACE::2022-12-01.16:35:33::SCWWriter::formatted JSON is {
+	"platformName":	"hello_demo",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"hello_demo",
+	"platHandOff":	"C:/Users/vikto/Experiments/Lab05/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	""
+}
+TRACE::2022-12-01.16:35:33::SCWWriter::formatted JSON is {
+	"platformName":	"hello_demo",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"hello_demo",
+	"platHandOff":	"C:/Users/vikto/Experiments/Lab05/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"hello_demo",
+	"systems":	[{
+			"systemName":	"hello_demo",
+			"systemDesc":	"hello_demo",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"hello_demo"
+		}]
+}
+TRACE::2022-12-01.16:35:33::SCWPlatform::Boot application domains not present, creating them
+TRACE::2022-12-01.16:35:33::SCWPlatform::Pure FPGA device, no boot application will be created.
+TRACE::2022-12-01.16:35:33::SCWWriter::formatted JSON is {
+	"platformName":	"hello_demo",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"hello_demo",
+	"platHandOff":	"C:/Users/vikto/Experiments/Lab05/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"hello_demo",
+	"systems":	[{
+			"systemName":	"hello_demo",
+			"systemDesc":	"hello_demo",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"hello_demo"
+		}]
+}
+TRACE::2022-12-01.16:35:33::SCWPlatform::Trying to open the hw design at C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:33::SCWPlatform::DSA given C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:33::SCWPlatform::DSA absoulate path C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:33::SCWPlatform::DSA directory C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw
+TRACE::2022-12-01.16:35:33::SCWPlatform:: Platform Path C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:33::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2022-12-01.16:35:33::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-12-01.16:35:33::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-12-01.16:35:33::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-12-01.16:35:33::SCWPlatform::Trying to open the hw design at C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:33::SCWPlatform::DSA given C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:33::SCWPlatform::DSA absoulate path C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:33::SCWPlatform::DSA directory C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw
+TRACE::2022-12-01.16:35:33::SCWPlatform:: Platform Path C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:33::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2022-12-01.16:35:33::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-12-01.16:35:33::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-12-01.16:35:33::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-12-01.16:35:33::SCWPlatform::Trying to open the hw design at C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:33::SCWPlatform::DSA given C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:33::SCWPlatform::DSA absoulate path C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:33::SCWPlatform::DSA directory C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw
+TRACE::2022-12-01.16:35:33::SCWPlatform:: Platform Path C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:33::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2022-12-01.16:35:33::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-12-01.16:35:33::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-12-01.16:35:33::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-12-01.16:35:33::SCWDomain::checking for install qemu data   : 
+TRACE::2022-12-01.16:35:33::SCWPlatform::Trying to open the hw design at C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:33::SCWPlatform::DSA given C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:33::SCWPlatform::DSA absoulate path C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:33::SCWPlatform::DSA directory C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw
+TRACE::2022-12-01.16:35:33::SCWPlatform:: Platform Path C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:33::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2022-12-01.16:35:33::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-12-01.16:35:33::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-12-01.16:35:33::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-12-01.16:35:33::SCWPlatform::Trying to open the hw design at C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:33::SCWPlatform::DSA given C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:33::SCWPlatform::DSA absoulate path C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:33::SCWPlatform::DSA directory C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw
+TRACE::2022-12-01.16:35:33::SCWPlatform:: Platform Path C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:33::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2022-12-01.16:35:33::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-12-01.16:35:33::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-12-01.16:35:33::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-12-01.16:35:33::SCWPlatform::Trying to open the hw design at C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:33::SCWPlatform::DSA given C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:33::SCWPlatform::DSA absoulate path C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:33::SCWPlatform::DSA directory C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw
+TRACE::2022-12-01.16:35:33::SCWPlatform:: Platform Path C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:33::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2022-12-01.16:35:33::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-12-01.16:35:33::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-12-01.16:35:33::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-12-01.16:35:33::SCWMssOS::Checking the sw design at  C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-01.16:35:33::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2022-12-01.16:35:33::SCWMssOS::No sw design opened at  C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-01.16:35:33::SCWMssOS::mss does not exists at C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-01.16:35:33::SCWMssOS::Creating sw design at  C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-01.16:35:33::SCWMssOS::Adding the swdes entry, created swdb C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/microblaze_0/standalone_domain/bsp/system.mss with des name C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-01.16:35:33::SCWMssOS::updating the scw layer changes to swdes at   C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-01.16:35:33::SCWMssOS::Writing mss at C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-01.16:35:33::SCWMssOS::Completed writing the mss file at C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/microblaze_0/standalone_domain/bsp
+TRACE::2022-12-01.16:35:33::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2022-12-01.16:35:33::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2022-12-01.16:35:33::SCWMssOS::Completed writing the mss file at C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/microblaze_0/standalone_domain/bsp
+TRACE::2022-12-01.16:35:33::SCWMssOS::Forcing BSP Sources regeneration.
+TRACE::2022-12-01.16:35:39::SCWMssOS::Saving the mss changes C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-01.16:35:39::SCWMssOS::Adding the swdes entry, mss present, able to open swdb C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/microblaze_0/standalone_domain/bsp/system.mss with des name system
+TRACE::2022-12-01.16:35:39::SCWMssOS::Writing the mss file completed C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-01.16:35:39::SCWMssOS::Commit changes completed.
+TRACE::2022-12-01.16:35:39::SCWPlatform::Trying to open the hw design at C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:39::SCWPlatform::DSA given C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:39::SCWPlatform::DSA absoulate path C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:39::SCWPlatform::DSA directory C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw
+TRACE::2022-12-01.16:35:39::SCWPlatform:: Platform Path C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:39::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2022-12-01.16:35:39::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-12-01.16:35:39::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-12-01.16:35:39::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-12-01.16:35:39::SCWMssOS::Checking the sw design at  C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-01.16:35:39::SCWMssOS::DEBUG:  swdes dump  C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-12-01.16:35:39::SCWMssOS::Sw design exists and opened at  C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-01.16:35:39::SCWPlatform::Trying to open the hw design at C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:39::SCWPlatform::DSA given C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:39::SCWPlatform::DSA absoulate path C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:39::SCWPlatform::DSA directory C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw
+TRACE::2022-12-01.16:35:39::SCWPlatform:: Platform Path C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:39::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2022-12-01.16:35:39::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-12-01.16:35:39::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-12-01.16:35:39::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-12-01.16:35:39::SCWMssOS::Checking the sw design at  C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-01.16:35:39::SCWMssOS::DEBUG:  swdes dump  C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-12-01.16:35:39::SCWMssOS::Sw design exists and opened at  C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-01.16:35:39::SCWPlatform::Trying to open the hw design at C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:39::SCWPlatform::DSA given C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:39::SCWPlatform::DSA absoulate path C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:39::SCWPlatform::DSA directory C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw
+TRACE::2022-12-01.16:35:39::SCWPlatform:: Platform Path C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:39::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2022-12-01.16:35:39::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-12-01.16:35:39::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-12-01.16:35:39::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-12-01.16:35:39::SCWMssOS::Checking the sw design at  C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-01.16:35:39::SCWMssOS::DEBUG:  swdes dump  C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-12-01.16:35:39::SCWMssOS::Sw design exists and opened at  C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-01.16:35:39::SCWWriter::formatted JSON is {
+	"platformName":	"hello_demo",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"hello_demo",
+	"platHandOff":	"C:/Users/vikto/Experiments/Lab05/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"hello_demo",
+	"systems":	[{
+			"systemName":	"hello_demo",
+			"systemDesc":	"hello_demo",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"hello_demo",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"b07374f88f8351eb9e2fdf540c6ab14f",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2022-12-01.16:35:39::SCWPlatform::Started generating the artifacts platform hello_demo
+TRACE::2022-12-01.16:35:39::SCWPlatform::Sanity checking of platform is completed
+LOG::2022-12-01.16:35:39::SCWPlatform::Started generating the artifacts for system configuration hello_demo
+LOG::2022-12-01.16:35:39::SCWSystem::Checking the domain standalone_domain
+LOG::2022-12-01.16:35:39::SCWSystem::Not a boot domain 
+LOG::2022-12-01.16:35:39::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2022-12-01.16:35:39::SCWDomain::Generating domain artifcats
+TRACE::2022-12-01.16:35:39::SCWMssOS::Generating standalone artifcats
+TRACE::2022-12-01.16:35:39::SCWMssOS:: Copying the user libraries. 
+TRACE::2022-12-01.16:35:39::SCWPlatform::Trying to open the hw design at C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:39::SCWPlatform::DSA given C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:39::SCWPlatform::DSA absoulate path C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:39::SCWPlatform::DSA directory C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw
+TRACE::2022-12-01.16:35:39::SCWPlatform:: Platform Path C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:39::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2022-12-01.16:35:39::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-12-01.16:35:39::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-12-01.16:35:39::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-12-01.16:35:39::SCWMssOS::Checking the sw design at  C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-01.16:35:39::SCWMssOS::DEBUG:  swdes dump  C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-12-01.16:35:39::SCWMssOS::Sw design exists and opened at  C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-01.16:35:39::SCWMssOS::Completed writing the mss file at C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/microblaze_0/standalone_domain/bsp
+TRACE::2022-12-01.16:35:39::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-01.16:35:39::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2022-12-01.16:35:39::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2022-12-01.16:35:39::SCWDomain::Skipping the build for domain :  standalone_domain
+TRACE::2022-12-01.16:35:39::SCWMssOS::skipping the bsp build ... 
+TRACE::2022-12-01.16:35:39::SCWMssOS::Copying to export directory.
+TRACE::2022-12-01.16:35:39::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2022-12-01.16:35:39::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2022-12-01.16:35:39::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2022-12-01.16:35:39::SCWSystem::Completed Processing the sysconfig hello_demo
+LOG::2022-12-01.16:35:39::SCWPlatform::Completed generating the artifacts for system configuration hello_demo
+TRACE::2022-12-01.16:35:39::SCWPlatform::Started preparing the platform 
+TRACE::2022-12-01.16:35:39::SCWSystem::Writing the bif file for system config hello_demo
+TRACE::2022-12-01.16:35:39::SCWSystem::dir created 
+TRACE::2022-12-01.16:35:39::SCWSystem::Writing the bif 
+TRACE::2022-12-01.16:35:39::SCWPlatform::Started writing the spfm file 
+TRACE::2022-12-01.16:35:39::SCWPlatform::Started writing the xpfm file 
+TRACE::2022-12-01.16:35:39::SCWPlatform::Completed generating the platform
+TRACE::2022-12-01.16:35:39::SCWMssOS::Saving the mss changes C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-01.16:35:39::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-12-01.16:35:39::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-12-01.16:35:39::SCWMssOS::Commit changes completed.
+TRACE::2022-12-01.16:35:39::SCWPlatform::Trying to open the hw design at C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:39::SCWPlatform::DSA given C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:39::SCWPlatform::DSA absoulate path C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:39::SCWPlatform::DSA directory C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw
+TRACE::2022-12-01.16:35:39::SCWPlatform:: Platform Path C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:39::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2022-12-01.16:35:39::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-12-01.16:35:39::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-12-01.16:35:39::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-12-01.16:35:39::SCWMssOS::Checking the sw design at  C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-01.16:35:39::SCWMssOS::DEBUG:  swdes dump  C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-12-01.16:35:39::SCWMssOS::Sw design exists and opened at  C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-01.16:35:39::SCWPlatform::Trying to open the hw design at C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:39::SCWPlatform::DSA given C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:39::SCWPlatform::DSA absoulate path C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:39::SCWPlatform::DSA directory C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw
+TRACE::2022-12-01.16:35:39::SCWPlatform:: Platform Path C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:39::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2022-12-01.16:35:39::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-12-01.16:35:39::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-12-01.16:35:39::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-12-01.16:35:39::SCWMssOS::Checking the sw design at  C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-01.16:35:39::SCWMssOS::DEBUG:  swdes dump  C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-12-01.16:35:39::SCWMssOS::Sw design exists and opened at  C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-01.16:35:39::SCWPlatform::Trying to open the hw design at C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:39::SCWPlatform::DSA given C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:39::SCWPlatform::DSA absoulate path C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:39::SCWPlatform::DSA directory C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw
+TRACE::2022-12-01.16:35:39::SCWPlatform:: Platform Path C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:39::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2022-12-01.16:35:39::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-12-01.16:35:39::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-12-01.16:35:39::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-12-01.16:35:39::SCWMssOS::Checking the sw design at  C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-01.16:35:39::SCWMssOS::DEBUG:  swdes dump  C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-12-01.16:35:39::SCWMssOS::Sw design exists and opened at  C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-01.16:35:39::SCWWriter::formatted JSON is {
+	"platformName":	"hello_demo",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"hello_demo",
+	"platHandOff":	"C:/Users/vikto/Experiments/Lab05/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"hello_demo",
+	"systems":	[{
+			"systemName":	"hello_demo",
+			"systemDesc":	"hello_demo",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"hello_demo",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"b07374f88f8351eb9e2fdf540c6ab14f",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2022-12-01.16:35:39::SCWPlatform::updated the xpfm file.
+TRACE::2022-12-01.16:35:39::SCWPlatform::Trying to open the hw design at C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:39::SCWPlatform::DSA given C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:39::SCWPlatform::DSA absoulate path C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:39::SCWPlatform::DSA directory C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw
+TRACE::2022-12-01.16:35:39::SCWPlatform:: Platform Path C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:39::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2022-12-01.16:35:39::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-12-01.16:35:39::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-12-01.16:35:39::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-12-01.16:35:39::SCWMssOS::Checking the sw design at  C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-01.16:35:39::SCWMssOS::DEBUG:  swdes dump  C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-12-01.16:35:39::SCWMssOS::Sw design exists and opened at  C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-01.16:35:39::SCWMssOS::Saving the mss changes C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-01.16:35:39::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-12-01.16:35:39::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-12-01.16:35:39::SCWMssOS::Commit changes completed.
+TRACE::2022-12-01.16:35:39::SCWPlatform::Trying to open the hw design at C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:39::SCWPlatform::DSA given C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:39::SCWPlatform::DSA absoulate path C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:39::SCWPlatform::DSA directory C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw
+TRACE::2022-12-01.16:35:39::SCWPlatform:: Platform Path C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:39::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2022-12-01.16:35:39::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-12-01.16:35:39::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-12-01.16:35:39::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-12-01.16:35:40::SCWMssOS::Checking the sw design at  C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-01.16:35:40::SCWMssOS::DEBUG:  swdes dump  C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-12-01.16:35:40::SCWMssOS::Sw design exists and opened at  C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-01.16:35:40::SCWPlatform::Trying to open the hw design at C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:40::SCWPlatform::DSA given C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:40::SCWPlatform::DSA absoulate path C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:40::SCWPlatform::DSA directory C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw
+TRACE::2022-12-01.16:35:40::SCWPlatform:: Platform Path C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:40::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2022-12-01.16:35:40::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-12-01.16:35:40::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-12-01.16:35:40::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-12-01.16:35:40::SCWMssOS::Checking the sw design at  C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-01.16:35:40::SCWMssOS::DEBUG:  swdes dump  C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-12-01.16:35:40::SCWMssOS::Sw design exists and opened at  C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-01.16:35:40::SCWPlatform::Trying to open the hw design at C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:40::SCWPlatform::DSA given C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:40::SCWPlatform::DSA absoulate path C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:40::SCWPlatform::DSA directory C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw
+TRACE::2022-12-01.16:35:40::SCWPlatform:: Platform Path C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:40::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2022-12-01.16:35:40::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-12-01.16:35:40::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-12-01.16:35:40::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-12-01.16:35:40::SCWMssOS::Checking the sw design at  C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-01.16:35:40::SCWMssOS::DEBUG:  swdes dump  C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-12-01.16:35:40::SCWMssOS::Sw design exists and opened at  C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-01.16:35:40::SCWWriter::formatted JSON is {
+	"platformName":	"hello_demo",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"hello_demo",
+	"platHandOff":	"C:/Users/vikto/Experiments/Lab05/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"hello_demo",
+	"systems":	[{
+			"systemName":	"hello_demo",
+			"systemDesc":	"hello_demo",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"hello_demo",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"b07374f88f8351eb9e2fdf540c6ab14f",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2022-12-01.16:35:40::SCWPlatform::Trying to open the hw design at C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:40::SCWPlatform::DSA given C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:40::SCWPlatform::DSA absoulate path C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:40::SCWPlatform::DSA directory C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw
+TRACE::2022-12-01.16:35:40::SCWPlatform:: Platform Path C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:40::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2022-12-01.16:35:40::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-12-01.16:35:40::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-12-01.16:35:40::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-12-01.16:35:40::SCWMssOS::Checking the sw design at  C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-01.16:35:40::SCWMssOS::DEBUG:  swdes dump  C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-12-01.16:35:40::SCWMssOS::Sw design exists and opened at  C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-01.16:35:40::SCWPlatform::Trying to open the hw design at C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:40::SCWPlatform::DSA given C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:40::SCWPlatform::DSA absoulate path C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:40::SCWPlatform::DSA directory C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw
+TRACE::2022-12-01.16:35:40::SCWPlatform:: Platform Path C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:40::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2022-12-01.16:35:40::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-12-01.16:35:40::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-12-01.16:35:40::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-12-01.16:35:40::SCWMssOS::Checking the sw design at  C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-01.16:35:40::SCWMssOS::DEBUG:  swdes dump  C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-12-01.16:35:40::SCWMssOS::Sw design exists and opened at  C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-01.16:35:40::SCWPlatform::Trying to open the hw design at C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:40::SCWPlatform::DSA given C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:40::SCWPlatform::DSA absoulate path C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:40::SCWPlatform::DSA directory C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw
+TRACE::2022-12-01.16:35:40::SCWPlatform:: Platform Path C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:40::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2022-12-01.16:35:40::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-12-01.16:35:40::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-12-01.16:35:40::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-12-01.16:35:40::SCWMssOS::Checking the sw design at  C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-01.16:35:40::SCWMssOS::DEBUG:  swdes dump  C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-12-01.16:35:40::SCWMssOS::Sw design exists and opened at  C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-01.16:35:40::SCWMssOS::Saving the mss changes C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-01.16:35:40::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-12-01.16:35:40::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-12-01.16:35:40::SCWMssOS::Commit changes completed.
+TRACE::2022-12-01.16:35:40::SCWPlatform::Trying to open the hw design at C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:40::SCWPlatform::DSA given C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:40::SCWPlatform::DSA absoulate path C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:40::SCWPlatform::DSA directory C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw
+TRACE::2022-12-01.16:35:40::SCWPlatform:: Platform Path C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:40::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2022-12-01.16:35:40::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-12-01.16:35:40::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-12-01.16:35:40::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-12-01.16:35:40::SCWMssOS::Checking the sw design at  C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-01.16:35:40::SCWMssOS::DEBUG:  swdes dump  C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-12-01.16:35:40::SCWMssOS::Sw design exists and opened at  C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-01.16:35:40::SCWPlatform::Trying to open the hw design at C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:40::SCWPlatform::DSA given C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:40::SCWPlatform::DSA absoulate path C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:40::SCWPlatform::DSA directory C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw
+TRACE::2022-12-01.16:35:40::SCWPlatform:: Platform Path C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:40::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2022-12-01.16:35:40::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-12-01.16:35:40::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-12-01.16:35:40::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-12-01.16:35:40::SCWMssOS::Checking the sw design at  C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-01.16:35:40::SCWMssOS::DEBUG:  swdes dump  C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-12-01.16:35:40::SCWMssOS::Sw design exists and opened at  C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-01.16:35:40::SCWPlatform::Trying to open the hw design at C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:40::SCWPlatform::DSA given C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:40::SCWPlatform::DSA absoulate path C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:40::SCWPlatform::DSA directory C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw
+TRACE::2022-12-01.16:35:40::SCWPlatform:: Platform Path C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:40::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2022-12-01.16:35:40::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-12-01.16:35:40::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-12-01.16:35:40::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-12-01.16:35:40::SCWMssOS::Checking the sw design at  C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-01.16:35:40::SCWMssOS::DEBUG:  swdes dump  C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-12-01.16:35:40::SCWMssOS::Sw design exists and opened at  C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-01.16:35:40::SCWWriter::formatted JSON is {
+	"platformName":	"hello_demo",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"hello_demo",
+	"platHandOff":	"C:/Users/vikto/Experiments/Lab05/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"hello_demo",
+	"systems":	[{
+			"systemName":	"hello_demo",
+			"systemDesc":	"hello_demo",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"hello_demo",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"b07374f88f8351eb9e2fdf540c6ab14f",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2022-12-01.16:35:40::SCWMssOS::Saving the mss changes C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-01.16:35:40::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-12-01.16:35:40::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-12-01.16:35:40::SCWMssOS::Commit changes completed.
+TRACE::2022-12-01.16:35:40::SCWPlatform::Trying to open the hw design at C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:40::SCWPlatform::DSA given C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:40::SCWPlatform::DSA absoulate path C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:40::SCWPlatform::DSA directory C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw
+TRACE::2022-12-01.16:35:40::SCWPlatform:: Platform Path C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:40::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2022-12-01.16:35:40::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-12-01.16:35:40::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-12-01.16:35:40::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-12-01.16:35:40::SCWMssOS::Checking the sw design at  C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-01.16:35:40::SCWMssOS::DEBUG:  swdes dump  C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-12-01.16:35:40::SCWMssOS::Sw design exists and opened at  C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-01.16:35:40::SCWPlatform::Trying to open the hw design at C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:40::SCWPlatform::DSA given C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:40::SCWPlatform::DSA absoulate path C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:40::SCWPlatform::DSA directory C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw
+TRACE::2022-12-01.16:35:40::SCWPlatform:: Platform Path C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:40::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2022-12-01.16:35:40::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-12-01.16:35:40::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-12-01.16:35:40::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-12-01.16:35:40::SCWMssOS::Checking the sw design at  C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-01.16:35:40::SCWMssOS::DEBUG:  swdes dump  C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-12-01.16:35:40::SCWMssOS::Sw design exists and opened at  C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-01.16:35:40::SCWPlatform::Trying to open the hw design at C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:40::SCWPlatform::DSA given C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:40::SCWPlatform::DSA absoulate path C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:40::SCWPlatform::DSA directory C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw
+TRACE::2022-12-01.16:35:40::SCWPlatform:: Platform Path C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:40::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2022-12-01.16:35:40::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-12-01.16:35:40::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-12-01.16:35:40::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-12-01.16:35:40::SCWMssOS::Checking the sw design at  C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-01.16:35:40::SCWMssOS::DEBUG:  swdes dump  C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-12-01.16:35:40::SCWMssOS::Sw design exists and opened at  C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-01.16:35:40::SCWWriter::formatted JSON is {
+	"platformName":	"hello_demo",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"hello_demo",
+	"platHandOff":	"C:/Users/vikto/Experiments/Lab05/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"hello_demo",
+	"systems":	[{
+			"systemName":	"hello_demo",
+			"systemDesc":	"hello_demo",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"hello_demo",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"b07374f88f8351eb9e2fdf540c6ab14f",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2022-12-01.16:35:41::SCWPlatform::Clearing the existing platform
+TRACE::2022-12-01.16:35:41::SCWSystem::Clearing the existing sysconfig
+TRACE::2022-12-01.16:35:41::SCWMssOS::Removing the swdes entry for  C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-01.16:35:41::SCWSystem::Clearing the domains completed.
+TRACE::2022-12-01.16:35:41::SCWPlatform::Clearing the opened hw db.
+TRACE::2022-12-01.16:35:41::SCWPlatform::DSA given C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:41::SCWPlatform::DSA absoulate path C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:41::SCWPlatform:: Platform location is C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw
+TRACE::2022-12-01.16:35:41::SCWPlatform:: Platform Path C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:41::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2022-12-01.16:35:41::SCWPlatform::Removing the HwDB with name C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:41::SCWPlatform::Trying to open the hw design at C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:41::SCWPlatform::DSA given C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:41::SCWPlatform::DSA absoulate path C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:42::SCWPlatform::DSA directory C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw
+TRACE::2022-12-01.16:35:42::SCWPlatform:: Platform Path C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:42::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2022-12-01.16:35:42::SCWPlatform::Do not have an existing db opened. 
+TRACE::2022-12-01.16:35:42::SCWPlatform::Opened new HwDB with name design_1_wrapper_1
+TRACE::2022-12-01.16:35:42::SCWReader::Active system found as  hello_demo
+TRACE::2022-12-01.16:35:42::SCWReader::Handling sysconfig hello_demo
+TRACE::2022-12-01.16:35:42::SCWDomain::checking for install qemu data   : 
+TRACE::2022-12-01.16:35:42::SCWPlatform::Trying to open the hw design at C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:42::SCWPlatform::DSA given C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:42::SCWPlatform::DSA absoulate path C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:42::SCWPlatform::DSA directory C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw
+TRACE::2022-12-01.16:35:42::SCWPlatform:: Platform Path C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:42::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2022-12-01.16:35:42::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2022-12-01.16:35:42::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2022-12-01.16:35:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-12-01.16:35:42::SCWPlatform::Trying to open the hw design at C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:42::SCWPlatform::DSA given C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:42::SCWPlatform::DSA absoulate path C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:42::SCWPlatform::DSA directory C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw
+TRACE::2022-12-01.16:35:42::SCWPlatform:: Platform Path C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:42::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2022-12-01.16:35:42::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2022-12-01.16:35:42::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2022-12-01.16:35:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-12-01.16:35:42::SCWPlatform::Trying to open the hw design at C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:42::SCWPlatform::DSA given C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:42::SCWPlatform::DSA absoulate path C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:42::SCWPlatform::DSA directory C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw
+TRACE::2022-12-01.16:35:42::SCWPlatform:: Platform Path C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:42::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2022-12-01.16:35:42::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2022-12-01.16:35:42::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2022-12-01.16:35:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-12-01.16:35:42::SCWPlatform::Trying to open the hw design at C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:42::SCWPlatform::DSA given C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:42::SCWPlatform::DSA absoulate path C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:42::SCWPlatform::DSA directory C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw
+TRACE::2022-12-01.16:35:42::SCWPlatform:: Platform Path C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:42::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2022-12-01.16:35:42::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2022-12-01.16:35:42::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2022-12-01.16:35:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-12-01.16:35:42::SCWMssOS::Checking the sw design at  C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-01.16:35:42::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2022-12-01.16:35:42::SCWMssOS::No sw design opened at  C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-01.16:35:42::SCWMssOS::mss exists loading the mss file  C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-01.16:35:42::SCWMssOS::Opened the sw design from mss  C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-01.16:35:42::SCWMssOS::Adding the swdes entry C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/microblaze_0/standalone_domain/bsp/system.mss with des name system
+TRACE::2022-12-01.16:35:42::SCWMssOS::updating the scw layer about changes
+TRACE::2022-12-01.16:35:42::SCWMssOS::Opened the sw design.  C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-01.16:35:42::SCWMssOS::Saving the mss changes C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-01.16:35:42::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-12-01.16:35:42::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-12-01.16:35:42::SCWMssOS::Commit changes completed.
+TRACE::2022-12-01.16:35:42::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2022-12-01.16:35:42::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2022-12-01.16:35:42::SCWPlatform::Trying to open the hw design at C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:42::SCWPlatform::DSA given C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:42::SCWPlatform::DSA absoulate path C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:42::SCWPlatform::DSA directory C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw
+TRACE::2022-12-01.16:35:42::SCWPlatform:: Platform Path C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:35:42::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2022-12-01.16:35:42::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2022-12-01.16:35:42::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2022-12-01.16:35:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-12-01.16:35:42::SCWMssOS::Checking the sw design at  C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-01.16:35:42::SCWMssOS::DEBUG:  swdes dump  C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-12-01.16:35:42::SCWMssOS::Sw design exists and opened at  C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-01.16:35:42::SCWReader::No isolation master present  
+LOG::2022-12-01.16:36:21::SCWPlatform::Started generating the artifacts platform hello_demo
+TRACE::2022-12-01.16:36:21::SCWPlatform::Sanity checking of platform is completed
+LOG::2022-12-01.16:36:21::SCWPlatform::Started generating the artifacts for system configuration hello_demo
+LOG::2022-12-01.16:36:21::SCWSystem::Checking the domain standalone_domain
+LOG::2022-12-01.16:36:21::SCWSystem::Not a boot domain 
+LOG::2022-12-01.16:36:21::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2022-12-01.16:36:21::SCWDomain::Generating domain artifcats
+TRACE::2022-12-01.16:36:21::SCWMssOS::Generating standalone artifcats
+TRACE::2022-12-01.16:36:21::SCWMssOS:: Copying the user libraries. 
+TRACE::2022-12-01.16:36:21::SCWPlatform::Trying to open the hw design at C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:36:21::SCWPlatform::DSA given C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:36:21::SCWPlatform::DSA absoulate path C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:36:21::SCWPlatform::DSA directory C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw
+TRACE::2022-12-01.16:36:21::SCWPlatform:: Platform Path C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:36:21::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2022-12-01.16:36:21::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2022-12-01.16:36:21::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2022-12-01.16:36:21::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-12-01.16:36:21::SCWMssOS::Checking the sw design at  C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-01.16:36:21::SCWMssOS::DEBUG:  swdes dump  C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-12-01.16:36:21::SCWMssOS::Sw design exists and opened at  C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-01.16:36:21::SCWMssOS::Completed writing the mss file at C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/microblaze_0/standalone_domain/bsp
+TRACE::2022-12-01.16:36:21::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-01.16:36:21::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2022-12-01.16:36:21::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2022-12-01.16:36:21::SCWDomain::Building the domain as part of full build :  standalone_domain
+TRACE::2022-12-01.16:36:21::SCWMssOS::doing bsp build ... 
+TRACE::2022-12-01.16:36:21::SCWMssOS::System Command Ran  C: & cd  C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/microblaze_0/standalone_domain/bsp & make 
+TRACE::2022-12-01.16:36:22::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2022-12-01.16:36:22::SCWMssOS::'Finished building libraries sequentially.'
+
+TRACE::2022-12-01.16:36:22::SCWMssOS::make -j 2 --no-print-directory par_libs
+
+TRACE::2022-12-01.16:36:22::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_8/src"
+
+TRACE::2022-12-01.16:36:22::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_8/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2022-12-01.16:36:22::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2022-12-01.16:36:22::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-12-01.16:36:22::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_16/src"
+
+TRACE::2022-12-01.16:36:22::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_16/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2022-12-01.16:36:22::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2022-12-01.16:36:22::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-12-01.16:36:22::SCWMssOS::"Running Make include in microblaze_0/libsrc/intc_v3_15/src"
+
+TRACE::2022-12-01.16:36:22::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_15/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2022-12-01.16:36:22::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2022-12-01.16:36:22::SCWMssOS:: -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-12-01.16:36:22::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v8_0/src"
+
+TRACE::2022-12-01.16:36:22::SCWMssOS::make -C microblaze_0/libsrc/standalone_v8_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2022-12-01.16:36:22::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections 
+TRACE::2022-12-01.16:36:22::SCWMssOS::-Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-12-01.16:36:22::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_7/src"
+
+TRACE::2022-12-01.16:36:22::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2022-12-01.16:36:22::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2022-12-01.16:36:22::SCWMssOS::all -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-12-01.16:36:23::SCWMssOS::"Running Make libs in microblaze_0/libsrc/bram_v4_8/src"
+
+TRACE::2022-12-01.16:36:23::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_8/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2022-12-01.16:36:23::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2022-12-01.16:36:23::SCWMssOS::xtra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-12-01.16:36:23::SCWMssOS::"Running Make libs in microblaze_0/libsrc/cpu_v2_16/src"
+
+TRACE::2022-12-01.16:36:23::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_16/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2022-12-01.16:36:23::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2022-12-01.16:36:23::SCWMssOS::xtra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-12-01.16:36:24::SCWMssOS::"Running Make libs in microblaze_0/libsrc/intc_v3_15/src"
+
+TRACE::2022-12-01.16:36:24::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_15/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_
+TRACE::2022-12-01.16:36:24::SCWMssOS::FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -W
+TRACE::2022-12-01.16:36:24::SCWMssOS::extra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-12-01.16:36:25::SCWMssOS::"Running Make libs in microblaze_0/libsrc/standalone_v8_0/src"
+
+TRACE::2022-12-01.16:36:25::SCWMssOS::make -C microblaze_0/libsrc/standalone_v8_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2022-12-01.16:36:25::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wa
+TRACE::2022-12-01.16:36:25::SCWMssOS::ll -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-12-01.16:36:25::SCWMssOS::"Running Make libs in microblaze_0/libsrc/uartlite_v3_7/src"
+
+TRACE::2022-12-01.16:36:25::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2022-12-01.16:36:25::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2022-12-01.16:36:25::SCWMssOS:: -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-12-01.16:36:29::SCWMssOS::"DEBUG NON_LTO_OBJECTS is ../../../lib/microblaze_interrupt_handler.o"
+
+TRACE::2022-12-01.16:36:30::SCWMssOS::'Finished building libraries parallelly.'
+
+TRACE::2022-12-01.16:36:30::SCWMssOS::make --no-print-directory archive
+
+TRACE::2022-12-01.16:36:30::SCWMssOS::mb-ar -r  microblaze_0/lib/libxil.a microblaze_0/lib/_exit.o microblaze_0/lib/errno.o microblaze_0/lib/fcntl.o microblaze_0/lib
+TRACE::2022-12-01.16:36:30::SCWMssOS::/hw_exception_handler.o microblaze_0/lib/inbyte.o microblaze_0/lib/microblaze_disable_dcache.o microblaze_0/lib/microblaze_disa
+TRACE::2022-12-01.16:36:30::SCWMssOS::ble_exceptions.o microblaze_0/lib/microblaze_disable_icache.o microblaze_0/lib/microblaze_disable_interrupts.o microblaze_0/lib
+TRACE::2022-12-01.16:36:30::SCWMssOS::/microblaze_enable_dcache.o microblaze_0/lib/microblaze_enable_exceptions.o microblaze_0/lib/microblaze_enable_icache.o microbl
+TRACE::2022-12-01.16:36:30::SCWMssOS::aze_0/lib/microblaze_enable_interrupts.o microblaze_0/lib/microblaze_exception_handler.o microblaze_0/lib/microblaze_flush_cach
+TRACE::2022-12-01.16:36:30::SCWMssOS::e_ext.o microblaze_0/lib/microblaze_flush_cache_ext_range.o microblaze_0/lib/microblaze_flush_dcache.o microblaze_0/lib/microbl
+TRACE::2022-12-01.16:36:30::SCWMssOS::aze_flush_dcache_range.o microblaze_0/lib/microblaze_init_dcache_range.o microblaze_0/lib/microblaze_init_icache_range.o microb
+TRACE::2022-12-01.16:36:30::SCWMssOS::laze_0/lib/microblaze_interrupt_handler.o microblaze_0/lib/microblaze_interrupts_g.o microblaze_0/lib/microblaze_invalidate_cac
+TRACE::2022-12-01.16:36:30::SCWMssOS::he_ext.o microblaze_0/lib/microblaze_invalidate_cache_ext_range.o microblaze_0/lib/microblaze_invalidate_dcache.o microblaze_0/
+TRACE::2022-12-01.16:36:30::SCWMssOS::lib/microblaze_invalidate_dcache_range.o microblaze_0/lib/microblaze_invalidate_icache.o microblaze_0/lib/microblaze_invalidate
+TRACE::2022-12-01.16:36:30::SCWMssOS::_icache_range.o microblaze_0/lib/microblaze_scrub.o microblaze_0/lib/microblaze_selftest.o microblaze_0/lib/microblaze_sleep.o 
+TRACE::2022-12-01.16:36:30::SCWMssOS::microblaze_0/lib/microblaze_update_dcache.o microblaze_0/lib/microblaze_update_icache.o microblaze_0/lib/outbyte.o microblaze_0
+TRACE::2022-12-01.16:36:30::SCWMssOS::/lib/print.o microblaze_0/lib/pvr.o microblaze_0/lib/xbram.o microblaze_0/lib/xbram_g.o microblaze_0/lib/xbram_intr.o microblaz
+TRACE::2022-12-01.16:36:30::SCWMssOS::e_0/lib/xbram_selftest.o microblaze_0/lib/xbram_sinit.o microblaze_0/lib/xil_assert.o microblaze_0/lib/xil_cache.o microblaze_0
+TRACE::2022-12-01.16:36:30::SCWMssOS::/lib/xil_clocking.o microblaze_0/lib/xil_exception.o microblaze_0/lib/xil_mem.o microblaze_0/lib/xil_misc_psreset_api.o microbl
+TRACE::2022-12-01.16:36:30::SCWMssOS::aze_0/lib/xil_printf.o microblaze_0/lib/xil_sleepcommon.o microblaze_0/lib/xil_testcache.o microblaze_0/lib/xil_testio.o microb
+TRACE::2022-12-01.16:36:30::SCWMssOS::laze_0/lib/xil_testmem.o microblaze_0/lib/xil_util.o microblaze_0/lib/xintc.o microblaze_0/lib/xintc_g.o microblaze_0/lib/xintc
+TRACE::2022-12-01.16:36:30::SCWMssOS::_intr.o microblaze_0/lib/xintc_l.o microblaze_0/lib/xintc_options.o microblaze_0/lib/xintc_selftest.o microblaze_0/lib/xinterru
+TRACE::2022-12-01.16:36:30::SCWMssOS::pt_wrap.o microblaze_0/lib/xio.o microblaze_0/lib/xplatform_info.o microblaze_0/lib/xuartlite.o microblaze_0/lib/xuartlite_g.o 
+TRACE::2022-12-01.16:36:30::SCWMssOS::microblaze_0/lib/xuartlite_intr.o microblaze_0/lib/xuartlite_l.o microblaze_0/lib/xuartlite_selftest.o microblaze_0/lib/xuartli
+TRACE::2022-12-01.16:36:30::SCWMssOS::te_sinit.o microblaze_0/lib/xuartlite_stats.o
+
+TRACE::2022-12-01.16:36:30::SCWMssOS::'Finished building libraries'
+
+TRACE::2022-12-01.16:36:30::SCWMssOS::Copying to export directory.
+TRACE::2022-12-01.16:36:31::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2022-12-01.16:36:31::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2022-12-01.16:36:31::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2022-12-01.16:36:31::SCWSystem::Completed Processing the sysconfig hello_demo
+LOG::2022-12-01.16:36:31::SCWPlatform::Completed generating the artifacts for system configuration hello_demo
+TRACE::2022-12-01.16:36:31::SCWPlatform::Started preparing the platform 
+TRACE::2022-12-01.16:36:31::SCWSystem::Writing the bif file for system config hello_demo
+TRACE::2022-12-01.16:36:31::SCWSystem::dir created 
+TRACE::2022-12-01.16:36:31::SCWSystem::Writing the bif 
+TRACE::2022-12-01.16:36:31::SCWPlatform::Started writing the spfm file 
+TRACE::2022-12-01.16:36:31::SCWPlatform::Started writing the xpfm file 
+TRACE::2022-12-01.16:36:31::SCWPlatform::Completed generating the platform
+TRACE::2022-12-01.16:36:31::SCWMssOS::Saving the mss changes C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-01.16:36:31::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-12-01.16:36:31::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-12-01.16:36:31::SCWMssOS::Commit changes completed.
+TRACE::2022-12-01.16:36:31::SCWPlatform::Trying to open the hw design at C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:36:31::SCWPlatform::DSA given C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:36:31::SCWPlatform::DSA absoulate path C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:36:31::SCWPlatform::DSA directory C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw
+TRACE::2022-12-01.16:36:31::SCWPlatform:: Platform Path C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:36:31::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2022-12-01.16:36:31::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2022-12-01.16:36:31::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2022-12-01.16:36:31::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-12-01.16:36:31::SCWMssOS::Checking the sw design at  C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-01.16:36:31::SCWMssOS::DEBUG:  swdes dump  C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-12-01.16:36:31::SCWMssOS::Sw design exists and opened at  C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-01.16:36:31::SCWWriter::formatted JSON is {
+	"platformName":	"hello_demo",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"hello_demo",
+	"platHandOff":	"C:/Users/vikto/Experiments/Lab05/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"hello_demo",
+	"systems":	[{
+			"systemName":	"hello_demo",
+			"systemDesc":	"hello_demo",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"hello_demo",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"b07374f88f8351eb9e2fdf540c6ab14f",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2022-12-01.16:36:31::SCWPlatform::updated the xpfm file.
+TRACE::2022-12-01.16:36:31::SCWPlatform::Trying to open the hw design at C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:36:31::SCWPlatform::DSA given C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:36:31::SCWPlatform::DSA absoulate path C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:36:31::SCWPlatform::DSA directory C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw
+TRACE::2022-12-01.16:36:31::SCWPlatform:: Platform Path C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/hw/design_1_wrapper.xsa
+TRACE::2022-12-01.16:36:31::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2022-12-01.16:36:31::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2022-12-01.16:36:31::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2022-12-01.16:36:31::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-12-01.16:36:31::SCWMssOS::Checking the sw design at  C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-12-01.16:36:31::SCWMssOS::DEBUG:  swdes dump  C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-12-01.16:36:31::SCWMssOS::Sw design exists and opened at  C:/Users/vikto/Experiments/VitisWorkspace/hello_demo/microblaze_0/standalone_domain/bsp/system.mss

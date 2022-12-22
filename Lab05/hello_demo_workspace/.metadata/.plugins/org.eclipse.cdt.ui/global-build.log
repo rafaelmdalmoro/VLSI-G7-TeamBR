@@ -1,0 +1,20 @@
+Nothing to build in platform 'hello_demo'
+
+16:45:54 **** Incremental Build of configuration Debug for project hello_demo_app ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -IC:/Users/vikto/Experiments/VitisWorkspace/hello_demo/export/hello_demo/sw/hello_demo/standalone_domain/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: hello_demo_app.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/Users/vikto/Experiments/VitisWorkspace/hello_demo/export/hello_demo/sw/hello_demo/standalone_domain/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "hello_demo_app.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hello_demo_app.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size hello_demo_app.elf  |tee "hello_demo_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  82340	   1720	   3172	  87232	  154c0	hello_demo_app.elf
+'Finished building: hello_demo_app.elf.size'
+' '
