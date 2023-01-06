@@ -1,0 +1,26 @@
+12:34:50 **** Incremental Build of configuration Debug for project MicroblazeTest2_app ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -IC:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2/export/MicroblazeTest2/sw/MicroblazeTest2/standalone_domain/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -IC:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2/export/MicroblazeTest2/sw/MicroblazeTest2/standalone_domain/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: MicroblazeTest2_app.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2/export/MicroblazeTest2/sw/MicroblazeTest2/standalone_domain/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "MicroblazeTest2_app.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: MicroblazeTest2_app.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size MicroblazeTest2_app.elf  |tee "MicroblazeTest2_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   4192	    488	   3280	   7960	   1f18	MicroblazeTest2_app.elf
+'Finished building: MicroblazeTest2_app.elf.size'
+' '
+
+12:34:52 Build Finished (took 1s.318ms)
+

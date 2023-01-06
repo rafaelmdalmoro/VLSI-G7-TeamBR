@@ -1,0 +1,1010 @@
+18:11:21 DEBUG : Logs will be stored at 'C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/IDE.log'.
+18:11:27 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\vikto\Experiments\VitisWorkspace\microblaze_test2_workspace\temp_xsdb_launch_script.tcl
+18:11:29 INFO  : Registering command handlers for Vitis TCF services
+18:11:29 INFO  : Platform repository initialization has completed.
+18:11:34 INFO  : XSCT server has started successfully.
+18:11:34 INFO  : Successfully done setting XSCT server connection channel  
+18:11:34 INFO  : plnx-install-location is set to ''
+18:11:34 INFO  : Successfully done query RDI_DATADIR 
+18:11:34 INFO  : Successfully done setting workspace for the tool. 
+18:12:00 INFO  : Result from executing command 'getProjects': MicroblazeTest2
+18:12:00 INFO  : Result from executing command 'getPlatforms': 
+18:13:25 INFO  : Result from executing command 'getProjects': MicroblazeTest2
+18:13:26 INFO  : Result from executing command 'getPlatforms': MicroblazeTest2|C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2/export/MicroblazeTest2/MicroblazeTest2.xpfm
+18:13:26 INFO  : Checking for BSP changes to sync application flags for project 'MicroblazeTest2_app'...
+18:14:09 INFO  : Bit file 'C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2_app/_ide/bitstream/download.bit' is generated.
+18:14:12 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:14:13 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B10A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B10A-13631093-0"}' command is executed.
+18:14:15 INFO  : Device configured successfully with "C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2_app/_ide/bitstream/download.bit"
+18:14:48 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:14:49 INFO  : Jtag cable 'Digilent Nexys A7 -100T 210292B61B10A' is selected.
+18:14:49 INFO  : 'jtag frequency' command is executed.
+18:14:49 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B10A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B10A-13631093-0"}' command is executed.
+18:14:51 INFO  : Device configured successfully with "C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2_app/_ide/bitstream/download.bit"
+18:14:51 INFO  : Context for processor 'microblaze_0' is selected.
+18:14:52 INFO  : Hardware design and registers information is loaded from 'C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2/export/MicroblazeTest2/hw/design_1_wrapper.xsa'.
+18:14:52 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+18:14:52 INFO  : Context for processor 'microblaze_0' is selected.
+18:14:52 INFO  : System reset is completed.
+18:14:55 INFO  : 'after 3000' command is executed.
+18:14:55 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B10A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B10A-13631093-0"}
+fpga -file C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2_app/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2/export/MicroblazeTest2/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+----------------End of Script----------------
+
+18:14:55 INFO  : Launch script is exported to file 'C:\Users\vikto\Experiments\VitisWorkspace\microblaze_test2_workspace\MicroblazeTest2_app_system\_ide\scripts\systemdebugger_microblazetest2_app_system_standalone.tcl'
+18:15:06 INFO  : Disconnected from the channel tcfchan#2.
+18:15:08 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:15:09 INFO  : Jtag cable 'Digilent Nexys A7 -100T 210292B61B10A' is selected.
+18:15:09 INFO  : 'jtag frequency' command is executed.
+18:15:09 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B10A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B10A-13631093-0"}' command is executed.
+18:15:11 INFO  : Device configured successfully with "C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2_app/_ide/bitstream/download.bit"
+18:15:11 INFO  : Context for processor 'microblaze_0' is selected.
+18:15:11 INFO  : Hardware design and registers information is loaded from 'C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2/export/MicroblazeTest2/hw/design_1_wrapper.xsa'.
+18:15:11 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+18:15:11 INFO  : Context for processor 'microblaze_0' is selected.
+18:15:11 INFO  : System reset is completed.
+18:15:14 INFO  : 'after 3000' command is executed.
+18:15:14 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B10A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B10A-13631093-0"}
+fpga -file C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2_app/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2/export/MicroblazeTest2/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+----------------End of Script----------------
+
+18:15:15 INFO  : Launch script is exported to file 'C:\Users\vikto\Experiments\VitisWorkspace\microblaze_test2_workspace\MicroblazeTest2_app_system\_ide\scripts\debugger_microblazetest2_app-default.tcl'
+18:18:02 INFO  : Disconnected from the channel tcfchan#3.
+18:29:48 DEBUG : Logs will be stored at 'C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/IDE.log'.
+18:29:50 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\vikto\Experiments\VitisWorkspace\microblaze_test2_workspace\temp_xsdb_launch_script.tcl
+18:30:00 INFO  : Platform repository initialization has completed.
+18:30:00 INFO  : Registering command handlers for Vitis TCF services
+18:30:02 INFO  : XSCT server has started successfully.
+18:30:02 INFO  : plnx-install-location is set to ''
+18:30:02 INFO  : Successfully done setting XSCT server connection channel  
+18:30:02 INFO  : Successfully done setting workspace for the tool. 
+18:30:02 INFO  : Successfully done query RDI_DATADIR 
+18:31:13 INFO  : Hardware specification for platform project 'MicroblazeTest2' is updated.
+18:32:28 INFO  : Result from executing command 'getProjects': MicroblazeTest2
+18:32:28 INFO  : Result from executing command 'getPlatforms': MicroblazeTest2|C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2/export/MicroblazeTest2/MicroblazeTest2.xpfm
+18:32:28 INFO  : Checking for BSP changes to sync application flags for project 'MicroblazeTest2_app'...
+18:32:39 INFO  : The hardware specification used by project 'MicroblazeTest2_app' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+18:32:39 INFO  : The file 'C:\Users\vikto\Experiments\VitisWorkspace\microblaze_test2_workspace\MicroblazeTest2_app\_ide\bitstream\design_1_wrapper.bit' stored in project is removed.
+18:32:39 INFO  : The file 'C:\Users\vikto\Experiments\VitisWorkspace\microblaze_test2_workspace\MicroblazeTest2_app\_ide\bitstream\design_1_wrapper.mmi' stored in project is removed.
+18:32:39 INFO  : The updated bitstream files are copied from platform to folder 'C:\Users\vikto\Experiments\VitisWorkspace\microblaze_test2_workspace\MicroblazeTest2_app\_ide\bitstream' in project 'MicroblazeTest2_app'.
+18:33:11 INFO  : Bit file 'C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2_app/_ide/bitstream/download.bit' is generated.
+18:33:13 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:33:14 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B10A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B10A-13631093-0"}' command is executed.
+18:33:16 INFO  : Device configured successfully with "C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2_app/_ide/bitstream/download.bit"
+18:33:23 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:33:23 INFO  : Jtag cable 'Digilent Nexys A7 -100T 210292B61B10A' is selected.
+18:33:23 INFO  : 'jtag frequency' command is executed.
+18:33:23 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B10A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B10A-13631093-0"}' command is executed.
+18:33:26 INFO  : Device configured successfully with "C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2_app/_ide/bitstream/download.bit"
+18:33:26 INFO  : Context for processor 'microblaze_0' is selected.
+18:33:26 INFO  : Hardware design and registers information is loaded from 'C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2/export/MicroblazeTest2/hw/design_1_wrapper.xsa'.
+18:33:26 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+18:33:26 INFO  : Context for processor 'microblaze_0' is selected.
+18:33:26 INFO  : System reset is completed.
+18:33:29 INFO  : 'after 3000' command is executed.
+18:33:29 INFO  : Context for processor 'microblaze_0' is selected.
+18:33:29 INFO  : The application 'C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2_app/Debug/MicroblazeTest2_app.elf' is downloaded to processor 'microblaze_0'.
+18:33:29 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B10A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B10A-13631093-0"}
+fpga -file C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2_app/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2/export/MicroblazeTest2/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2_app/Debug/MicroblazeTest2_app.elf
+----------------End of Script----------------
+
+18:33:29 INFO  : Context for processor 'microblaze_0' is selected.
+18:33:29 INFO  : 'con' command is executed.
+18:33:29 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+18:33:29 INFO  : Launch script is exported to file 'C:\Users\vikto\Experiments\VitisWorkspace\microblaze_test2_workspace\MicroblazeTest2_app_system\_ide\scripts\systemdebugger_microblazetest2_app_system_standalone.tcl'
+18:33:46 INFO  : Checking for BSP changes to sync application flags for project 'MicroblazeTest2_app'...
+18:34:25 INFO  : Checking for BSP changes to sync application flags for project 'MicroblazeTest2_app'...
+18:34:43 INFO  : Checking for BSP changes to sync application flags for project 'MicroblazeTest2_app'...
+18:34:54 INFO  : Checking for BSP changes to sync application flags for project 'MicroblazeTest2_app'...
+18:35:06 INFO  : Checking for BSP changes to sync application flags for project 'MicroblazeTest2_app'...
+18:35:23 INFO  : Disconnected from the channel tcfchan#2.
+18:35:23 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:35:23 INFO  : Jtag cable 'Digilent Nexys A7 -100T 210292B61B10A' is selected.
+18:35:23 INFO  : 'jtag frequency' command is executed.
+18:35:24 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B10A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B10A-13631093-0"}' command is executed.
+18:35:26 INFO  : Device configured successfully with "C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2_app/_ide/bitstream/download.bit"
+18:35:26 INFO  : Context for processor 'microblaze_0' is selected.
+18:35:26 INFO  : Hardware design and registers information is loaded from 'C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2/export/MicroblazeTest2/hw/design_1_wrapper.xsa'.
+18:35:26 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+18:35:26 INFO  : Context for processor 'microblaze_0' is selected.
+18:35:26 INFO  : System reset is completed.
+18:35:29 INFO  : 'after 3000' command is executed.
+18:35:29 INFO  : Context for processor 'microblaze_0' is selected.
+18:35:29 INFO  : The application 'C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2_app/Debug/MicroblazeTest2_app.elf' is downloaded to processor 'microblaze_0'.
+18:35:29 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B10A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B10A-13631093-0"}
+fpga -file C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2_app/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2/export/MicroblazeTest2/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2_app/Debug/MicroblazeTest2_app.elf
+----------------End of Script----------------
+
+18:35:30 INFO  : Context for processor 'microblaze_0' is selected.
+18:35:30 INFO  : 'con' command is executed.
+18:35:30 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+18:35:30 INFO  : Launch script is exported to file 'C:\Users\vikto\Experiments\VitisWorkspace\microblaze_test2_workspace\MicroblazeTest2_app_system\_ide\scripts\systemdebugger_microblazetest2_app_system_standalone.tcl'
+18:35:50 INFO  : Checking for BSP changes to sync application flags for project 'MicroblazeTest2_app'...
+18:36:11 INFO  : Checking for BSP changes to sync application flags for project 'MicroblazeTest2_app'...
+18:36:33 INFO  : Checking for BSP changes to sync application flags for project 'MicroblazeTest2_app'...
+18:36:54 INFO  : Checking for BSP changes to sync application flags for project 'MicroblazeTest2_app'...
+18:37:12 INFO  : Checking for BSP changes to sync application flags for project 'MicroblazeTest2_app'...
+18:37:31 INFO  : Disconnected from the channel tcfchan#3.
+18:37:32 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:37:33 INFO  : Jtag cable 'Digilent Nexys A7 -100T 210292B61B10A' is selected.
+18:37:33 INFO  : 'jtag frequency' command is executed.
+18:37:33 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B10A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B10A-13631093-0"}' command is executed.
+18:37:35 INFO  : Device configured successfully with "C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2_app/_ide/bitstream/download.bit"
+18:37:35 INFO  : Context for processor 'microblaze_0' is selected.
+18:37:35 INFO  : Hardware design and registers information is loaded from 'C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2/export/MicroblazeTest2/hw/design_1_wrapper.xsa'.
+18:37:35 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+18:37:35 INFO  : Context for processor 'microblaze_0' is selected.
+18:37:35 INFO  : System reset is completed.
+18:37:38 INFO  : 'after 3000' command is executed.
+18:37:38 INFO  : Context for processor 'microblaze_0' is selected.
+18:37:38 INFO  : The application 'C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2_app/Debug/MicroblazeTest2_app.elf' is downloaded to processor 'microblaze_0'.
+18:37:38 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B10A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B10A-13631093-0"}
+fpga -file C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2_app/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2/export/MicroblazeTest2/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2_app/Debug/MicroblazeTest2_app.elf
+----------------End of Script----------------
+
+18:37:38 INFO  : Context for processor 'microblaze_0' is selected.
+18:37:38 INFO  : 'con' command is executed.
+18:37:38 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+18:37:38 INFO  : Launch script is exported to file 'C:\Users\vikto\Experiments\VitisWorkspace\microblaze_test2_workspace\MicroblazeTest2_app_system\_ide\scripts\debugger_microblazetest2_app-default.tcl'
+18:38:18 INFO  : Checking for BSP changes to sync application flags for project 'MicroblazeTest2_app'...
+18:38:48 INFO  : Disconnected from the channel tcfchan#4.
+18:38:50 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:38:50 INFO  : Jtag cable 'Digilent Nexys A7 -100T 210292B61B10A' is selected.
+18:38:50 INFO  : 'jtag frequency' command is executed.
+18:38:51 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B10A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B10A-13631093-0"}' command is executed.
+18:38:53 INFO  : Device configured successfully with "C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2_app/_ide/bitstream/download.bit"
+18:38:53 INFO  : Context for processor 'microblaze_0' is selected.
+18:38:53 INFO  : Hardware design and registers information is loaded from 'C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2/export/MicroblazeTest2/hw/design_1_wrapper.xsa'.
+18:38:53 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+18:38:53 INFO  : Context for processor 'microblaze_0' is selected.
+18:38:53 INFO  : System reset is completed.
+18:38:56 INFO  : 'after 3000' command is executed.
+18:38:56 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B10A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B10A-13631093-0"}
+fpga -file C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2_app/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2/export/MicroblazeTest2/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+----------------End of Script----------------
+
+18:38:56 INFO  : Launch script is exported to file 'C:\Users\vikto\Experiments\VitisWorkspace\microblaze_test2_workspace\MicroblazeTest2_app_system\_ide\scripts\debugger_microblazetest2_app-default.tcl'
+18:39:12 INFO  : Checking for BSP changes to sync application flags for project 'MicroblazeTest2_app'...
+18:39:20 INFO  : Disconnected from the channel tcfchan#5.
+18:39:21 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:39:30 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+----------------End of Script----------------
+
+18:39:30 ERROR : Could not find FPGA device on the board for connection 'Local'.
+
+
+Troubleshooting hints:
+1. Check whether board is connected to system properly.
+2. In case of zynq board, check whether Digilent/Xilinx cable switch settings are correct.
+3. If you are using Xilinx Platform Cable USB, ensure that status LED is green.
+18:39:56 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:39:57 INFO  : Jtag cable 'Digilent Nexys A7 -100T 210292B61B10A' is selected.
+18:39:57 INFO  : 'jtag frequency' command is executed.
+18:39:57 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B10A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B10A-13631093-0"}' command is executed.
+18:39:59 INFO  : Device configured successfully with "C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2_app/_ide/bitstream/download.bit"
+18:39:59 INFO  : Context for processor 'microblaze_0' is selected.
+18:39:59 INFO  : Hardware design and registers information is loaded from 'C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2/export/MicroblazeTest2/hw/design_1_wrapper.xsa'.
+18:39:59 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+18:39:59 INFO  : Context for processor 'microblaze_0' is selected.
+18:39:59 INFO  : System reset is completed.
+18:40:02 INFO  : 'after 3000' command is executed.
+18:40:03 INFO  : Context for processor 'microblaze_0' is selected.
+18:40:03 INFO  : The application 'C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2_app/Debug/MicroblazeTest2_app.elf' is downloaded to processor 'microblaze_0'.
+18:40:03 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B10A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B10A-13631093-0"}
+fpga -file C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2_app/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2/export/MicroblazeTest2/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2_app/Debug/MicroblazeTest2_app.elf
+----------------End of Script----------------
+
+18:40:03 INFO  : Context for processor 'microblaze_0' is selected.
+18:40:03 INFO  : 'con' command is executed.
+18:40:03 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+18:40:03 INFO  : Launch script is exported to file 'C:\Users\vikto\Experiments\VitisWorkspace\microblaze_test2_workspace\MicroblazeTest2_app_system\_ide\scripts\debugger_microblazetest2_app-default.tcl'
+18:40:24 INFO  : Checking for BSP changes to sync application flags for project 'MicroblazeTest2_app'...
+18:40:30 INFO  : Disconnected from the channel tcfchan#6.
+18:40:31 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:40:40 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+----------------End of Script----------------
+
+18:40:40 ERROR : Could not find FPGA device on the board for connection 'Local'.
+
+
+Troubleshooting hints:
+1. Check whether board is connected to system properly.
+2. In case of zynq board, check whether Digilent/Xilinx cable switch settings are correct.
+3. If you are using Xilinx Platform Cable USB, ensure that status LED is green.
+18:40:43 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:40:43 INFO  : Jtag cable 'Digilent Nexys A7 -100T 210292B61B10A' is selected.
+18:40:43 INFO  : 'jtag frequency' command is executed.
+18:40:43 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B10A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B10A-13631093-0"}' command is executed.
+18:40:45 INFO  : Device configured successfully with "C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2_app/_ide/bitstream/download.bit"
+18:40:46 INFO  : Context for processor 'microblaze_0' is selected.
+18:40:46 INFO  : Hardware design and registers information is loaded from 'C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2/export/MicroblazeTest2/hw/design_1_wrapper.xsa'.
+18:40:46 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+18:40:46 INFO  : Context for processor 'microblaze_0' is selected.
+18:40:46 INFO  : System reset is completed.
+18:40:49 INFO  : 'after 3000' command is executed.
+18:40:49 INFO  : Context for processor 'microblaze_0' is selected.
+18:40:49 INFO  : The application 'C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2_app/Debug/MicroblazeTest2_app.elf' is downloaded to processor 'microblaze_0'.
+18:40:49 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B10A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B10A-13631093-0"}
+fpga -file C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2_app/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2/export/MicroblazeTest2/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2_app/Debug/MicroblazeTest2_app.elf
+----------------End of Script----------------
+
+18:40:49 INFO  : Context for processor 'microblaze_0' is selected.
+18:40:49 INFO  : 'con' command is executed.
+18:40:49 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+18:40:49 INFO  : Launch script is exported to file 'C:\Users\vikto\Experiments\VitisWorkspace\microblaze_test2_workspace\MicroblazeTest2_app_system\_ide\scripts\debugger_microblazetest2_app-default.tcl'
+18:54:46 INFO  : Hardware specification for platform project 'MicroblazeTest2' is updated.
+18:55:28 INFO  : Bit file 'C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2_app/_ide/bitstream/download.bit' is generated.
+18:55:28 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:55:28 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B10A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B10A-13631093-0"}' command is executed.
+18:55:30 INFO  : Device configured successfully with "C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2_app/_ide/bitstream/download.bit"
+18:55:38 INFO  : Disconnected from the channel tcfchan#7.
+18:55:39 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:55:39 INFO  : Jtag cable 'Digilent Nexys A7 -100T 210292B61B10A' is selected.
+18:55:39 INFO  : 'jtag frequency' command is executed.
+18:55:40 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B10A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B10A-13631093-0"}' command is executed.
+18:55:42 INFO  : Device configured successfully with "C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2_app/_ide/bitstream/download.bit"
+18:55:42 INFO  : Context for processor 'microblaze_0' is selected.
+18:55:42 INFO  : Hardware design and registers information is loaded from 'C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2/export/MicroblazeTest2/hw/design_1_wrapper.xsa'.
+18:55:42 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+18:55:42 INFO  : Context for processor 'microblaze_0' is selected.
+18:55:42 INFO  : System reset is completed.
+18:55:45 INFO  : 'after 3000' command is executed.
+18:55:45 INFO  : Context for processor 'microblaze_0' is selected.
+18:55:45 INFO  : The application 'C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2_app/Debug/MicroblazeTest2_app.elf' is downloaded to processor 'microblaze_0'.
+18:55:45 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B10A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B10A-13631093-0"}
+fpga -file C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2_app/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2/export/MicroblazeTest2/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2_app/Debug/MicroblazeTest2_app.elf
+----------------End of Script----------------
+
+18:55:45 INFO  : Context for processor 'microblaze_0' is selected.
+18:55:45 INFO  : 'con' command is executed.
+18:55:45 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+18:55:45 INFO  : Launch script is exported to file 'C:\Users\vikto\Experiments\VitisWorkspace\microblaze_test2_workspace\MicroblazeTest2_app_system\_ide\scripts\systemdebugger_microblazetest2_app_system_standalone.tcl'
+18:56:21 INFO  : Result from executing command 'getProjects': MicroblazeTest2
+18:56:21 INFO  : Result from executing command 'getPlatforms': MicroblazeTest2|C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2/export/MicroblazeTest2/MicroblazeTest2.xpfm
+18:56:25 ERROR : XSCT server calls should not be made from TCF thread.
+java.lang.RuntimeException: XSCT server calls should not be made from TCF thread.
+	at com.xilinx.sdk.xsdb.XSDBCommandManager.issueAndWait(XSDBCommandManager.java:392) [com.xilinx.sdk.xsdb_1.0.0.202210132147.jar:?]
+	at com.xilinx.sdk.xsdb.XsdbCommandUtils.executeAndRespond(XsdbCommandUtils.java:325) [com.xilinx.sdk.xsdb_1.0.0.202210132147.jar:?]
+	at com.xilinx.sdk.hw.internal.HwPlatform.dispose(HwPlatform.java:1325) [com.xilinx.sdk.hw_1.0.0.202210132147.jar:?]
+	at com.xilinx.sdk.hw.internal.HwSpecFactory.removeHwSpec(HwSpecFactory.java:92) [com.xilinx.sdk.hw_1.0.0.202210132147.jar:?]
+	at com.xilinx.sdk.hw.internal.HwSpecFactory.validateGetFromCache(HwSpecFactory.java:78) [com.xilinx.sdk.hw_1.0.0.202210132147.jar:?]
+	at com.xilinx.sdk.hw.internal.HwSpecFactory.createHwSpec(HwSpecFactory.java:48) [com.xilinx.sdk.hw_1.0.0.202210132147.jar:?]
+	at com.xilinx.sdx.sdsoc.debug.ui.SdsLaunchConfigUtil.createHwPlatform(SdsLaunchConfigUtil.java:57) [com.xilinx.sdx.sdsoc.debug.ui_1.0.0.202210132147.jar:?]
+	at com.xilinx.sdx.sdsoc.debug.ui.SdsLaunchConfigModel.iniHwPlatform(SdsLaunchConfigModel.java:187) [com.xilinx.sdx.sdsoc.debug.ui_1.0.0.202210132147.jar:?]
+	at com.xilinx.sdk.tcf.internal.debug.ui.common.BaseLaunchConfigModel.getHwPlatform(BaseLaunchConfigModel.java:577) [com.xilinx.sdk.tcf.debug_1.0.0.202210132147.jar:?]
+	at com.xilinx.sdk.tcf.internal.debug.ui.common.BaseLaunchConfigModel.readCrossTriggerModel(BaseLaunchConfigModel.java:173) [com.xilinx.sdk.tcf.debug_1.0.0.202210132147.jar:?]
+	at com.xilinx.sdk.tcf.internal.debug.ui.common.BaseLaunchConfigModel.readAndSetAttributes(BaseLaunchConfigModel.java:156) [com.xilinx.sdk.tcf.debug_1.0.0.202210132147.jar:?]
+	at com.xilinx.sdx.sdsoc.debug.ui.SdsLaunchConfigModel.newInstance(SdsLaunchConfigModel.java:109) [com.xilinx.sdx.sdsoc.debug.ui_1.0.0.202210132147.jar:?]
+	at com.xilinx.sdx.sdsoc.debug.launch.SdsTcfLaunchDelegate.createConfigModel(SdsTcfLaunchDelegate.java:85) [com.xilinx.sdx.sdsoc.debug_1.0.0.202210132147.jar:?]
+	at com.xilinx.sdx.sdsoc.debug.launch.SdsTcfLaunchDelegate.generateReports(SdsTcfLaunchDelegate.java:641) [com.xilinx.sdx.sdsoc.debug_1.0.0.202210132147.jar:?]
+	at com.xilinx.sdx.sdsoc.debug.launch.SdsTcfLaunchDelegate.onDisconnected(SdsTcfLaunchDelegate.java:615) [com.xilinx.sdx.sdsoc.debug_1.0.0.202210132147.jar:?]
+	at org.eclipse.tcf.internal.debug.ui.model.TCFModelManager$1.onDisconnected(TCFModelManager.java:79) [org.eclipse.tcf.debug.ui_1.7.0.202210132147.jar:?]
+	at org.eclipse.tcf.internal.debug.model.TCFLaunch.onDisconnected(TCFLaunch.java:532) [org.eclipse.tcf.debug_1.7.0.202210132147.jar:?]
+	at org.eclipse.tcf.internal.debug.model.TCFLaunch$43.onChannelClosed(TCFLaunch.java:1643) [org.eclipse.tcf.debug_1.7.0.202210132147.jar:?]
+	at org.eclipse.tcf.core.AbstractChannel$9.run(AbstractChannel.java:858) [org.eclipse.tcf.core_1.7.0.202210132147.jar:?]
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98) [org.eclipse.tcf_1.7.0.202210132147.jar:?]
+	at java.lang.Thread.run(Thread.java:829) [?:?]
+18:56:25 INFO  : Disconnected from the channel tcfchan#8.
+18:56:26 INFO  : The hardware specification used by project 'MicroblazeTest2_app' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+18:56:26 INFO  : The file 'C:\Users\vikto\Experiments\VitisWorkspace\microblaze_test2_workspace\MicroblazeTest2_app\_ide\bitstream\design_1_wrapper.bit' stored in project is removed.
+18:56:26 INFO  : The file 'C:\Users\vikto\Experiments\VitisWorkspace\microblaze_test2_workspace\MicroblazeTest2_app\_ide\bitstream\design_1_wrapper.mmi' stored in project is removed.
+18:56:26 INFO  : The file 'C:\Users\vikto\Experiments\VitisWorkspace\microblaze_test2_workspace\MicroblazeTest2_app\_ide\bitstream\download.bit' stored in project is removed.
+18:56:26 INFO  : The updated bitstream files are copied from platform to folder 'C:\Users\vikto\Experiments\VitisWorkspace\microblaze_test2_workspace\MicroblazeTest2_app\_ide\bitstream' in project 'MicroblazeTest2_app'.
+18:56:26 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:56:35 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+----------------End of Script----------------
+
+18:56:35 ERROR : Could not find FPGA device on the board for connection 'Local'.
+
+
+Troubleshooting hints:
+1. Check whether board is connected to system properly.
+2. In case of zynq board, check whether Digilent/Xilinx cable switch settings are correct.
+3. If you are using Xilinx Platform Cable USB, ensure that status LED is green.
+18:56:38 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:56:39 INFO  : Jtag cable 'Digilent Nexys A7 -100T 210292B61B10A' is selected.
+18:56:39 INFO  : 'jtag frequency' command is executed.
+18:56:39 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B10A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B10A-13631093-0"}' command is executed.
+18:56:41 INFO  : Device configured successfully with "C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2_app/_ide/bitstream/design_1_wrapper.bit"
+18:56:41 INFO  : Context for processor 'microblaze_0' is selected.
+18:56:41 INFO  : Hardware design and registers information is loaded from 'C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2/export/MicroblazeTest2/hw/design_1_wrapper.xsa'.
+18:56:41 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+18:56:41 INFO  : Context for processor 'microblaze_0' is selected.
+18:56:41 INFO  : System reset is completed.
+18:56:44 INFO  : 'after 3000' command is executed.
+18:56:44 INFO  : Context for processor 'microblaze_0' is selected.
+18:56:44 INFO  : The application 'C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2_app/Debug/MicroblazeTest2_app.elf' is downloaded to processor 'microblaze_0'.
+18:56:44 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B10A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B10A-13631093-0"}
+fpga -file C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2_app/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2/export/MicroblazeTest2/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2_app/Debug/MicroblazeTest2_app.elf
+----------------End of Script----------------
+
+18:56:45 INFO  : Context for processor 'microblaze_0' is selected.
+18:56:45 INFO  : 'con' command is executed.
+18:56:45 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+18:56:45 INFO  : Launch script is exported to file 'C:\Users\vikto\Experiments\VitisWorkspace\microblaze_test2_workspace\MicroblazeTest2_app_system\_ide\scripts\systemdebugger_microblazetest2_app_system_standalone.tcl'
+18:57:23 INFO  : Checking for BSP changes to sync application flags for project 'MicroblazeTest2_app'...
+18:57:32 INFO  : Checking for BSP changes to sync application flags for project 'MicroblazeTest2_app'...
+18:57:52 INFO  : Checking for BSP changes to sync application flags for project 'MicroblazeTest2_app'...
+18:57:55 INFO  : Disconnected from the channel tcfchan#10.
+18:57:55 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:57:55 INFO  : Jtag cable 'Digilent Nexys A7 -100T 210292B61B10A' is selected.
+18:57:55 INFO  : 'jtag frequency' command is executed.
+18:57:56 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B10A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B10A-13631093-0"}' command is executed.
+18:57:58 INFO  : Device configured successfully with "C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2_app/_ide/bitstream/design_1_wrapper.bit"
+18:57:58 INFO  : Context for processor 'microblaze_0' is selected.
+18:57:58 INFO  : Hardware design and registers information is loaded from 'C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2/export/MicroblazeTest2/hw/design_1_wrapper.xsa'.
+18:57:58 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+18:57:58 INFO  : Context for processor 'microblaze_0' is selected.
+18:57:58 INFO  : System reset is completed.
+18:58:01 INFO  : 'after 3000' command is executed.
+18:58:01 INFO  : Context for processor 'microblaze_0' is selected.
+18:58:01 INFO  : The application 'C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2_app/Debug/MicroblazeTest2_app.elf' is downloaded to processor 'microblaze_0'.
+18:58:01 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B10A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B10A-13631093-0"}
+fpga -file C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2_app/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2/export/MicroblazeTest2/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2_app/Debug/MicroblazeTest2_app.elf
+----------------End of Script----------------
+
+18:58:01 INFO  : Context for processor 'microblaze_0' is selected.
+18:58:01 INFO  : 'con' command is executed.
+18:58:01 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+18:58:01 INFO  : Launch script is exported to file 'C:\Users\vikto\Experiments\VitisWorkspace\microblaze_test2_workspace\MicroblazeTest2_app_system\_ide\scripts\systemdebugger_microblazetest2_app_system_standalone.tcl'
+18:59:57 INFO  : Disconnected from the channel tcfchan#11.
+09:18:48 DEBUG : Logs will be stored at 'C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/IDE.log'.
+09:18:49 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\vikto\Experiments\VitisWorkspace\microblaze_test2_workspace\temp_xsdb_launch_script.tcl
+09:18:57 INFO  : Registering command handlers for Vitis TCF services
+09:18:58 INFO  : Platform repository initialization has completed.
+09:19:00 INFO  : XSCT server has started successfully.
+09:19:05 INFO  : Successfully done setting XSCT server connection channel  
+09:19:05 INFO  : plnx-install-location is set to ''
+09:19:05 INFO  : Successfully done query RDI_DATADIR 
+09:19:05 INFO  : Successfully done setting workspace for the tool. 
+09:19:23 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:19:23 INFO  : Jtag cable 'Digilent Nexys A7 -100T 210292B61B10A' is selected.
+09:19:23 INFO  : 'jtag frequency' command is executed.
+09:19:24 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B10A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B10A-13631093-0"}' command is executed.
+09:19:26 INFO  : Device configured successfully with "C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2_app/_ide/bitstream/design_1_wrapper.bit"
+09:19:26 INFO  : Context for processor 'microblaze_0' is selected.
+09:19:26 INFO  : Hardware design and registers information is loaded from 'C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2/export/MicroblazeTest2/hw/design_1_wrapper.xsa'.
+09:19:26 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+09:19:26 INFO  : Context for processor 'microblaze_0' is selected.
+09:19:26 INFO  : System reset is completed.
+09:19:29 INFO  : 'after 3000' command is executed.
+09:19:29 INFO  : Context for processor 'microblaze_0' is selected.
+09:19:29 INFO  : The application 'C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2_app/Debug/MicroblazeTest2_app.elf' is downloaded to processor 'microblaze_0'.
+09:19:29 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B10A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B10A-13631093-0"}
+fpga -file C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2_app/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2/export/MicroblazeTest2/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2_app/Debug/MicroblazeTest2_app.elf
+----------------End of Script----------------
+
+09:19:30 INFO  : Context for processor 'microblaze_0' is selected.
+09:19:30 INFO  : 'con' command is executed.
+09:19:30 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+09:19:30 INFO  : Launch script is exported to file 'C:\Users\vikto\Experiments\VitisWorkspace\microblaze_test2_workspace\MicroblazeTest2_app_system\_ide\scripts\systemdebugger_microblazetest2_app_system_standalone.tcl'
+09:20:21 INFO  : Checking for BSP changes to sync application flags for project 'MicroblazeTest2_app'...
+09:20:28 INFO  : Disconnected from the channel tcfchan#1.
+09:20:28 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:20:28 INFO  : Jtag cable 'Digilent Nexys A7 -100T 210292B61B10A' is selected.
+09:20:28 INFO  : 'jtag frequency' command is executed.
+09:20:28 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B10A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B10A-13631093-0"}' command is executed.
+09:20:30 INFO  : Device configured successfully with "C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2_app/_ide/bitstream/design_1_wrapper.bit"
+09:20:30 INFO  : Context for processor 'microblaze_0' is selected.
+09:20:31 INFO  : Hardware design and registers information is loaded from 'C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2/export/MicroblazeTest2/hw/design_1_wrapper.xsa'.
+09:20:31 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+09:20:31 INFO  : Context for processor 'microblaze_0' is selected.
+09:20:31 INFO  : System reset is completed.
+09:20:34 INFO  : 'after 3000' command is executed.
+09:20:34 INFO  : Context for processor 'microblaze_0' is selected.
+09:20:34 INFO  : The application 'C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2_app/Debug/MicroblazeTest2_app.elf' is downloaded to processor 'microblaze_0'.
+09:20:34 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B10A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B10A-13631093-0"}
+fpga -file C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2_app/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2/export/MicroblazeTest2/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2_app/Debug/MicroblazeTest2_app.elf
+----------------End of Script----------------
+
+09:20:34 INFO  : Context for processor 'microblaze_0' is selected.
+09:20:34 INFO  : 'con' command is executed.
+09:20:34 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+09:20:34 INFO  : Launch script is exported to file 'C:\Users\vikto\Experiments\VitisWorkspace\microblaze_test2_workspace\MicroblazeTest2_app_system\_ide\scripts\systemdebugger_microblazetest2_app_system_standalone.tcl'
+10:03:43 INFO  : Disconnected from the channel tcfchan#2.
+10:03:43 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:03:44 INFO  : Jtag cable 'Digilent Nexys A7 -100T 210292B61B10A' is selected.
+10:03:44 INFO  : 'jtag frequency' command is executed.
+10:03:44 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B10A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B10A-13631093-0"}' command is executed.
+10:03:46 INFO  : Device configured successfully with "C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2_app/_ide/bitstream/design_1_wrapper.bit"
+10:03:46 INFO  : Context for processor 'microblaze_0' is selected.
+10:03:47 INFO  : Hardware design and registers information is loaded from 'C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2/export/MicroblazeTest2/hw/design_1_wrapper.xsa'.
+10:03:47 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+10:03:47 INFO  : Context for processor 'microblaze_0' is selected.
+10:03:47 INFO  : System reset is completed.
+10:03:50 INFO  : 'after 3000' command is executed.
+10:03:50 INFO  : Context for processor 'microblaze_0' is selected.
+10:03:50 INFO  : The application 'C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2_app/Debug/MicroblazeTest2_app.elf' is downloaded to processor 'microblaze_0'.
+10:03:50 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B10A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B10A-13631093-0"}
+fpga -file C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2_app/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2/export/MicroblazeTest2/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2_app/Debug/MicroblazeTest2_app.elf
+----------------End of Script----------------
+
+10:03:50 INFO  : Context for processor 'microblaze_0' is selected.
+10:03:50 INFO  : 'con' command is executed.
+10:03:50 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+10:03:50 INFO  : Launch script is exported to file 'C:\Users\vikto\Experiments\VitisWorkspace\microblaze_test2_workspace\MicroblazeTest2_app_system\_ide\scripts\systemdebugger_microblazetest2_app_system_standalone.tcl'
+10:04:39 INFO  : Result from executing command 'getProjects': MicroblazeTest2
+10:04:39 INFO  : Result from executing command 'getPlatforms': MicroblazeTest2|C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2/export/MicroblazeTest2/MicroblazeTest2.xpfm
+10:04:40 INFO  : Checking for BSP changes to sync application flags for project 'MicroblazeTest2_app'...
+10:04:46 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:04:46 INFO  : Disconnected from the channel tcfchan#3.
+10:04:46 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+----------------End of Script----------------
+
+10:04:46 ERROR : null
+10:04:51 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:04:51 INFO  : Jtag cable 'Digilent Nexys A7 -100T 210292B61B10A' is selected.
+10:04:51 INFO  : 'jtag frequency' command is executed.
+10:04:51 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B10A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B10A-13631093-0"}' command is executed.
+10:04:53 INFO  : Device configured successfully with "C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2_app/_ide/bitstream/design_1_wrapper.bit"
+10:04:53 INFO  : Context for processor 'microblaze_0' is selected.
+10:04:53 INFO  : Hardware design and registers information is loaded from 'C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2/export/MicroblazeTest2/hw/design_1_wrapper.xsa'.
+10:04:53 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+10:04:53 INFO  : Context for processor 'microblaze_0' is selected.
+10:04:53 INFO  : System reset is completed.
+10:04:56 INFO  : 'after 3000' command is executed.
+10:04:56 INFO  : Context for processor 'microblaze_0' is selected.
+10:04:57 INFO  : The application 'C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2_app/Debug/MicroblazeTest2_app.elf' is downloaded to processor 'microblaze_0'.
+10:04:57 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B10A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B10A-13631093-0"}
+fpga -file C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2_app/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2/export/MicroblazeTest2/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2_app/Debug/MicroblazeTest2_app.elf
+----------------End of Script----------------
+
+10:04:57 INFO  : Context for processor 'microblaze_0' is selected.
+10:04:57 INFO  : 'con' command is executed.
+10:04:57 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+10:04:57 INFO  : Launch script is exported to file 'C:\Users\vikto\Experiments\VitisWorkspace\microblaze_test2_workspace\MicroblazeTest2_app_system\_ide\scripts\systemdebugger_microblazetest2_app_system_standalone.tcl'
+10:19:39 INFO  : Checking for BSP changes to sync application flags for project 'MicroblazeTest2_app'...
+10:20:19 INFO  : Checking for BSP changes to sync application flags for project 'MicroblazeTest2_app'...
+10:32:54 INFO  : Hardware specification for platform project 'MicroblazeTest2' is updated.
+10:33:31 INFO  : Result from executing command 'getProjects': MicroblazeTest2
+10:33:31 INFO  : Result from executing command 'getPlatforms': 
+10:33:32 INFO  : Checking for BSP changes to sync application flags for project 'MicroblazeTest2_app'...
+10:34:18 INFO  : Checking for BSP changes to sync application flags for project 'MicroblazeTest2_app'...
+10:43:59 INFO  : Checking for BSP changes to sync application flags for project 'MicroblazeTest2_app'...
+10:44:24 INFO  : Checking for BSP changes to sync application flags for project 'MicroblazeTest2_app'...
+10:44:38 INFO  : Checking for BSP changes to sync application flags for project 'MicroblazeTest2_app'...
+10:45:07 INFO  : Checking for BSP changes to sync application flags for project 'MicroblazeTest2_app'...
+10:46:01 INFO  : Checking for BSP changes to sync application flags for project 'MicroblazeTest2_app'...
+10:46:09 INFO  : Checking for BSP changes to sync application flags for project 'MicroblazeTest2_app'...
+10:46:28 INFO  : Checking for BSP changes to sync application flags for project 'MicroblazeTest2_app'...
+10:46:42 INFO  : Checking for BSP changes to sync application flags for project 'MicroblazeTest2_app'...
+10:48:11 INFO  : Checking for BSP changes to sync application flags for project 'MicroblazeTest2_app'...
+10:49:37 INFO  : Checking for BSP changes to sync application flags for project 'MicroblazeTest2_app'...
+10:49:50 INFO  : Checking for BSP changes to sync application flags for project 'MicroblazeTest2_app'...
+10:50:24 INFO  : Checking for BSP changes to sync application flags for project 'MicroblazeTest2_app'...
+10:50:49 INFO  : Checking for BSP changes to sync application flags for project 'MicroblazeTest2_app'...
+10:51:14 INFO  : Checking for BSP changes to sync application flags for project 'MicroblazeTest2_app'...
+10:51:29 INFO  : Checking for BSP changes to sync application flags for project 'MicroblazeTest2_app'...
+10:51:38 INFO  : Checking for BSP changes to sync application flags for project 'MicroblazeTest2_app'...
+10:59:29 INFO  : Checking for BSP changes to sync application flags for project 'MicroblazeTest2_app'...
+10:59:36 INFO  : Checking for BSP changes to sync application flags for project 'MicroblazeTest2_app'...
+10:59:42 INFO  : Checking for BSP changes to sync application flags for project 'MicroblazeTest2_app'...
+10:59:48 INFO  : Checking for BSP changes to sync application flags for project 'MicroblazeTest2_app'...
+11:00:11 INFO  : Checking for BSP changes to sync application flags for project 'MicroblazeTest2_app'...
+11:01:03 INFO  : Checking for BSP changes to sync application flags for project 'MicroblazeTest2_app'...
+11:01:33 INFO  : Checking for BSP changes to sync application flags for project 'MicroblazeTest2_app'...
+11:01:38 INFO  : Checking for BSP changes to sync application flags for project 'MicroblazeTest2_app'...
+11:12:44 INFO  : Checking for BSP changes to sync application flags for project 'MicroblazeTest2_app'...
+11:18:16 INFO  : Checking for BSP changes to sync application flags for project 'MicroblazeTest2_app'...
+11:18:31 INFO  : Checking for BSP changes to sync application flags for project 'MicroblazeTest2_app'...
+11:20:35 INFO  : Checking for BSP changes to sync application flags for project 'MicroblazeTest2_app'...
+11:23:12 INFO  : Checking for BSP changes to sync application flags for project 'MicroblazeTest2_app'...
+11:25:12 INFO  : Checking for BSP changes to sync application flags for project 'MicroblazeTest2_app'...
+11:25:18 INFO  : Checking for BSP changes to sync application flags for project 'MicroblazeTest2_app'...
+11:25:37 INFO  : Checking for BSP changes to sync application flags for project 'MicroblazeTest2_app'...
+11:25:43 INFO  : Checking for BSP changes to sync application flags for project 'MicroblazeTest2_app'...
+11:25:50 INFO  : Checking for BSP changes to sync application flags for project 'MicroblazeTest2_app'...
+11:29:31 INFO  : Checking for BSP changes to sync application flags for project 'MicroblazeTest2_app'...
+11:35:57 ERROR : XSCT server calls should not be made from TCF thread.
+java.lang.RuntimeException: XSCT server calls should not be made from TCF thread.
+	at com.xilinx.sdk.xsdb.XSDBCommandManager.issueAndWait(XSDBCommandManager.java:392) [com.xilinx.sdk.xsdb_1.0.0.202210132147.jar:?]
+	at com.xilinx.sdk.xsdb.XsdbCommandUtils.executeAndRespond(XsdbCommandUtils.java:325) [com.xilinx.sdk.xsdb_1.0.0.202210132147.jar:?]
+	at com.xilinx.sdk.hw.internal.HwPlatform.populateDesignProps(HwPlatform.java:521) [com.xilinx.sdk.hw_1.0.0.202210132147.jar:?]
+	at com.xilinx.sdk.hw.internal.HwPlatform.isZynq(HwPlatform.java:1101) [com.xilinx.sdk.hw_1.0.0.202210132147.jar:?]
+	at com.xilinx.sdk.hw.internal.HwPlatform.getArchFamily(HwPlatform.java:587) [com.xilinx.sdk.hw_1.0.0.202210132147.jar:?]
+	at com.xilinx.sdk.tcf.internal.debug.ui.common.BaseLaunchConfigModel.readCrossTriggerModel(BaseLaunchConfigModel.java:174) [com.xilinx.sdk.tcf.debug_1.0.0.202210132147.jar:?]
+	at com.xilinx.sdk.tcf.internal.debug.ui.common.BaseLaunchConfigModel.readAndSetAttributes(BaseLaunchConfigModel.java:156) [com.xilinx.sdk.tcf.debug_1.0.0.202210132147.jar:?]
+	at com.xilinx.sdx.sdsoc.debug.ui.SdsLaunchConfigModel.newInstance(SdsLaunchConfigModel.java:109) [com.xilinx.sdx.sdsoc.debug.ui_1.0.0.202210132147.jar:?]
+	at com.xilinx.sdx.sdsoc.debug.launch.SdsTcfLaunchDelegate.createConfigModel(SdsTcfLaunchDelegate.java:85) [com.xilinx.sdx.sdsoc.debug_1.0.0.202210132147.jar:?]
+	at com.xilinx.sdx.sdsoc.debug.launch.SdsTcfLaunchDelegate.generateReports(SdsTcfLaunchDelegate.java:641) [com.xilinx.sdx.sdsoc.debug_1.0.0.202210132147.jar:?]
+	at com.xilinx.sdx.sdsoc.debug.launch.SdsTcfLaunchDelegate.onDisconnected(SdsTcfLaunchDelegate.java:615) [com.xilinx.sdx.sdsoc.debug_1.0.0.202210132147.jar:?]
+	at org.eclipse.tcf.internal.debug.ui.model.TCFModelManager$1.onDisconnected(TCFModelManager.java:79) [org.eclipse.tcf.debug.ui_1.7.0.202210132147.jar:?]
+	at org.eclipse.tcf.internal.debug.model.TCFLaunch.onDisconnected(TCFLaunch.java:532) [org.eclipse.tcf.debug_1.7.0.202210132147.jar:?]
+	at org.eclipse.tcf.internal.debug.model.TCFLaunch$43.onChannelClosed(TCFLaunch.java:1643) [org.eclipse.tcf.debug_1.7.0.202210132147.jar:?]
+	at org.eclipse.tcf.core.AbstractChannel$9.run(AbstractChannel.java:858) [org.eclipse.tcf.core_1.7.0.202210132147.jar:?]
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98) [org.eclipse.tcf_1.7.0.202210132147.jar:?]
+	at java.lang.Thread.run(Thread.java:829) [?:?]
+11:35:59 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\vikto\Experiments\VitisWorkspace\microblaze_test2_workspace\temp_xsdb_launch_script.tcl
+22:32:46 DEBUG : Logs will be stored at 'C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/IDE.log'.
+22:32:49 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\vikto\Experiments\VitisWorkspace\microblaze_test2_workspace\temp_xsdb_launch_script.tcl
+22:33:03 INFO  : Registering command handlers for Vitis TCF services
+22:33:03 INFO  : Platform repository initialization has completed.
+22:33:08 INFO  : XSCT server has started successfully.
+22:33:14 INFO  : plnx-install-location is set to ''
+22:33:14 INFO  : Successfully done setting XSCT server connection channel  
+22:33:14 INFO  : Successfully done query RDI_DATADIR 
+22:33:14 INFO  : Successfully done setting workspace for the tool. 
+22:58:20 INFO  : Checking for BSP changes to sync application flags for project 'MicroblazeTest2_app'...
+22:58:32 INFO  : Checking for BSP changes to sync application flags for project 'MicroblazeTest2_app'...
+22:58:39 INFO  : Checking for BSP changes to sync application flags for project 'MicroblazeTest2_app'...
+22:59:57 INFO  : Checking for BSP changes to sync application flags for project 'MicroblazeTest2_app'...
+23:01:18 INFO  : Checking for BSP changes to sync application flags for project 'MicroblazeTest2_app'...
+23:01:25 INFO  : Checking for BSP changes to sync application flags for project 'MicroblazeTest2_app'...
+23:01:39 INFO  : Checking for BSP changes to sync application flags for project 'MicroblazeTest2_app'...
+23:02:05 INFO  : Checking for BSP changes to sync application flags for project 'MicroblazeTest2_app'...
+23:03:22 INFO  : Checking for BSP changes to sync application flags for project 'MicroblazeTest2_app'...
+23:06:05 INFO  : Checking for BSP changes to sync application flags for project 'MicroblazeTest2_app'...
+23:06:12 INFO  : Checking for BSP changes to sync application flags for project 'MicroblazeTest2_app'...
+23:06:20 INFO  : Checking for BSP changes to sync application flags for project 'MicroblazeTest2_app'...
+23:07:03 INFO  : Checking for BSP changes to sync application flags for project 'MicroblazeTest2_app'...
+23:07:33 INFO  : Checking for BSP changes to sync application flags for project 'MicroblazeTest2_app'...
+23:33:54 DEBUG : Logs will be stored at 'C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/IDE.log'.
+23:33:57 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\vikto\Experiments\VitisWorkspace\microblaze_test2_workspace\temp_xsdb_launch_script.tcl
+23:34:08 INFO  : Registering command handlers for Vitis TCF services
+23:34:08 INFO  : Platform repository initialization has completed.
+23:34:13 INFO  : XSCT server has started successfully.
+23:34:19 INFO  : plnx-install-location is set to ''
+23:34:19 INFO  : Successfully done setting XSCT server connection channel  
+23:34:19 INFO  : Successfully done query RDI_DATADIR 
+23:34:19 INFO  : Successfully done setting workspace for the tool. 
+23:42:31 INFO  : Checking for BSP changes to sync application flags for project 'MicroblazeTest2_app'...
+23:42:56 INFO  : Checking for BSP changes to sync application flags for project 'MicroblazeTest2_app'...
+23:49:43 INFO  : Checking for BSP changes to sync application flags for project 'MicroblazeTest2_app'...
+23:49:50 INFO  : Checking for BSP changes to sync application flags for project 'MicroblazeTest2_app'...
+23:49:55 INFO  : Checking for BSP changes to sync application flags for project 'MicroblazeTest2_app'...
+23:50:00 INFO  : Checking for BSP changes to sync application flags for project 'MicroblazeTest2_app'...
+23:51:51 INFO  : Checking for BSP changes to sync application flags for project 'MicroblazeTest2_app'...
+23:52:15 INFO  : Checking for BSP changes to sync application flags for project 'MicroblazeTest2_app'...
+23:52:18 INFO  : The hardware specification used by project 'MicroblazeTest2_app' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+23:52:18 INFO  : The file 'C:\Users\vikto\Experiments\VitisWorkspace\microblaze_test2_workspace\MicroblazeTest2_app\_ide\bitstream\design_1_wrapper.bit' stored in project is removed.
+23:52:18 INFO  : The file 'C:\Users\vikto\Experiments\VitisWorkspace\microblaze_test2_workspace\MicroblazeTest2_app\_ide\bitstream\design_1_wrapper.mmi' stored in project is removed.
+23:52:18 INFO  : The updated bitstream files are copied from platform to folder 'C:\Users\vikto\Experiments\VitisWorkspace\microblaze_test2_workspace\MicroblazeTest2_app\_ide\bitstream' in project 'MicroblazeTest2_app'.
+23:52:21 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:52:22 INFO  : Jtag cable 'Digilent Nexys A7 -100T 210292B61B10A' is selected.
+23:52:22 INFO  : 'jtag frequency' command is executed.
+23:52:22 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B10A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B10A-13631093-0"}' command is executed.
+23:52:25 INFO  : Device configured successfully with "C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2_app/_ide/bitstream/design_1_wrapper.bit"
+23:52:25 INFO  : Context for processor 'microblaze_0' is selected.
+23:52:25 INFO  : Hardware design and registers information is loaded from 'C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2/export/MicroblazeTest2/hw/design_1_wrapper.xsa'.
+23:52:25 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+23:52:25 INFO  : Context for processor 'microblaze_0' is selected.
+23:52:25 INFO  : System reset is completed.
+23:52:28 INFO  : 'after 3000' command is executed.
+23:52:28 INFO  : Context for processor 'microblaze_0' is selected.
+23:52:28 INFO  : The application 'C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2_app/Debug/MicroblazeTest2_app.elf' is downloaded to processor 'microblaze_0'.
+23:52:28 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B10A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B10A-13631093-0"}
+fpga -file C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2_app/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2/export/MicroblazeTest2/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2_app/Debug/MicroblazeTest2_app.elf
+----------------End of Script----------------
+
+23:52:29 INFO  : Context for processor 'microblaze_0' is selected.
+23:52:29 INFO  : 'con' command is executed.
+23:52:29 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+23:52:29 INFO  : Launch script is exported to file 'C:\Users\vikto\Experiments\VitisWorkspace\microblaze_test2_workspace\MicroblazeTest2_app_system\_ide\scripts\systemdebugger_microblazetest2_app_system_standalone.tcl'
+23:53:51 INFO  : Checking for BSP changes to sync application flags for project 'MicroblazeTest2_app'...
+23:55:13 INFO  : Checking for BSP changes to sync application flags for project 'MicroblazeTest2_app'...
+23:55:22 INFO  : Checking for BSP changes to sync application flags for project 'MicroblazeTest2_app'...
+23:55:28 INFO  : Checking for BSP changes to sync application flags for project 'MicroblazeTest2_app'...
+23:55:34 INFO  : Checking for BSP changes to sync application flags for project 'MicroblazeTest2_app'...
+23:55:56 INFO  : Checking for BSP changes to sync application flags for project 'MicroblazeTest2_app'...
+23:57:25 INFO  : Checking for BSP changes to sync application flags for project 'MicroblazeTest2_app'...
+23:57:32 INFO  : Checking for BSP changes to sync application flags for project 'MicroblazeTest2_app'...
+23:57:38 INFO  : Checking for BSP changes to sync application flags for project 'MicroblazeTest2_app'...
+23:57:46 INFO  : Checking for BSP changes to sync application flags for project 'MicroblazeTest2_app'...
+23:59:38 INFO  : Disconnected from the channel tcfchan#1.
+11:59:11 DEBUG : Logs will be stored at 'C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/IDE.log'.
+11:59:14 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\vikto\Experiments\VitisWorkspace\microblaze_test2_workspace\temp_xsdb_launch_script.tcl
+11:59:25 INFO  : Registering command handlers for Vitis TCF services
+11:59:26 INFO  : Platform repository initialization has completed.
+11:59:28 INFO  : XSCT server has started successfully.
+11:59:33 INFO  : plnx-install-location is set to ''
+11:59:33 INFO  : Successfully done setting XSCT server connection channel  
+11:59:33 INFO  : Successfully done query RDI_DATADIR 
+11:59:33 INFO  : Successfully done setting workspace for the tool. 
+11:59:42 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:59:43 INFO  : Jtag cable 'Digilent Nexys A7 -100T 210292B61B10A' is selected.
+11:59:43 INFO  : 'jtag frequency' command is executed.
+11:59:43 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B10A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B10A-13631093-0"}' command is executed.
+11:59:45 INFO  : Device configured successfully with "C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2_app/_ide/bitstream/design_1_wrapper.bit"
+11:59:46 INFO  : Context for processor 'microblaze_0' is selected.
+11:59:46 INFO  : Hardware design and registers information is loaded from 'C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2/export/MicroblazeTest2/hw/design_1_wrapper.xsa'.
+11:59:46 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+11:59:46 INFO  : Context for processor 'microblaze_0' is selected.
+11:59:46 INFO  : System reset is completed.
+11:59:49 INFO  : 'after 3000' command is executed.
+11:59:49 INFO  : Context for processor 'microblaze_0' is selected.
+11:59:49 INFO  : The application 'C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2_app/Debug/MicroblazeTest2_app.elf' is downloaded to processor 'microblaze_0'.
+11:59:49 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B10A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B10A-13631093-0"}
+fpga -file C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2_app/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2/export/MicroblazeTest2/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2_app/Debug/MicroblazeTest2_app.elf
+----------------End of Script----------------
+
+11:59:49 INFO  : Context for processor 'microblaze_0' is selected.
+11:59:49 INFO  : 'con' command is executed.
+11:59:49 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+11:59:49 INFO  : Launch script is exported to file 'C:\Users\vikto\Experiments\VitisWorkspace\microblaze_test2_workspace\MicroblazeTest2_app_system\_ide\scripts\systemdebugger_microblazetest2_app_system_standalone.tcl'
+12:01:12 INFO  : Checking for BSP changes to sync application flags for project 'MicroblazeTest2_app'...
+12:01:18 INFO  : Disconnected from the channel tcfchan#1.
+12:01:18 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:01:18 INFO  : Jtag cable 'Digilent Nexys A7 -100T 210292B61B10A' is selected.
+12:01:18 INFO  : 'jtag frequency' command is executed.
+12:01:18 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B10A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B10A-13631093-0"}' command is executed.
+12:01:20 INFO  : Device configured successfully with "C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2_app/_ide/bitstream/design_1_wrapper.bit"
+12:01:20 INFO  : Context for processor 'microblaze_0' is selected.
+12:01:21 INFO  : Hardware design and registers information is loaded from 'C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2/export/MicroblazeTest2/hw/design_1_wrapper.xsa'.
+12:01:21 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+12:01:21 INFO  : Context for processor 'microblaze_0' is selected.
+12:01:21 INFO  : System reset is completed.
+12:01:24 INFO  : 'after 3000' command is executed.
+12:01:24 INFO  : Context for processor 'microblaze_0' is selected.
+12:01:24 INFO  : The application 'C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2_app/Debug/MicroblazeTest2_app.elf' is downloaded to processor 'microblaze_0'.
+12:01:24 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B10A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B10A-13631093-0"}
+fpga -file C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2_app/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2/export/MicroblazeTest2/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2_app/Debug/MicroblazeTest2_app.elf
+----------------End of Script----------------
+
+12:01:24 INFO  : Context for processor 'microblaze_0' is selected.
+12:01:24 INFO  : 'con' command is executed.
+12:01:24 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+12:01:24 INFO  : Launch script is exported to file 'C:\Users\vikto\Experiments\VitisWorkspace\microblaze_test2_workspace\MicroblazeTest2_app_system\_ide\scripts\systemdebugger_microblazetest2_app_system_standalone.tcl'
+12:03:59 INFO  : Checking for BSP changes to sync application flags for project 'MicroblazeTest2_app'...
+12:05:36 INFO  : Checking for BSP changes to sync application flags for project 'MicroblazeTest2_app'...
+12:23:14 INFO  : Hardware specification for platform project 'MicroblazeTest2' is updated.
+12:23:38 INFO  : Result from executing command 'getProjects': MicroblazeTest2
+12:23:38 INFO  : Result from executing command 'getPlatforms': MicroblazeTest2|C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2/export/MicroblazeTest2/MicroblazeTest2.xpfm
+12:23:57 ERROR : XSCT server calls should not be made from TCF thread.
+java.lang.RuntimeException: XSCT server calls should not be made from TCF thread.
+	at com.xilinx.sdk.xsdb.XSDBCommandManager.issueAndWait(XSDBCommandManager.java:392) [com.xilinx.sdk.xsdb_1.0.0.202210132147.jar:?]
+	at com.xilinx.sdk.xsdb.XsdbCommandUtils.executeAndRespond(XsdbCommandUtils.java:325) [com.xilinx.sdk.xsdb_1.0.0.202210132147.jar:?]
+	at com.xilinx.sdk.hw.internal.HwPlatform.dispose(HwPlatform.java:1325) [com.xilinx.sdk.hw_1.0.0.202210132147.jar:?]
+	at com.xilinx.sdk.hw.internal.HwSpecFactory.removeHwSpec(HwSpecFactory.java:92) [com.xilinx.sdk.hw_1.0.0.202210132147.jar:?]
+	at com.xilinx.sdk.hw.internal.HwSpecFactory.validateGetFromCache(HwSpecFactory.java:78) [com.xilinx.sdk.hw_1.0.0.202210132147.jar:?]
+	at com.xilinx.sdk.hw.internal.HwSpecFactory.createHwSpec(HwSpecFactory.java:48) [com.xilinx.sdk.hw_1.0.0.202210132147.jar:?]
+	at com.xilinx.sdx.sdsoc.debug.ui.SdsLaunchConfigUtil.createHwPlatform(SdsLaunchConfigUtil.java:57) [com.xilinx.sdx.sdsoc.debug.ui_1.0.0.202210132147.jar:?]
+	at com.xilinx.sdx.sdsoc.debug.ui.SdsLaunchConfigModel.iniHwPlatform(SdsLaunchConfigModel.java:187) [com.xilinx.sdx.sdsoc.debug.ui_1.0.0.202210132147.jar:?]
+	at com.xilinx.sdk.tcf.internal.debug.ui.common.BaseLaunchConfigModel.getHwPlatform(BaseLaunchConfigModel.java:577) [com.xilinx.sdk.tcf.debug_1.0.0.202210132147.jar:?]
+	at com.xilinx.sdk.tcf.internal.debug.ui.common.BaseLaunchConfigModel.readCrossTriggerModel(BaseLaunchConfigModel.java:173) [com.xilinx.sdk.tcf.debug_1.0.0.202210132147.jar:?]
+	at com.xilinx.sdk.tcf.internal.debug.ui.common.BaseLaunchConfigModel.readAndSetAttributes(BaseLaunchConfigModel.java:156) [com.xilinx.sdk.tcf.debug_1.0.0.202210132147.jar:?]
+	at com.xilinx.sdx.sdsoc.debug.ui.SdsLaunchConfigModel.newInstance(SdsLaunchConfigModel.java:109) [com.xilinx.sdx.sdsoc.debug.ui_1.0.0.202210132147.jar:?]
+	at com.xilinx.sdx.sdsoc.debug.launch.SdsTcfLaunchDelegate.createConfigModel(SdsTcfLaunchDelegate.java:85) [com.xilinx.sdx.sdsoc.debug_1.0.0.202210132147.jar:?]
+	at com.xilinx.sdx.sdsoc.debug.launch.SdsTcfLaunchDelegate.generateReports(SdsTcfLaunchDelegate.java:641) [com.xilinx.sdx.sdsoc.debug_1.0.0.202210132147.jar:?]
+	at com.xilinx.sdx.sdsoc.debug.launch.SdsTcfLaunchDelegate.onDisconnected(SdsTcfLaunchDelegate.java:615) [com.xilinx.sdx.sdsoc.debug_1.0.0.202210132147.jar:?]
+	at org.eclipse.tcf.internal.debug.ui.model.TCFModelManager$1.onDisconnected(TCFModelManager.java:79) [org.eclipse.tcf.debug.ui_1.7.0.202210132147.jar:?]
+	at org.eclipse.tcf.internal.debug.model.TCFLaunch.onDisconnected(TCFLaunch.java:532) [org.eclipse.tcf.debug_1.7.0.202210132147.jar:?]
+	at org.eclipse.tcf.internal.debug.model.TCFLaunch$43.onChannelClosed(TCFLaunch.java:1643) [org.eclipse.tcf.debug_1.7.0.202210132147.jar:?]
+	at org.eclipse.tcf.core.AbstractChannel$9.run(AbstractChannel.java:858) [org.eclipse.tcf.core_1.7.0.202210132147.jar:?]
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98) [org.eclipse.tcf_1.7.0.202210132147.jar:?]
+	at java.lang.Thread.run(Thread.java:829) [?:?]
+12:23:57 INFO  : Disconnected from the channel tcfchan#2.
+12:23:57 WARN  : Failed to closehw "C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2/export/MicroblazeTest2/hw/design_1_wrapper.xsa"
+Reason: Cannot close hw design 'C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2/export/MicroblazeTest2/hw/design_1_wrapper.xsa'.
+Design is not opened in the current session.
+
+12:24:06 INFO  : The hardware specification used by project 'MicroblazeTest2_app' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+12:24:06 INFO  : The file 'C:\Users\vikto\Experiments\VitisWorkspace\microblaze_test2_workspace\MicroblazeTest2_app\_ide\bitstream\design_1_wrapper.bit' stored in project is removed.
+12:24:06 INFO  : The file 'C:\Users\vikto\Experiments\VitisWorkspace\microblaze_test2_workspace\MicroblazeTest2_app\_ide\bitstream\design_1_wrapper.mmi' stored in project is removed.
+12:24:06 INFO  : The updated bitstream files are copied from platform to folder 'C:\Users\vikto\Experiments\VitisWorkspace\microblaze_test2_workspace\MicroblazeTest2_app\_ide\bitstream' in project 'MicroblazeTest2_app'.
+12:24:38 INFO  : Bit file 'C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2_app/_ide/bitstream/download.bit' is generated.
+12:24:40 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:24:40 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B10A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B10A-13631093-0"}' command is executed.
+12:24:42 INFO  : Device configured successfully with "C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2_app/_ide/bitstream/download.bit"
+12:24:55 INFO  : Checking for BSP changes to sync application flags for project 'MicroblazeTest2_app'...
+12:25:00 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:25:01 INFO  : Jtag cable 'Digilent Nexys A7 -100T 210292B61B10A' is selected.
+12:25:01 INFO  : 'jtag frequency' command is executed.
+12:25:01 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B10A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B10A-13631093-0"}' command is executed.
+12:25:03 INFO  : Device configured successfully with "C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2_app/_ide/bitstream/download.bit"
+12:25:03 INFO  : Context for processor 'microblaze_0' is selected.
+12:25:03 INFO  : Hardware design and registers information is loaded from 'C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2/export/MicroblazeTest2/hw/design_1_wrapper.xsa'.
+12:25:03 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+12:25:03 INFO  : Context for processor 'microblaze_0' is selected.
+12:25:03 INFO  : System reset is completed.
+12:25:06 INFO  : 'after 3000' command is executed.
+12:25:06 INFO  : Context for processor 'microblaze_0' is selected.
+12:25:06 INFO  : The application 'C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2_app/Debug/MicroblazeTest2_app.elf' is downloaded to processor 'microblaze_0'.
+12:25:06 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B10A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B10A-13631093-0"}
+fpga -file C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2_app/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2/export/MicroblazeTest2/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2_app/Debug/MicroblazeTest2_app.elf
+----------------End of Script----------------
+
+12:25:07 INFO  : Context for processor 'microblaze_0' is selected.
+12:25:07 INFO  : 'con' command is executed.
+12:25:07 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+12:25:07 INFO  : Launch script is exported to file 'C:\Users\vikto\Experiments\VitisWorkspace\microblaze_test2_workspace\MicroblazeTest2_app_system\_ide\scripts\systemdebugger_microblazetest2_app_system_standalone.tcl'
+12:25:55 INFO  : Checking for BSP changes to sync application flags for project 'MicroblazeTest2_app'...
+12:26:09 INFO  : Checking for BSP changes to sync application flags for project 'MicroblazeTest2_app'...
+12:31:11 INFO  : Checking for BSP changes to sync application flags for project 'MicroblazeTest2_app'...
+12:31:21 INFO  : Checking for BSP changes to sync application flags for project 'MicroblazeTest2_app'...
+12:33:00 INFO  : Hardware specification for platform project 'MicroblazeTest2' is updated.
+12:33:23 INFO  : Result from executing command 'getProjects': MicroblazeTest2
+12:33:23 INFO  : Result from executing command 'getPlatforms': 
+12:34:02 INFO  : Bit file 'C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2_app/_ide/bitstream/download.bit' is generated.
+12:34:02 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:34:03 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B10A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B10A-13631093-0"}' command is executed.
+12:34:05 INFO  : Device configured successfully with "C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2_app/_ide/bitstream/download.bit"
+12:34:50 INFO  : Checking for BSP changes to sync application flags for project 'MicroblazeTest2_app'...
+12:34:54 INFO  : Disconnected from the channel tcfchan#4.
+12:34:54 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:34:55 INFO  : Jtag cable 'Digilent Nexys A7 -100T 210292B61B10A' is selected.
+12:34:55 INFO  : 'jtag frequency' command is executed.
+12:34:55 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B10A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B10A-13631093-0"}' command is executed.
+12:34:57 INFO  : Device configured successfully with "C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2_app/_ide/bitstream/download.bit"
+12:34:57 INFO  : Context for processor 'microblaze_0' is selected.
+12:34:57 INFO  : Hardware design and registers information is loaded from 'C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2/export/MicroblazeTest2/hw/design_1_wrapper.xsa'.
+12:34:57 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+12:34:57 INFO  : Context for processor 'microblaze_0' is selected.
+12:34:57 INFO  : System reset is completed.
+12:35:00 INFO  : 'after 3000' command is executed.
+12:35:00 INFO  : Context for processor 'microblaze_0' is selected.
+12:35:00 INFO  : The application 'C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2_app/Debug/MicroblazeTest2_app.elf' is downloaded to processor 'microblaze_0'.
+12:35:00 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61B10A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61B10A-13631093-0"}
+fpga -file C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2_app/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2/export/MicroblazeTest2/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2_app/Debug/MicroblazeTest2_app.elf
+----------------End of Script----------------
+
+12:35:00 INFO  : Context for processor 'microblaze_0' is selected.
+12:35:00 INFO  : 'con' command is executed.
+12:35:00 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+12:35:00 INFO  : Launch script is exported to file 'C:\Users\vikto\Experiments\VitisWorkspace\microblaze_test2_workspace\MicroblazeTest2_app_system\_ide\scripts\systemdebugger_microblazetest2_app_system_standalone.tcl'
+12:36:14 INFO  : Disconnected from the channel tcfchan#6.

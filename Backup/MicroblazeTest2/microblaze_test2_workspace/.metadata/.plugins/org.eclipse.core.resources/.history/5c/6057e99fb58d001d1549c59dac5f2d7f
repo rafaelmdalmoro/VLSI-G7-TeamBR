@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="MicroblazeTest2_app" location="C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2_app" platform="C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2/export/MicroblazeTest2/MicroblazeTest2.xpfm" platformUID="xilinx:nexys-a7-100t::0.0(custom)" systemProject="MicroblazeTest2_app_system" sysConfig="MicroblazeTest2" runtime="C/C++" cpu="standalone_domain" cpuInstance="microblaze_0" os="standalone" mssSignature="f3c4604edbd1c16b0b6855886514cb9f">
+  <configuration name="Debug" id="xilinx.gnu.mb.exe.debug.794867062">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.mb.exe.release.699023926" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="hello_world"/>
+</sdkproject:SdkProject>
