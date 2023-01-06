@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# updatemem v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# 
+# Start of session at: Mon Dec 26 18:06:38 2022
+# Process ID: 14992
+# Current directory: C:/Users/vikto/Experiments/MicroblazeTest2
+# Command line: updatemem.exe -mode batch -source C:/Xilinx/Vitis/2022.2/scripts/updatemem/main.tcl -notrace -tclargs -meminfo C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2_app/_ide/bitstream/design_1_wrapper.mmi -data C:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/microblaze/mb_bootloop_le.elf -proc design_1_i/microblaze_0 -bit C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2_app/_ide/bitstream/design_1_wrapper.bit -out C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test2_workspace/MicroblazeTest2_app/_ide/bitstream/download.bit -force
+# Log file: C:/Users/vikto/Experiments/MicroblazeTest2/updatemem.log
+# Journal file: C:/Users/vikto/Experiments/MicroblazeTest2\updatemem.jou
+# Running On: DESKTOP-Q90JH2A, OS: Windows, CPU Frequency: 2594 MHz, CPU Physical cores: 2, Host memory: 8501 MB
+#-----------------------------------------------------------
+source C:/Xilinx/Vitis/2022.2/scripts/updatemem/main.tcl -notrace
