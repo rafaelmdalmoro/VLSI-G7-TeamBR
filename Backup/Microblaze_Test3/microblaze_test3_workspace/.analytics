@@ -1,0 +1,121 @@
+timestamp=[2023-01-10 14:31:57], mode=WORKBENCH_START, duration=0:00:11.191, duration_ms=11191, data={}
+timestamp=[2023-01-10 14:31:58], mode=WORKBENCH_UI_INIT, duration=0:00:00.824, duration_ms=824, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2023-01-10 14:32:00], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.325, duration_ms=325, data={}
+timestamp=[2023-01-10 14:39:09], mode=PLATFORM_CREATION, duration=0:00:09.990, duration_ms=9990, data={platform_source=dsa, os=standalone, processor=microblaze, platform=null}
+timestamp=[2023-01-10 14:40:01], mode=APP_CREATION, duration=0:00:04.602, duration_ms=4602, data={name=microblaze_test3_app, project_type=sdk, os=standalone, processor=microblaze_0, runtime=C/C++, platform=microblaze_test3, application_type=application}
+timestamp=[2023-01-10 14:41:11], mode=PLATFORM_GENERATION, duration=0:00:13.838, duration_ms=13838, data={name=microblaze_test3}
+timestamp=[2023-01-10 14:41:15], mode=BUILD, duration=0:00:03.597, duration_ms=3597, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-10 14:44:35], mode=BUILD, duration=0:00:00.470, duration_ms=470, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-10 14:58:53], mode=PLATFORM_GENERATION, duration=0:00:17.378, duration_ms=17378, data={name=microblaze_test3}
+timestamp=[2023-01-10 14:58:54], mode=BUILD, duration=0:00:00.432, duration_ms=432, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-10 14:59:51], mode=BUILD, duration=0:00:01.449, duration_ms=1449, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-10 15:03:28], mode=BUILD, duration=0:00:00.365, duration_ms=365, data={name=microblaze_test3_app, configuration=Debug, clean_build=true}
+timestamp=[2023-01-10 15:03:29], mode=BUILD, duration=0:00:01.254, duration_ms=1254, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-10 15:07:28], mode=BUILD, duration=0:00:00.725, duration_ms=725, data={name=microblaze_test3_app, configuration=Debug, clean_build=true}
+timestamp=[2023-01-10 15:07:30], mode=BUILD, duration=0:00:01.830, duration_ms=1830, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-10 15:30:27], mode=BUILD, duration=0:00:01.021, duration_ms=1021, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-10 15:36:20], mode=BUILD, duration=0:00:01.099, duration_ms=1099, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-10 15:41:20], mode=BUILD, duration=0:00:00.978, duration_ms=978, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-10 15:41:49], mode=BUILD, duration=0:00:00.993, duration_ms=993, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-10 15:49:15], mode=BUILD, duration=0:00:01.015, duration_ms=1015, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-10 15:50:18], mode=BUILD, duration=0:00:01.001, duration_ms=1001, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-10 15:55:27], mode=BUILD, duration=0:00:00.987, duration_ms=987, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-10 15:56:32], mode=BUILD, duration=0:00:01.237, duration_ms=1237, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-10 16:01:30], mode=BUILD, duration=0:00:01.068, duration_ms=1068, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-10 16:01:52], mode=BUILD, duration=0:00:01.143, duration_ms=1143, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-10 16:02:22], mode=BUILD, duration=0:00:00.977, duration_ms=977, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-10 16:03:20], mode=BUILD, duration=0:00:00.992, duration_ms=992, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-10 16:13:20], mode=BUILD, duration=0:00:00.988, duration_ms=988, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-10 16:14:49], mode=BUILD, duration=0:00:01.159, duration_ms=1159, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-10 16:25:45], mode=BUILD, duration=0:00:00.428, duration_ms=428, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-10 16:26:15], mode=BUILD, duration=0:00:00.453, duration_ms=453, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-10 16:26:27], mode=BUILD, duration=0:00:01.019, duration_ms=1019, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-10 16:33:36], mode=BUILD, duration=0:00:00.473, duration_ms=473, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-10 16:33:51], mode=BUILD, duration=0:00:01.068, duration_ms=1068, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-10 16:35:37], mode=BUILD, duration=0:00:00.990, duration_ms=990, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-10 16:36:24], mode=BUILD, duration=0:00:00.986, duration_ms=986, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-10 16:37:01], mode=BUILD, duration=0:00:00.957, duration_ms=957, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-10 16:39:08], mode=BUILD, duration=0:00:00.364, duration_ms=364, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-10 16:39:34], mode=BUILD, duration=0:00:00.957, duration_ms=957, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-10 16:41:43], mode=BUILD, duration=0:00:00.916, duration_ms=916, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-10 16:45:10], mode=BUILD, duration=0:00:01.027, duration_ms=1027, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-10 16:46:00], mode=BUILD, duration=0:00:01.052, duration_ms=1052, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-10 16:47:16], mode=BUILD, duration=0:00:00.975, duration_ms=975, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-10 16:49:52], mode=BUILD, duration=0:00:00.924, duration_ms=924, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-10 16:51:33], mode=BUILD, duration=0:00:00.986, duration_ms=986, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-10 16:52:26], mode=BUILD, duration=0:00:00.936, duration_ms=936, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-10 16:52:58], mode=BUILD, duration=0:00:00.993, duration_ms=993, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-10 16:53:55], mode=BUILD, duration=0:00:01.000, duration_ms=1000, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-10 16:54:27], mode=BUILD, duration=0:00:00.945, duration_ms=945, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-10 16:55:13], mode=BUILD, duration=0:00:00.927, duration_ms=927, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-10 16:57:46], mode=BUILD, duration=0:00:00.934, duration_ms=934, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-10 16:58:48], mode=BUILD, duration=0:00:00.977, duration_ms=977, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-10 17:00:32], mode=BUILD, duration=0:00:00.898, duration_ms=898, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-10 17:01:58], mode=BUILD, duration=0:00:01.048, duration_ms=1048, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-10 17:06:00], mode=BUILD, duration=0:00:00.944, duration_ms=944, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-10 17:07:07], mode=BUILD, duration=0:00:00.968, duration_ms=968, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-10 17:27:18], mode=BUILD, duration=0:00:00.388, duration_ms=388, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-10 17:27:40], mode=BUILD, duration=0:00:01.030, duration_ms=1030, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-10 17:34:07], mode=BUILD, duration=0:00:01.010, duration_ms=1010, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-10 17:35:44], mode=BUILD, duration=0:00:01.116, duration_ms=1116, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-10 17:36:07], mode=BUILD, duration=0:00:00.288, duration_ms=288, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-10 17:39:35], mode=BUILD, duration=0:00:00.883, duration_ms=883, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-10 17:44:49], mode=BUILD, duration=0:00:00.924, duration_ms=924, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-10 17:49:17], mode=BUILD, duration=0:00:01.004, duration_ms=1004, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-10 17:49:59], mode=BUILD, duration=0:00:00.922, duration_ms=922, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-10 17:57:51], mode=BUILD, duration=0:00:00.849, duration_ms=849, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-11 16:58:28], mode=WORKBENCH_START, duration=0:00:14.276, duration_ms=14276, data={}
+timestamp=[2023-01-11 16:58:30], mode=WORKBENCH_UI_INIT, duration=0:00:01.581, duration_ms=1581, data={editors_count=5, platform_editors_count=2, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,microblaze_test3,microblaze_test3_app,microblaze_test3_app_system}
+timestamp=[2023-01-11 16:58:33], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.197, duration_ms=197, data={}
+timestamp=[2023-01-11 17:05:42], mode=BUILD, duration=0:00:03.061, duration_ms=3061, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-11 17:08:21], mode=BUILD, duration=0:00:01.002, duration_ms=1002, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-11 17:08:59], mode=BUILD, duration=0:00:00.965, duration_ms=965, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-11 17:09:26], mode=BUILD, duration=0:00:01.048, duration_ms=1048, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-11 17:10:04], mode=BUILD, duration=0:00:00.995, duration_ms=995, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-11 17:14:08], mode=BUILD, duration=0:00:01.030, duration_ms=1030, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-11 17:16:34], mode=BUILD, duration=0:00:00.966, duration_ms=966, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-11 17:21:22], mode=BUILD, duration=0:00:00.949, duration_ms=949, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-11 17:24:10], mode=BUILD, duration=0:00:01.195, duration_ms=1195, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-11 17:27:26], mode=BUILD, duration=0:00:01.066, duration_ms=1066, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-11 17:28:24], mode=BUILD, duration=0:00:00.951, duration_ms=951, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-11 17:30:50], mode=BUILD, duration=0:00:01.019, duration_ms=1019, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-11 17:32:41], mode=BUILD, duration=0:00:00.949, duration_ms=949, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-11 17:34:21], mode=BUILD, duration=0:00:00.875, duration_ms=875, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-11 17:35:08], mode=BUILD, duration=0:00:00.953, duration_ms=953, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-11 17:44:03], mode=BUILD, duration=0:00:00.978, duration_ms=978, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-11 17:44:31], mode=BUILD, duration=0:00:00.894, duration_ms=894, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-11 17:45:04], mode=BUILD, duration=0:00:00.983, duration_ms=983, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-11 17:45:40], mode=BUILD, duration=0:00:00.879, duration_ms=879, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-11 18:02:26], mode=BUILD, duration=0:00:01.260, duration_ms=1260, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-11 18:03:19], mode=BUILD, duration=0:00:01.036, duration_ms=1036, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-11 18:07:01], mode=BUILD, duration=0:00:01.193, duration_ms=1193, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-11 18:09:29], mode=BUILD, duration=0:00:01.154, duration_ms=1154, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-11 18:10:04], mode=BUILD, duration=0:00:01.030, duration_ms=1030, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-11 18:21:47], mode=BUILD, duration=0:00:00.945, duration_ms=945, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-11 18:22:16], mode=BUILD, duration=0:00:00.965, duration_ms=965, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-11 18:23:35], mode=BUILD, duration=0:00:01.060, duration_ms=1060, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-11 18:49:58], mode=BUILD, duration=0:00:00.474, duration_ms=474, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-11 18:51:33], mode=BUILD, duration=0:00:01.006, duration_ms=1006, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-11 18:52:39], mode=BUILD, duration=0:00:01.038, duration_ms=1038, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-11 18:56:17], mode=BUILD, duration=0:00:00.990, duration_ms=990, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-11 18:56:52], mode=BUILD, duration=0:00:00.971, duration_ms=971, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-12 15:05:21], mode=WORKBENCH_START, duration=0:00:13.589, duration_ms=13589, data={}
+timestamp=[2023-01-12 15:05:23], mode=WORKBENCH_UI_INIT, duration=0:00:01.205, duration_ms=1205, data={editors_count=5, platform_editors_count=2, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,microblaze_test3,microblaze_test3_app,microblaze_test3_app_system}
+timestamp=[2023-01-12 15:05:25], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.278, duration_ms=278, data={}
+timestamp=[2023-01-12 15:20:13], mode=BUILD, duration=0:00:03.505, duration_ms=3505, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-12 15:27:35], mode=BUILD, duration=0:00:00.422, duration_ms=422, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-12 16:00:25], mode=BUILD, duration=0:00:01.175, duration_ms=1175, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-12 16:01:23], mode=BUILD, duration=0:00:01.017, duration_ms=1017, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-12 16:03:47], mode=BUILD, duration=0:00:01.113, duration_ms=1113, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-12 16:17:02], mode=BUILD, duration=0:00:01.027, duration_ms=1027, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-12 16:18:24], mode=BUILD, duration=0:00:01.075, duration_ms=1075, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-12 16:19:01], mode=BUILD, duration=0:00:00.994, duration_ms=994, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-12 16:19:22], mode=BUILD, duration=0:00:01.014, duration_ms=1014, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-12 16:35:01], mode=BUILD, duration=0:00:01.155, duration_ms=1155, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-12 16:36:49], mode=BUILD, duration=0:00:01.138, duration_ms=1138, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-12 16:45:26], mode=BUILD, duration=0:00:00.944, duration_ms=944, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-12 16:45:59], mode=BUILD, duration=0:00:01.015, duration_ms=1015, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-12 16:46:44], mode=BUILD, duration=0:00:00.926, duration_ms=926, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-12 16:47:09], mode=BUILD, duration=0:00:01.001, duration_ms=1001, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-12 16:50:10], mode=BUILD, duration=0:00:01.270, duration_ms=1270, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
+timestamp=[2023-01-12 16:51:19], mode=BUILD, duration=0:00:00.937, duration_ms=937, data={name=microblaze_test3_app, configuration=Debug, clean_build=false}
