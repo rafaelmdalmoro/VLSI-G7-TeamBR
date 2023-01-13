@@ -1,0 +1,43 @@
+Nothing to build in platform 'microblaze_test3'
+
+16:51:18 **** Incremental Build of configuration Debug for project microblaze_test3_app ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -IC:/Users/vikto/Experiments/VitisWorkspace/microblaze_test3_workspace/microblaze_test3/export/microblaze_test3/sw/microblaze_test3/standalone_domain/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'UpdateSegments':
+../src/main.c:303:9: warning: 'MB_Sleep' is deprecated [-Wdeprecated-declarations]
+  303 |         MB_Sleep(50);
+      |         ^~~~~~~~
+In file included from ../src/main.c:12:
+C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test3_workspace/microblaze_test3/export/microblaze_test3/sw/microblaze_test3/standalone_domain/bspinclude/include/microblaze_sleep.h:120:6: note: declared here
+  120 | void MB_Sleep(u32 MilliSeconds) __attribute__((__deprecated__));
+      |      ^~~~~~~~
+../src/main.c:305:9: warning: 'MB_Sleep' is deprecated [-Wdeprecated-declarations]
+  305 |         MB_Sleep(300);
+      |         ^~~~~~~~
+In file included from ../src/main.c:12:
+C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test3_workspace/microblaze_test3/export/microblaze_test3/sw/microblaze_test3/standalone_domain/bspinclude/include/microblaze_sleep.h:120:6: note: declared here
+  120 | void MB_Sleep(u32 MilliSeconds) __attribute__((__deprecated__));
+      |      ^~~~~~~~
+../src/main.c: In function 'FinishGame':
+../src/main.c:331:9: warning: 'MB_Sleep' is deprecated [-Wdeprecated-declarations]
+  331 |         MB_Sleep(5000);
+      |         ^~~~~~~~
+In file included from ../src/main.c:12:
+C:/Users/vikto/Experiments/VitisWorkspace/microblaze_test3_workspace/microblaze_test3/export/microblaze_test3/sw/microblaze_test3/standalone_domain/bspinclude/include/microblaze_sleep.h:120:6: note: declared here
+  120 | void MB_Sleep(u32 MilliSeconds) __attribute__((__deprecated__));
+      |      ^~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: microblaze_test3_app.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/Users/vikto/Experiments/VitisWorkspace/microblaze_test3_workspace/microblaze_test3/export/microblaze_test3/sw/microblaze_test3/standalone_domain/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "microblaze_test3_app.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: microblaze_test3_app.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size microblaze_test3_app.elf  |tee "microblaze_test3_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  12320	   1688	   3480	  17488	   4450	microblaze_test3_app.elf
+'Finished building: microblaze_test3_app.elf.size'
+' '
