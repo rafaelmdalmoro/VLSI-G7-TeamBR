@@ -20,8 +20,8 @@ The exercise files are available [here](https://github.com/rafaelmdalmoro/VLSI-G
 The exercise files are available [here](https://github.com/rafaelmdalmoro/VLSI-G7-TeamBR/tree/main/Lab04)
 
 ## Lab 5
-1. Create a block design and synthesize the VHD code based on that
-2. Export it to Vitis and run the code
+1. Create a block design including Microblaze and synthesize the VHDL code based on that
+2. Export it to Vitis and run the C code
 
 The exercise files are available [here](https://github.com/rafaelmdalmoro/VLSI-G7-TeamBR/tree/main/Lab05)
 
@@ -31,6 +31,6 @@ The idea of the project is to implement a simplified version of the video game k
 The project files, including the documentation are available [here](https://github.com/rafaelmdalmoro/VLSI-G7-TeamBR/tree/main/Project)
 
 ## Backup
-This file was used, as the name sugests, as a backup and to pass the code between the members of the group, so everyone could work on the code.
+This folder was used, as the name sugests, as a backup and to pass the code between the members of the group, so everyone could work on the code.
 
-The whole code of each exercise as well as the code for the project is avaible [here](https://github.com/rafaelmdalmoro/VLSI-G7-TeamBR/tree/main/Backup)
+The whole code of each exercise as well as the code for the project is available [here](https://github.com/rafaelmdalmoro/VLSI-G7-TeamBR/tree/main/Backup)
